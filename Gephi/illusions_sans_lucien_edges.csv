@@ -1,0 +1,484 @@
+Source,Target,Weight
+David,Ève,85
+Cointet,David,60
+Finot,Lousteau,50
+Cointet,Petit-Claud,48
+Coralie,Florine,46
+Camusot,Coralie,42
+Châtelet,Louise,42
+Florine,Lousteau,42
+David,Petit-Claud,41
+Dauriat,Lousteau,34
+David,Kolb,33
+Coralie,Lousteau,31
+Cérizet,Cointet,28
+Blondet,Lousteau,27
+David,Père Séchard,27
+Lousteau,Nathan,27
+Lousteau,Vernou,26
+Cointet,Ève,25
+Kolb,Marion,24
+Dauriat,Finot,22
+David,Marion,22
+Florine,Matifat,21
+Cérizet,David,20
+Ève,Petit-Claud,20
+Blondet,Nathan,19
+Cérizet,Petit-Claud,19
+Dauriat,Nathan,19
+Blondet,Finot,18
+Camusot,Florine,18
+Coralie,Nathan,18
+Lousteau,Matifat,18
+Ève,Mme de Rubempré,18
+Cointet,Père Séchard,17
+Finot,Florine,17
+Francis,Mmme de Sénonches,17
+Châtelet,Mme d'Espard,16
+Coralie,Finot,16
+Cérizet,Ève,16
+David,Mme de Rubempré,16
+Finot,Nathan,16
+Louise,Mme d'Espard,16
+Ève,Marion,16
+Blondet,Coralie,15
+Camusot,Lousteau,15
+Camusot,Matifat,15
+Cointet,Kolb,14
+Père Séchard,Petit-Claud,14
+Coralie,Matifat,13
+David,Louise,13
+Finot,Vernou,13
+Florine,Nathan,13
+Louise,Mmme de Chandour,13
+Louise,Petit-Claud,13
+Châtelet,M de Chandour,12
+Cérizet,Kolb,12
+Françoise de La Haye,Mmme de Sénonches,12
+Louise,Mmme de Sénonches,12
+Nathan,Vernou,12
+Ève,Kolb,12
+Ève,Père Séchard,12
+Blondet,Dauriat,11
+Châtelet,Mmme de Chandour,11
+Coralie,Dauriat,11
+Chrestien,Giraud,10
+Chrestien,Ridal,10
+Chrestien,d'Arthez,10
+Coralie,Mlle des Touches,10
+Coralie,Mme d'Espard,10
+Coralie,d'Arthez,10
+Dauriat,Florine,10
+Francis,Françoise de La Haye,10
+Mmme de Sénonches,Petit-Claud,10
+d'Arthez,Giraud,10
+Blondet,Vernou,9
+Châtelet,Mmme de Sénonches,9
+Cointet,Mmme de Sénonches,9
+Finot,Matifat,9
+Francis,Louise,9
+Françoise de La Haye,Petit-Claud,9
+Bianchon,Chrestien,8
+Bianchon,d'Arthez,8
+Blondet,Florine,8
+Blondet,Mme de Montcornet,8
+Cointet,Marion,8
+Cérizet,Marion,8
+Dauriat,Vernou,8
+David,Didot,8
+Des Lupeaulx,Finot,8
+Kolb,Père Séchard,8
+Louise,M de Chandour,8
+Marion,Père Séchard,8
+Châtelet,Coralie,7
+Châtelet,Francis,7
+Cointet,Françoise de La Haye,7
+Coralie,Du Bruel,7
+Coralie,Mme de Montcornet,7
+Du Bruel,Lousteau,7
+Gentil,Louise,7
+Giraud,Ridal,7
+Kolb,Petit-Claud,7
+Louise,M de Bargeton,7
+M de Chandour,Mmme de Chandour,7
+d'Arthez,Lousteau,7
+Évêque,Louise,7
+Bianchon,Giraud,6
+Bianchon,Ridal,6
+Bixiou,Blondet,6
+Blondet,Mme d'Espard,6
+Bridau,Chrestien,6
+Bridau,Ridal,6
+Camusot,Finot,6
+Cointet,Francis,6
+Coralie,Mme du Val-Noble,6
+Du Bruel,Finot,6
+Henri de Marsay,Louise,6
+Marion,Petit-Claud,6
+Mlle des Touches,Mme de Montcornet,6
+Mme d'Espard,Mme de Montcornet,6
+d'Arthez,Ridal,6
+Bixiou,Coralie,5
+Blondet,Camusot,5
+Blondet,Châtelet,5
+Blondet,Des Lupeaulx,5
+Blondet,Du Bruel,5
+Camusot,Nathan,5
+Camusot,d'Arthez,5
+Châtelet,Françoise de La Haye,5
+Châtelet,Henri de Marsay,5
+Châtelet,Lousteau,5
+Coralie,David,5
+Coralie,Henri de Marsay,5
+Coralie,Louise,5
+Coralie,Vernou,5
+Coralie,Ève,5
+Dauriat,Matifat,5
+Du Bruel,Florine,5
+Finot,Mme du Val-Noble,5
+Francis,Petit-Claud,5
+Henri de Marsay,Mme d'Espard,5
+Henri de Marsay,Montriveau,5
+Mlle des Touches,Mme d'Espard,5
+d'Arthez,Florine,5
+d'Arthez,Nathan,5
+Bianchon,Bridau,4
+Bianchon,Coralie,4
+Bixiou,Nathan,4
+Blondet,Matifat,4
+Blondet,Mlle des Touches,4
+Bridau,Coralie,4
+Bridau,Giraud,4
+Bridau,d'Arthez,4
+Chrestien,Coralie,4
+Châtelet,David,4
+Châtelet,Finot,4
+Châtelet,Montriveau,4
+Cointet,Didot,4
+Cointet,Louise,4
+Coralie,Des Lupeaulx,4
+Cérizet,Père Séchard,4
+Des Lupeaulx,Mme d'Espard,4
+Des Lupeaulx,Mme de Montcornet,4
+Du Bruel,Nathan,4
+Florine,Vernou,4
+Françoise de La Haye,Louise,4
+Louise,Mlle des Touches,4
+Louise,Théodore Gaillard,4
+Lousteau,Mme d'Espard,4
+Matifat,Nathan,4
+Mmme de Chandour,Mmme de Sénonches,4
+d'Arthez,Ève,4
+Albertine,Gentil,3
+Albertine,Louise,3
+Bianchon,Mlle des Touches,3
+Bixiou,Bridau,3
+Camusot,Dauriat,3
+Camusot,Du Bruel,3
+Camusot,Giraud,3
+Chrestien,Lousteau,3
+Châtelet,Cointet,3
+Châtelet,Dauriat,3
+Châtelet,Des Lupeaulx,3
+Châtelet,Mlle des Touches,3
+Châtelet,Mme de Montcornet,3
+Châtelet,Mme de Rubempré,3
+Châtelet,Petit-Claud,3
+Châtelet,Ève,3
+Châtelet,Évêque,3
+Coralie,Giraud,3
+Coralie,Théodore Gaillard,3
+Cérizet,Didot,3
+David,Lousteau,3
+Des Lupeaulx,Mlle des Touches,3
+Didot,Père Séchard,3
+Du Bruel,Matifat,3
+Duc de Rhétoré,Mme d'Espard,3
+Fifine,Lolotte,3
+Fifine,M de Bartas,3
+Fifine,Mmme de Chandour,3
+Finot,Mme d'Espard,3
+Finot,Théodore Gaillard,3
+Florine,Mme d'Espard,3
+Florine,Mme du Val-Noble,3
+Francis,Mmme de Chandour,3
+Giraud,Nathan,3
+Laure de Rastignac,Louise,3
+Lolotte,M de Bartas,3
+Lolotte,Mmme de Chandour,3
+Louise,Lousteau,3
+Louise,Mme de Rubempré,3
+Lousteau,Théodore Gaillard,3
+M de Chandour,Mmme de Sénonches,3
+Marion,Mme de Rubempré,3
+Matifat,Vernou,3
+Milaud,Petit-Claud,3
+Mme d'Espard,Mme du Val-Noble,3
+Mme d'Espard,Théodore Gaillard,3
+Nathan,Théodore Gaillard,3
+Évêque,Francis,3
+Évêque,Laure de Rastignac,3
+Abbé Marron,Père Séchard,2
+Abbé Marron,Ève,2
+Bianchon,Camusot,2
+Bianchon,Ève,2
+Bixiou,Des Lupeaulx,2
+Bixiou,Finot,2
+Bixiou,Florine,2
+Bixiou,Louise,2
+Bixiou,Lousteau,2
+Bixiou,Mme du Val-Noble,2
+Blondet,Bridau,2
+Blondet,Louise,2
+Blondet,Mme du Val-Noble,2
+Bridau,Camusot,2
+Bridau,Dauriat,2
+Bridau,Finot,2
+Bridau,Florine,2
+Bridau,Lousteau,2
+Bridau,Matifat,2
+Bridau,Mme du Val-Noble,2
+Bridau,Nathan,2
+Bridau,Vernou,2
+Camusot,Chrestien,2
+Camusot,Mlle des Touches,2
+Camusot,Mme d'Espard,2
+Camusot,Mme du Val-Noble,2
+Chrestien,Florine,2
+Chrestien,Père Chaboisseau,2
+Chrestien,Ève,2
+Châtelet,Gentil,2
+Châtelet,M de Bargeton,2
+Châtelet,Théodore Gaillard,2
+Cointet,Coralie,2
+Cointet,Milaud,2
+Dauriat,Mme du Val-Noble,2
+Dauriat,Théodore Gaillard,2
+David,Françoise de La Haye,2
+David,Mlle des Touches,2
+David,Mmme de Sénonches,2
+David,Théodore Gaillard,2
+Des Lupeaulx,Mme du Val-Noble,2
+Des Lupeaulx,Nathan,2
+Didot,Ève,2
+Du Bruel,Vernou,2
+Duc de Rhétoré,Lousteau,2
+Fifine,Francis,2
+Fifine,Louise,2
+Florine,Giraud,2
+Florine,Mlle des Touches,2
+Francis,M de Bartas,2
+Gentil,Théodore Gaillard,2
+Giraud,Lousteau,2
+Henri de Marsay,Mlle des Touches,2
+Henri de Marsay,Rastignac,2
+Kolb,Mme de Rubempré,2
+Louise,Mme de Montcornet,2
+Louise,Montriveau,2
+Lousteau,Mlle des Touches,2
+Lousteau,Mme du Val-Noble,2
+Lousteau,Père Chaboisseau,2
+Lousteau,Ridal,2
+M de Bartas,Mlle des Touches,2
+Mlle des Touches,Nathan,2
+Mme d'Espard,Montriveau,2
+Mme du Val-Noble,Vernou,2
+d'Arthez,David,2
+d'Arthez,Finot,2
+Ève,Louise,2
+Ève,Mme Postel,2
+Évêque,Lolotte,2
+Évêque,M de Bartas,2
+Évêque,Mmme de Chandour,2
+Abbé Carlos Herrera,Abbé Marron,1
+Abbé Marron,Cointet,1
+Abbé Marron,David,1
+Abbé Marron,Didot,1
+Abbé Marron,Louise,1
+Abbé Marron,M de Bargeton,1
+Abbé Marron,Mme de Rubempré,1
+Abbé Marron,comte de Maucombe,1
+Albertine,Châtelet,1
+Albertine,Mme d'Espard,1
+Albertine,Théodore Gaillard,1
+Baron de Rastignac,Châtelet,1
+Baron de Rastignac,Louise,1
+Baron de Rastignac,Mme d'Espard,1
+Baron de Rastignac,Mmme de Sénonches,1
+Baron de Rastignac,Petit-Claud,1
+Baronne de Rastignac,Bridau,1
+Baronne de Rastignac,Chrestien,1
+Baronne de Rastignac,Châtelet,1
+Baronne de Rastignac,Coralie,1
+Baronne de Rastignac,Fifine,1
+Baronne de Rastignac,Francis,1
+Baronne de Rastignac,M de Bartas,1
+Baronne de Rastignac,Mmme de Chandour,1
+Baronne de Rastignac,d'Arthez,1
+Baronne de Rastignac,Ève,1
+Baronne de Rastignac,Évêque,1
+Bianchon,Châtelet,1
+Bianchon,Finot,1
+Bianchon,Florine,1
+Bianchon,Henri de Marsay,1
+Bianchon,Lousteau,1
+Bianchon,Mme d'Espard,1
+Bianchon,Nathan,1
+Bixiou,Camusot,1
+Bixiou,Cointet,1
+Bixiou,Dauriat,1
+Bixiou,Henri de Marsay,1
+Bixiou,Matifat,1
+Bixiou,Mlle des Touches,1
+Bixiou,Mme d'Espard,1
+Bixiou,Vernou,1
+Blondet,Cointet,1
+Blondet,Duc de Rhétoré,1
+Blondet,Henri de Marsay,1
+Blondet,Ève,1
+Bridau,Châtelet,1
+Bridau,Des Lupeaulx,1
+Bridau,Évêque,1
+Camusot,Châtelet,1
+Camusot,Cointet,1
+Camusot,Henri de Marsay,1
+Camusot,Louise,1
+Camusot,Ridal,1
+Camusot,Vernou,1
+Chrestien,David,1
+Chrestien,Henri de Marsay,1
+Chrestien,Matifat,1
+Chrestien,Mlle des Touches,1
+Chrestien,Mme d'Espard,1
+Chrestien,Nathan,1
+Châtelet,Fifine,1
+Châtelet,Florine,1
+Châtelet,Lolotte,1
+Châtelet,M de Bartas,1
+Châtelet,Mme du Val-Noble,1
+Châtelet,Nathan,1
+Châtelet,Rastignac,1
+Cointet,Henri de Marsay,1
+Cointet,Lousteau,1
+Cointet,Mme Prieur,1
+Cointet,Nathan,1
+Coralie,Petit-Claud,1
+Coralie,Rastignac,1
+Coralie,Ridal,1
+Cérizet,Louise,1
+Cérizet,Mme Prieur,1
+Cérizet,Mmme de Sénonches,1
+Dauriat,David,1
+Dauriat,Du Bruel,1
+Dauriat,Louise,1
+Dauriat,Mme d'Espard,1
+Dauriat,Père Chaboisseau,1
+Dauriat,Ève,1
+David,Florine,1
+David,Francis,1
+David,Gentil,1
+David,M de Bartas,1
+David,Milaud,1
+David,Mme Courtois,1
+David,Mme Postel,1
+David,Mme Prieur,1
+David,Mme d'Espard,1
+David,Nathan,1
+David,Père Chaboisseau,1
+Des Lupeaulx,Duc de Rhétoré,1
+Des Lupeaulx,Florine,1
+Des Lupeaulx,Louise,1
+Des Lupeaulx,Vernou,1
+Didot,Kolb,1
+Didot,Marion,1
+Didot,Mme de Rubempré,1
+Du Bruel,Duc de Rhétoré,1
+Duc de Rhétoré,Finot,1
+Duc de Rhétoré,Florine,1
+Duc de Rhétoré,Henri de Marsay,1
+Duc de Rhétoré,Mme de Montcornet,1
+Duc de Rhétoré,Mme du Val-Noble,1
+Duc de Rhétoré,Montriveau,1
+Fifine,M de Chandour,1
+Fifine,Mme de Rubempré,1
+Fifine,Mmme de Sénonches,1
+Finot,Mlle des Touches,1
+Finot,Mme de Montcornet,1
+Florine,Henri de Marsay,1
+Florine,Ridal,1
+Florine,Théodore Gaillard,1
+Francis,Laure de Rastignac,1
+Francis,Lolotte,1
+Francis,M de Chandour,1
+Françoise de La Haye,Henri de Marsay,1
+Françoise de La Haye,M de Chandour,1
+Françoise de La Haye,Milaud,1
+Françoise de La Haye,Mmme de Chandour,1
+Gentil,M de Chandour,1
+Gentil,Mme d'Espard,1
+Giraud,Henri de Marsay,1
+Giraud,Matifat,1
+Giraud,Mlle des Touches,1
+Henri de Marsay,Lousteau,1
+Henri de Marsay,M de Bargeton,1
+Henri de Marsay,Mme de Montcornet,1
+Henri de Marsay,Mmme de Sénonches,1
+Henri de Marsay,Nathan,1
+Henri de Marsay,Petit-Claud,1
+Kolb,Mme Courtois,1
+Laure de Rastignac,M de Bartas,1
+Laure de Rastignac,Mmme de Chandour,1
+Laure de Rastignac,Mmme de Sénonches,1
+Lolotte,Louise,1
+Lolotte,M de Chandour,1
+Lolotte,Mme de Rubempré,1
+Lolotte,Mmme de Sénonches,1
+Louise,M de Bartas,1
+Louise,Milaud,1
+Louise,Mme Prieur,1
+Louise,Père Séchard,1
+Louise,Rastignac,1
+M de Bartas,Mme de Rubempré,1
+M de Bartas,Mmme de Chandour,1
+Matifat,Mme du Val-Noble,1
+Matifat,Ridal,1
+Matifat,Théodore Gaillard,1
+Milaud,Mme de Rubempré,1
+Mme Prieur,Petit-Claud,1
+Mme d'Espard,Mme de Rubempré,1
+Mme d'Espard,Mmme de Chandour,1
+Mme d'Espard,Mmme de Sénonches,1
+Mme d'Espard,Petit-Claud,1
+Mme d'Espard,Rastignac,1
+Mme de Montcornet,Mme du Val-Noble,1
+Mme de Rubempré,Petit-Claud,1
+Mme de Rubempré,Père Séchard,1
+Mme du Val-Noble,Nathan,1
+Mme du Val-Noble,Théodore Gaillard,1
+Mmme de Chandour,Théodore Gaillard,1
+Mmme de Sénonches,Père Séchard,1
+Théodore Gaillard,Vernou,1
+comte de Maucombe,David,1
+comte de Maucombe,Père Séchard,1
+d'Arthez,Dauriat,1
+d'Arthez,Matifat,1
+d'Arthez,Mlle des Touches,1
+d'Arthez,Mme d'Espard,1
+d'Arthez,Mme de Rubempré,1
+d'Arthez,Rastignac,1
+d'Arthez,Vernou,1
+Ève,Francis,1
+Ève,Françoise de La Haye,1
+Ève,Giraud,1
+Ève,Lousteau,1
+Ève,Milaud,1
+Ève,Mlle des Touches,1
+Ève,Mme d'Espard,1
+Ève,Mmme de Sénonches,1
+Ève,Nathan,1
+Ève,Rastignac,1
+Ève,Ridal,1
+Évêque,Fifine,1
+Évêque,Mme d'Espard,1
+Évêque,Mmme de Sénonches,1
+Évêque,Montriveau,1

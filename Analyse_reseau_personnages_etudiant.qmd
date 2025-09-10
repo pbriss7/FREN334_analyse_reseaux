@@ -1,0 +1,191 @@
+---
+title: "Introduction à l’analyse de réseau en littérature"
+author: "Pascal Brissette"
+date: 2025-09-10
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: left
+    code-fold: true
+    code-tools: true
+    theme: Yeti
+    reference-location: margin
+    title-block-banner: true
+    self-contained: true
+    standalone: true
+editor: visual
+lang: fr
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r setup, include=FALSE}
+
+#' Vérifier, installer (si besoin) et charger des packages R
+#'
+#' @param pkgs Character vector : noms des packages à tester.
+#' @param repos Repository URL for installing missing packages (default: CRAN mirror).
+#' @param dependencies Logical : installer les dépendances (default = TRUE).
+#' @param quiet Logical : supprime les messages de démarrage des packages (default = TRUE).
+#' @param update Logical : mettre à jour les packages déjà installés (default = FALSE).
+#' @return Inviolible : le vecteur `pkgs` (facile à rappeler si besoin).
+#' @export
+check_and_load <- function(
+  pkgs,
+  repos   = "https://cloud.r-project.org",
+  dependencies = TRUE,
+  quiet   = TRUE
+) {
+  if (!is.character(pkgs)) {
+    stop("'pkgs' doit être un vecteur de caractères.")
+  }
+  
+  installed <- pkgs %in% rownames(installed.packages())
+  
+  if (any(!installed)) {
+    miss <- pkgs[!installed]
+    message("Installation des packages suivants : ", paste(miss, collapse = ", "))
+    install.packages(miss, repos = repos, dependencies = dependencies)
+  }
+  
+  invisible(lapply(pkgs, function(pkg) {
+    # Vérifier que le package est bien installé (utile après installation)
+    if (!requireNamespace(pkg, quietly = TRUE)) {
+      stop(sprintf("Impossible de charger le package '%s'.", pkg))
+    }
+    # Charger, avec ou sans suppression des messages de démarrage
+    if (quiet) {
+      suppressPackageStartupMessages(library(pkg, character.only = TRUE))
+    } else {
+      library(pkg, character.only = TRUE)
+    }
+  }))
+}
+
+pkgs <- c(
+  "data.table",
+  "tidyr",
+  "stringr",
+  "kableExtra",
+  "DT",
+  "gutenbergr",
+  "dplyr",
+  "readr",
+  "igraph"
+)
+
+check_and_load(pkgs)
+```
+
+# I. Qu’est-ce que l’analyse de réseau ?
+
+Si je vous demandais quel est le personnage central du dernier roman que vous avez lu, selon le roman en question, la réponse pourrait être évidente ou, au contraire, la réponse pourrait dépendre de plusieurs facteurs. Qu’entend-on par «central»? Désigne-t-on par là le personnage qui est en relation avec le plus grand nombre d'individus? Celui qui est entouré des personnages qui comptent le plus? Celui par qui transite l'information entre divers groupes?
+
+C’est le genre de questions que se posent celles et ceux qui s’intéressent aux réseaux. L’analyse de réseau permet de regarder autrement les rapports de force et les interactions entre individus (dans le monde réel) ou personnages (dans le monde fictionnel), sans tenir compte *a priori* de leur statut social, de leur capital économique ou de leurs titres. L’analyse de réseau prend en considération les échanges et interactions concrètes (Lacroix, 2003), qui ont lieu dans le cadre de la fiction. Si, par exemple, un roman a comme titre le nom d’un personnage, on dira spontanément qu’il s’agit du personnage central du roman. L’analyse de réseau pourrait nous apprendre qu’un autre personnage est en réalité plus central, si on considère les relations qu’il entretient avec l’ensemble des autres personnages, par exemple. En somme, l’analyse de réseau est un autre outil qui, dans l’arsenal de l’analyste, peut lui permettre de faire apparaître des aspects cachés ou moins apparents de la fiction.
+
+Pour rendre visible cette structure sociale, l’analyse de réseau propose de traduire l’univers complexe d’une œuvre en un objet simple et visuel. La méthode repose sur deux concepts fondamentaux :
+
+-   Les **nœuds** (ou *vertices* en anglais) : ce sont les entités que nous étudions. Dans notre cas, il s’agira le plus souvent des **personnages** d’un roman ou d’un ensemble d’œuvres, comme *La Comédie humaine*.
+-   Les **liens** (ou *edges* en anglais) : ce sont les **relations** qui unissent les nœuds. Un lien peut représenter diverses choses : des paroles échangées (conversation), la présence de deux individus dans un même lieu, un lien de parenté, une transaction financière, un échange de lettres, etc. Le choix de ce qui constitue un lien tient à la question de recherche, à ce que veut découvrir et faire apparaître l’analyste.
+
+L’ensemble de ces nœuds et de ces liens forme ce que l’on appelle un **réseau**. En dessinant ce réseau, la «toile» abstraite des relations que nous percevons à la lecture devient une carte que l’on peut explorer concrètement, un **graphe**.
+
+Une fois cette carte dessinée, nous pouvons aller au-delà de la simple identification du personnage «central». L’analyse de réseau ouvre la porte à une série d’explorations nouvelles :
+
+-   **Cartographier des communautés :** on peut utiliser des algorithmes pour détecter automatiquement les «cercles sociaux» ou les factions au sein d’un roman. Les mondes du cénacle de la rue des Quatre-vents et du journalisme, dans *Illusions perdues*, apparaitraient dans un graphe comme des groupes distincts et denses.
+-   **Identifier les passeurs :** on peut mesurer l’importance d’un personnage non pas seulement au nombre de ses relations, mais à son rôle de «pont» entre des communautés qui, sans lui, resteraient isolées.
+-   **Suivre la circulation :** on peut modéliser la manière dont une information, une rumeur ou une intrigue se propagerait à travers l’univers fictionnel, en identifiant les chemins les plus courts ou les plus probables.
+
+En somme, l’analyse de réseau fournit au lecteur aguerri des outils pour explorer la structure sociale (ou géographique, ou économique, etc.) des fictions, pour passer de l’intuition d’une organisation à sa visualisation et à sa mesure. Pour approfondir la question, nous allons revenir au travail d’un critique qui a popularisé cette approche dans les études littéraires : Franco Moretti.
+
+## **Concepts et questions : discussion autour du texte de Franco Moretti**
+
+Dans son article « [Network Theory, Plot Analysis](https://litlab.stanford.edu/projects/network-theory-plot-analysis/) », Franco Moretti propose d’utiliser une nouvelle approche pour analyser non pas le style, mais l’intrigue (*plot*) d’œuvres littéraires. Son ambition est de dépasser l’analyse textuelle traditionnelle pour **quantifier l’intrigue**, c’est-à-dire la transformer en un objet mesurable.
+
+### **Du récit au modèle : la construction du réseau**
+
+La première étape de Moretti consiste à «choisir» ce qui, dans son analyse de *Hamlet*, constituera les nœuds et les liens :
+
+-   Les **personnages** de l’intrigue seront les **nœuds** (ou sommets, *vertices*) du réseau.
+
+-   Les **interactions** verbales entre eux seront les **liens** (ou arêtes, *edges*) reliant ces nœuds.
+
+Pour Moretti, un lien se crée entre deux personnages dès que des mots sont échangés entre eux («*some words have passed between them*» (p. 3). C’est une manière de faire simple et efficace, mais Moretti est le premier à admettre qu’elle est aussi une simplification radicale de la réalité de l’œuvre. En effet, dans son premier modèle, une longue conversation de 4000 mots entre Hamlet et Horatio a exactement le même «poids» qu’un ordre de 8 mots de Claudius. De plus, les liens n’ont pas de «direction» : le modèle indique *que* deux personnages ont parlé, mais pas *qui* a parlé à *qui*. L’œuvre littéraire est ainsi transformée en un **modèle** abstrait.
+
+### **De nouvelles manières de «voir» l’intrigue**
+
+Malgré ses simplifications, ce modèle permet de rendre visibles des aspects de l’œuvre autrement difficiles à saisir.
+
+1.  **Le protagoniste, un centre structurel :** l’analyse de réseau propose une définition du «protagoniste» qui n’est pas psychologique («conscience», «intériorité») mais structurelle : c’est le personnage le plus central, «celui qui minimise la somme des distances à tous les autres sommets». Dans *Hamlet*, il s’agit bien de Hamlet, ce qui valide la pertinence du modèle.
+
+2.  **Les «régions» de l’intrigue :** la carte du réseau révèle des zones. Moretti identifie par exemple une «région de la mort» : à l’exception d’Horatio, tous les personnages qui sont connectés *à la fois* aux deux pôles du conflit (Hamlet et Claudius) sont tués à la fin de la pièce. Soudain, la cause de la tragédie n’est plus seulement l’intention ou l’action individuelle, mais une sorte de fatalité structurale liée à la position du personnage dans le réseau.
+
+### **La force des «liens faibles» : Horatio et la cohésion du réseau**
+
+L’un des résultats les plus surprenants de l’analyse de Moretti vient d’une expérience de pensée : que se passe-t-il si l’on retire virtuellement un personnage du réseau ?
+
+-   Si l’on retire **Claudius**, un personnage très central, le réseau est peu affecté. La raison ? Claudius appartient au cœur de la cour, un groupe très dense où tout le monde se connaît déjà. Les sociologues parlent de *clustering* élevé. Le groupe est résilient.
+
+-   Si l’on retire **Horatio**, un personnage quantitativement moins important, le réseau se fracture en plusieurs morceaux isolés.
+
+Horatio est ce que les théoriciens des réseaux appellent un **«lien faible»** (*weak tie*). Il n’appartient pas au cœur dense de la cour, mais il est le seul **pont** (ou *bridge*) qui relie des communautés qui, sans lui, ne communiqueraient à peu près pas (la cour, les soldats de la garde, le monde extérieur représenté par Fortinbras). Son importance n’est pas dans le nombre de ses connexions, mais dans leur nature stratégique. Il assure la cohésion de l’ensemble.
+
+> **Question :** connaissez-vous, dans *La Comédie humaine* ou dans d’autres œuvres (*Harry Potter*, *Le Seigneur des anneaux*, etc.), des personnages qui, bien que n’étant pas au centre du pouvoir, sont indispensables parce qu'ils connectent des mondes sociaux différents ?
+
+### **De l’image au chiffre : les limites de la visualisation**
+
+Dans son épilogue, Moretti fait un aveu important. Son projet, qui visait la **quantification**, s’est transformé en une analyse **qualitative** basée sur l’intuition que lui procuraient les **images** des réseaux. Il parle du «bref bonheur» de cette approche visuelle, avant de se heurter aux statistiques.
+
+Il constate que lorsque les réseaux deviennent trop grands ou trop complexes (par exemple, en ajoutant le «poids» et la «direction» des liens), les images deviennent des «boules de poils» illisibles où l’intuition ne sert plus à rien. Pour analyser rigoureusement la structure, il faut alors passer des images aux concepts et aux mesures chiffrées : calculer la centralité, la densité, le *clustering*, etc.
+
+Ce passage de l’image au chiffre, de l’intuition au calcul, est exactement le chemin que nous allons emprunter dans la deuxième partie de l'atelier. Cependant, avant d’aller plus loin, il est important de faire le point sur le concept de «centralité».
+
+### **Mesurer l’importance : les différentes facettes de la centralité**
+
+Comme nous l’avons vu, la notion de personnage «central» ou «important» n’est pas univoque. L’analyse de réseau nous offre l’avantage de formaliser cette intuition en proposant différentes **mesures de centralité**. Chacune de ces mesures répond à une question légèrement différente sur le rôle et l’influence d’un personnage au sein de la structure sociale du roman. Il n’y a pas une seule bonne mesure ; le choix dépend de ce que l’on cherche à comprendre.
+
+Voici les trois mesures de centralité les plus couramment utilisées :
+
+#### **1. La centralité de degré (*Degree Centrality*)**
+
+-   **Définition :** c’est la mesure la plus simple. Elle correspond au nombre total de liens directs qu’un personnage possède.
+
+-   **Question :** « qui est la personne la plus connectée ou la plus “populaire” ? »
+
+-   **Interprétation littéraire :** un personnage avec une haute centralité de degré est comme un «papillon social» ; il interagit avec un grand nombre d’autres personnages. C’est une mesure directe de l’activité et de la visibilité sociale. Dans l’univers de Balzac, une hôtesse de salon célèbre pourrait avoir une centralité de degré très élevée.
+
+#### **2. La centralité d’intermédiarité (*Betweenness Centrality*)**
+
+-   **Définition :** cette mesure évalue le nombre de fois qu’un personnage se trouve sur le chemin le plus court entre deux autres personnages qui ne sont pas directement liés.
+
+-   **Question :** « qui joue le rôle de “pont”, de “passeur” ou d’“intermédiaire” ? »
+
+-   **Interprétation littéraire :** un personnage avec une haute centralité d’intermédiarité contrôle le flux d’informations ou de relations entre différents groupes sociaux. Il est stratégiquement positionné. C’est le cas typique d’**Horatio** dans *Hamlet*, qui connecte des mondes autrement séparés. Dans *La Comédie humaine*, un personnage comme **Vautrin** est un intermédiaire : il met en contact le monde du crime, celui des pensions modestes et celui des ambitions aristocratiques.
+
+#### **3. La centralité de proximité (*Closeness Centrality*)**
+
+-   **Définition :** cette mesure calcule la distance moyenne d’un personnage à *tous* les autres personnages du réseau. Un personnage avec une haute centralité de proximité est, en moyenne, «proche» de tout le monde.
+
+-   **Interprétation littéraire :** le personnage n’est pas forcément le plus populaire (degré) ni un pont essentiel (intermédiarité), mais il est «au milieu de l’action». Il a la capacité d’entendre rapidement les nouvelles et de les répandre efficacement. Un valet de chambre bien placé ou un journaliste à l’affût comme Étienne Lousteau pourraient avoir une forte centralité de proximité. Dans Hamlet, c'est le protagoniste qui possède la plus haute centralité de degré.
+
+### **Autres mesures de l'analyse de réseau**
+
+1.  **La densité du réseau (*Network Density*)**
+
+-   **Définition :** la densité mesure à quel point un réseau est «connecté». Elle représente la proportion de liens réels par rapport à tous les liens qui pourraient potentiellement exister. C’est un **score entre 0 (aucune connexion) et 1 (tous les personnages sont directement liés les uns aux autres)**.
+
+-   **Question :** «ce monde social est-il un village soudé où tout le monde se connaît, ou une métropole où les individus sont étrangers les uns aux autres ?»
+
+-   **Interprétation littéraire :** la densité permet de caractériser l’atmosphère d’un groupe social. Un réseau très dense suggère un monde social clos, voire étouffant, où l’information circule vite et où la pression du groupe est forte. On pourrait s’attendre à ce que la densité du cercle aristocratique d’Angoulême soit bien plus élevée que celle du réseau parisien dans son ensemble, qui est plus vaste et fragmenté. Comme le fait Moretti dans son essai, on peut calculer et observer la densité de zones seulement, puis les comparer.
+
+2.  **La modularité (*Modularity*)**
+
+-   **Définition :** la modularité est une mesure qui évalue la qualité de la division d’un réseau en communautés (ou « modules »). Un score de modularité élevé (proche de 1) signifie que le réseau est clairement et naturellement divisé en clusters denses, dont les membres sont bien plus connectés entre eux qu’avec le reste du réseau.
+
+-   **Question :** « ce réseau est-il un seul grand bloc homogène, ou est-il naturellement divisé en plusieurs sous-groupes distincts et cohérents ? »
+
+-   **Interprétation littéraire :** la modularité est l’une des mesures les plus puissantes pour l’analyse littéraire, car elle quantifie notre intuition qu’un univers fictionnel est composé de «mondes» sociaux distincts. L’algorithme de détection de communautés de Gephi, qui attribue les couleurs aux clusters, est basé sur cette mesure. Un score de modularité élevé pour le réseau des *Illusions perdues* confirme l’analyse de l’univers balzacien : non pas une société unifiée, mais une société fragmentée en sphères (la province, Paris, l'aristocratie, la presse, le Cénacle...) qui possèdent leurs propres logiques internes.

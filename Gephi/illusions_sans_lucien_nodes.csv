@@ -1,0 +1,64 @@
+Id,Label,Degre,statut,secteur,sexe
+Coralie,Coralie,33,actrice,théâtre,femme
+Lousteau,Lousteau,30,journaliste,presse,homme
+David,David,34,imprimeur,imprimerie,homme
+Louise,Louise,40,noble,aristocratie,femme
+Ève,Ève,32,blanchisseuse,service,femme
+Châtelet,Châtelet,40,noble,aristocratie,homme
+Cointet,Cointet,24,imprimeur,imprimerie,homme
+Finot,Finot,23,directeur de journal,presse,homme
+Florine,Florine,27,actrice,théâtre,femme
+Camusot,Camusot,25,marchand,commerce,homme
+d'Arthez,d'Arthez,22,romancier,littérature,homme
+Dauriat,Dauriat,22,propriétaire de revue,presse,homme
+Blondet,Blondet,24,journaliste,presse,homme
+Cérizet,Cérizet,12,prote,imprimerie,homme
+Kolb,Kolb,11,colporteur,commerce,homme
+Chrestien,Chrestien,19,homme politique,politique,homme
+Henri de Marsay,Henri de Marsay,24,noble,aristocratie,homme
+Des Lupeaulx,Des Lupeaulx,16,propriétaire terrien,propriété foncière,homme
+Francis,Francis,17,noble,aristocratie,homme
+Père Séchard,Père Séchard,14,imprimeur,imprimerie,homme
+Giraud,Giraud,15,philosophe,philosophie,homme
+Françoise de La Haye,Françoise de La Haye,13,noble,aristocratie,femme
+Nathan,Nathan,26,romancier,presse,homme
+Évêque,Évêque,14,ecclésiastique,religion,homme
+Mmme de Sénonches,Mmme de Sénonches,20,noble,aristocratie,femme
+Bianchon,Bianchon,17,interne en médecine,santé,homme
+Bixiou,Bixiou,19,caricaturiste,presse,homme
+Bridau,Bridau,22,peintre,arts plastiques,homme
+Marion,Marion,10,femme à tout faire,service,femme
+Du Bruel,Du Bruel,12,auteur dramatique,théâtre,homme
+Gentil,Gentil,8,domestique,service,homme
+M de Chandour,M de Chandour,10,noble,aristocratie,homme
+Mlle des Touches,Mlle des Touches,22,auteur dramatique,théâtre,femme
+Mme d'Espard,Mme d'Espard,33,noble,aristocratie,femme
+Duc de Rhétoré,Duc de Rhétoré,12,noble,aristocratie,homme
+Abbé Marron,Abbé Marron,11,ecclésiastique,religion,homme
+Laure de Rastignac,Laure de Rastignac,7,noble,aristocratie,femme
+Lolotte,Lolotte,11,noble,aristocratie,femme
+Matifat,Matifat,19,droguiste,commerce,homme
+Mmme de Chandour,Mmme de Chandour,15,noble,aristocratie,femme
+Albertine,Albertine,6,femme de chambre,service,femme
+Baronne de Rastignac,Baronne de Rastignac,12,noble,aristocratie,femme
+Didot,Didot,10,imprimeur,imprimerie,homme
+Fifine,Fifine,12,noble,aristocratie,femme
+Milaud,Milaud,7,procureur du roi,droit,homme
+Abbé Carlos Herrera,Abbé Carlos Herrera,2,forçat,crime,homme
+Baron de Rastignac,Baron de Rastignac,6,noble,aristocratie,homme
+M de Bartas,M de Bartas,13,noble,aristocratie,homme
+Mme du Val-Noble,Mme du Val-Noble,19,noble,aristocratie,femme
+Mme Prieur,Mme Prieur,6,blanchisseuse,service,femme
+Mme de Montcornet,Mme de Montcornet,12,noble,aristocratie,femme
+Mme de Rubempré,Mme de Rubempré,17,sage-femme,service,femme
+Théodore Gaillard,Théodore Gaillard,17,directeur de journal,presse,homme
+comte de Maucombe,comte de Maucombe,3,prote,imprimerie,homme
+Petit-Claud,Petit-Claud,20,avoué,droit,homme
+Vernou,Vernou,17,journaliste,presse,homme
+Ridal,Ridal,12,auteur dramatique,théâtre,homme
+M de Bargeton,M de Bargeton,5,noble,aristocratie,homme
+Montriveau,Montriveau,7,militaire,armée,homme
+Père Chaboisseau,Père Chaboisseau,5,escompteur de la librairie,finance,homme
+Rastignac,Rastignac,8,noble,aristocratie,homme
+Mme Courtois,Mme Courtois,3,meunier,commerce,femme
+Mme Postel,Mme Postel,2,épouse,commerce,femme

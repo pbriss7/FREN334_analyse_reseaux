@@ -1,0 +1,2562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="910.7453"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-262.048889 -442.494110 910.745300 728.248657" height="728.24866"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Lucien"
+              d="M 18.620619,-235.372055 A 91.435403,91.435403 0,0 1,44.330288,-155.220322"
+              stroke="#9a96e5" stroke-width="36.600002"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lousteau id_Lucien"
+              d="M -11.650136,-273.591278 A 128.535304,128.535304 0,0 1,41.747421,-155.884537"
+              stroke="#9a96e5" stroke-width="36.600002"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Lucien"
+              d="M -17.632498,4.215885 A 128.127907,128.127907 0,0 1,17.380041,-115.657265"
+              stroke="#c98694" stroke-width="34.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Louise id_Lucien"
+              d="M 150.516754,-22.604473 A 137.483668,137.483668 0,0 1,43.954624,-107.413948"
+              stroke="#9a96e5" stroke-width="28.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Ève"
+              d="M -24.179781,16.137012 A 54.081775,54.081775 0,0 1,-72.893417,2.734801"
+              stroke="#f97743" stroke-width="25.500002"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Lucien"
+              d="M -77.199623,-10.398569 A 143.650761,143.650761 0,0 1,12.830256,-124.344116"
+              stroke="#c98694" stroke-width="20.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Lucien"
+              d="M 155.796036,-94.822189 A 108.770086,108.770086 0,0 1,54.381714,-113.580490"
+              stroke="#9a96e5" stroke-width="19.800001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_David"
+              d="M -5.612548,64.294357 A 46.730364,46.730364 0,0 1,-17.994839,22.303249"
+              stroke="#f97743" stroke-width="18.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Finot id_Lucien"
+              d="M 50.582081,-349.802338 A 185.238500,185.238500 0,0 1,51.496902,-151.613922"
+              stroke="#9a96e5" stroke-width="15.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Finot id_Lousteau"
+              d="M 47.921848,-349.115906 A 83.419320,83.419320 0,0 1,-10.959100,-277.674744"
+              stroke="#9a96e5" stroke-width="15.000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Florine id_Lucien"
+              d="M -39.523865,-330.560974 A 180.806585,180.806585 0,0 1,41.683445,-155.897308"
+              stroke="#9a96e5" stroke-width="15.000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cointet id_Petit-Claud"
+              d="M 2.290930,64.673187 A 38.294352,38.294352 0,0 1,40.173878,62.396832"
+              stroke="#f97743" stroke-width="14.400001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Florine"
+              d="M 10.163202,-240.881714 A 92.225008,92.225008 0,0 1,-43.663143,-328.445374"
+              stroke="#9a96e5" stroke-width="13.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Coralie"
+              d="M -67.867607,-282.434357 A 80.859130,80.859130 0,0 1,12.419241,-243.377182"
+              stroke="#9a96e5" stroke-width="12.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Lucien"
+              d="M -68.025803,-280.399261 A 154.761397,154.761397 0,0 1,35.209141,-156.322632"
+              stroke="#9a96e5" stroke-width="12.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Louise"
+              d="M 166.713852,-90.959991 A 63.278259,63.278259 0,0 1,165.254181,-29.212646"
+              stroke="#9a96e5" stroke-width="12.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Florine id_Lousteau"
+              d="M -39.419388,-330.735718 A 52.482053,52.482053 0,0 1,-15.040806,-281.288788"
+              stroke="#9a96e5" stroke-width="12.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Petit-Claud"
+              d="M -5.875641,14.646985 A 65.276220,65.276220 0,0 1,42.939018,60.289974"
+              stroke="#f97743" stroke-width="12.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mme_d&apos;Espard"
+              d="M 47.812729,-153.828812 A 121.718554,121.718554 0,0 1,153.016205,-211.073212"
+              stroke="#9a96e5" stroke-width="12.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Nathan"
+              d="M 19.860811,-149.741516 A 173.603903,173.603903 0,0 1,-1.256889,-332.521820"
+              stroke="#9a96e5" stroke-width="11.700001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Lucien"
+              d="M -95.381332,-201.095963 A 127.673487,127.673487 0,0 1,23.578423,-152.579041"
+              stroke="#9a96e5" stroke-width="11.700001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Lucien"
+              d="M 37.181274,-294.362274 A 138.775464,138.775464 0,0 1,49.667282,-152.821838"
+              stroke="#9a96e5" stroke-width="11.400001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Petit-Claud"
+              d="M 51.013058,-110.793251 A 163.407790,163.407790 0,0 1,46.499390,60.911327"
+              stroke="#c98694" stroke-width="11.1" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Lucien"
+              d="M 86.398384,-306.349731 A 154.481017,154.481017 0,0 1,55.175762,-148.348602"
+              stroke="#9a96e5" stroke-width="10.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Lousteau"
+              d="M 32.166794,-294.187225 A 45.579886,45.579886 0,0 1,-10.872610,-275.472534"
+              stroke="#9a96e5" stroke-width="10.200001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Kolb"
+              d="M -18.066362,22.280682 A 73.707571,73.707571 0,0 1,-79.790474,68.766411"
+              stroke="#f97743" stroke-width="9.900001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Lousteau"
+              d="M 9.995220,-240.426346 A 40.349199,40.349199 0,0 1,-15.234560,-271.455475"
+              stroke="#9a96e5" stroke-width="9.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_Cointet"
+              d="M -42.278870,95.410568 A 43.596845,43.596845 0,0 1,-6.953445,68.085831"
+              stroke="#f97743" stroke-width="8.400001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Lousteau"
+              d="M 82.270142,-306.885651 A 88.481086,88.481086 0,0 1,-10.993661,-274.971497"
+              stroke="#9a96e5" stroke-width="8.1" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Père_Séchard"
+              d="M -12.683228,22.386749 A 107.718756,107.718756 0,0 1,-53.432510,133.061707"
+              stroke="#f97743" stroke-width="8.1" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lousteau id_Nathan"
+              d="M -17.342350,-281.073456 A 51.979130,51.979130 0,0 1,-2.700697,-333.646820"
+              stroke="#9a96e5" stroke-width="8.1" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lousteau id_Vernou"
+              d="M -17.648590,-280.957581 A 104.890489,104.890489 0,0 1,9.296182,-396.395477"
+              stroke="#9a96e5" stroke-width="7.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Ève"
+              d="M -6.917511,67.084923 A 86.594775,86.594775 0,0 1,-76.363014,4.563238"
+              stroke="#f97743" stroke-width="7.5000005"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Kolb id_Marion"
+              d="M -81.640305,72.471573 A 22.969523,22.969523 0,0 1,-81.171463,93.134109"
+              stroke="#f97743" stroke-width="7.2000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Finot"
+              d="M 33.016788,-302.016876 A 47.619182,47.619182 0,0 1,45.066616,-350.523895"
+              stroke="#9a96e5" stroke-width="6.6000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Marion"
+              d="M -16.079523,22.687046 A 89.599485,89.599485 0,0 1,-79.333000,95.541687"
+              stroke="#f97743" stroke-width="6.6000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Vernou"
+              d="M 21.123901,-150.832077 A 224.017096,224.017096 0,0 1,10.245872,-395.601685"
+              stroke="#9a96e5" stroke-width="6.6000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Florine id_Matifat"
+              d="M -47.248051,-335.346436 A 47.024591,47.024591 0,0 1,-67.477608,-380.247925"
+              stroke="#9a96e5" stroke-width="6.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_David"
+              d="M -44.784241,95.372360 A 75.435260,75.435260 0,0 1,-22.573793,19.164673"
+              stroke="#f97743" stroke-width="6.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Petit-Claud"
+              d="M -70.494339,-3.651853 A 116.216820,116.216820 0,0 1,42.131699,60.579803"
+              stroke="#f97743" stroke-width="6.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Nathan"
+              d="M 80.671097,-309.083801 A 73.392992,73.392992 0,0 1,3.457672,-332.995667"
+              stroke="#9a96e5" stroke-width="5.7000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Lucien"
+              d="M -152.166290,-198.604736 A 170.053234,170.053234 0,0 1,21.261440,-150.942245"
+              stroke="#9a96e5" stroke-width="5.7000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cérizet id_Petit-Claud"
+              d="M -41.371464,95.851273 A 78.525190,78.525190 0,0 1,39.722050,63.536945"
+              stroke="#f97743" stroke-width="5.7000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Nathan"
+              d="M 30.293636,-299.020813 A 42.807437,42.807437 0,0 1,1.291072,-332.099335"
+              stroke="#9a96e5" stroke-width="5.7000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Matifat"
+              d="M 16.096752,-145.356522 A 227.786398,227.786398 0,0 1,-67.776741,-380.311310"
+              stroke="#9a96e5" stroke-width="5.7000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mlle_des_Touches"
+              d="M 37.771477,-156.356598 A 89.942674,89.942674 0,0 1,88.476326,-222.082596"
+              stroke="#9a96e5" stroke-width="5.7000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Finot"
+              d="M 80.615425,-311.585297 A 47.009825,47.009825 0,0 1,48.701069,-349.128357"
+              stroke="#9a96e5" stroke-width="5.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Florine"
+              d="M -72.544930,-286.082397 A 48.977068,48.977068 0,0 1,-47.437874,-330.955566"
+              stroke="#9a96e5" stroke-width="5.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Nathan"
+              d="M 11.365370,-242.610550 A 82.239516,82.239516 0,0 1,-1.320246,-332.553558"
+              stroke="#9a96e5" stroke-width="5.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lousteau id_Matifat"
+              d="M -20.065454,-278.805511 A 99.497893,99.497893 0,0 1,-67.515244,-380.254639"
+              stroke="#9a96e5" stroke-width="5.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ève id_Mme_de_Rubempré"
+              d="M -70.626373,-1.225999 A 139.418863,139.418863 0,0 1,34.199821,116.175644"
+              stroke="#f97743" stroke-width="5.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Lucien"
+              d="M -3.994034,63.106865 A 169.048086,169.048086 0,0 1,19.577684,-113.273369"
+              stroke="#c98694" stroke-width="5.1000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cointet id_Père_Séchard"
+              d="M -2.202951,72.899612 A 72.894977,72.894977 0,0 1,-52.781075,134.422852"
+              stroke="#f97743" stroke-width="5.1000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Finot id_Florine"
+              d="M 45.382648,-350.206085 A 78.212360,78.212360 0,0 1,-39.177490,-331.228943"
+              stroke="#9a96e5" stroke-width="5.1000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Francis id_Mmme_de_Sénonches"
+              d="M 189.986313,107.660828 A 43.213897,43.213897 0,0 1,154.169632,81.253990"
+              stroke="#28b36a" stroke-width="5.1000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Lucien"
+              d="M 203.552383,-173.151230 A 146.728039,146.728039 0,0 1,60.741566,-124.106789"
+              stroke="#9a96e5" stroke-width="5.1000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Mme_d&apos;Espard"
+              d="M 158.401871,-103.380058 A 94.583520,94.583520 0,0 1,155.900909,-205.457321"
+              stroke="#9a96e5" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Finot"
+              d="M 13.202202,-243.724777 A 99.372383,99.372383 0,0 1,44.889065,-350.735687"
+              stroke="#9a96e5" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_Ève"
+              d="M -46.894489,96.884872 A 89.808956,89.808956 0,0 1,-80.120201,4.466139"
+              stroke="#f97743" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Mme_de_Rubempré"
+              d="M -7.120729,18.153875 A 98.714335,98.714335 0,0 1,35.562351,116.225166"
+              stroke="#f97743" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Lucien"
+              d="M 154.970032,-339.809052 A 202.399284,202.399284 0,0 1,58.955322,-142.997314"
+              stroke="#9a96e5" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Finot id_Nathan"
+              d="M 45.704594,-349.942139 A 42.010477,42.010477 0,0 1,5.064882,-335.438171"
+              stroke="#9a96e5" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Mme_d&apos;Espard"
+              d="M 154.426666,-29.168619 A 157.770774,157.770774 0,0 1,155.683167,-205.606323"
+              stroke="#9a96e5" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mme_de_Rubempré"
+              d="M 50.430222,-110.403305 A 210.102912,210.102912 0,0 1,37.462704,117.058136"
+              stroke="#c98694" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Marion"
+              d="M -74.105499,3.648512 A 82.976440,82.976440 0,0 1,-80.709732,93.450829"
+              stroke="#f97743" stroke-width="4.8" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Coralie"
+              d="M 84.146568,-306.111725 A 83.379844,83.379844 0,0 1,19.923803,-239.819473"
+              stroke="#9a96e5" stroke-width="4.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Lousteau"
+              d="M -68.351257,-283.842438 A 47.231672,47.231672 0,0 1,-19.577423,-279.521667"
+              stroke="#9a96e5" stroke-width="4.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Matifat"
+              d="M -74.499718,-285.421021 A 85.604842,85.604842 0,0 1,-69.347321,-381.087128"
+              stroke="#9a96e5" stroke-width="4.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mme_de_Montcornet"
+              d="M 40.113071,-156.156998 A 167.407004,167.407004 0,0 1,162.443161,-283.963806"
+              stroke="#9a96e5" stroke-width="4.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Kolb"
+              d="M -6.001656,70.764023 A 68.396858,68.396858 0,0 1,-80.493744,71.346909"
+              stroke="#f97743" stroke-width="4.2000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Père_Séchard id_Petit-Claud"
+              d="M -55.573132,131.453613 A 102.935177,102.935177 0,0 1,39.597050,64.541275"
+              stroke="#f97743" stroke-width="4.2000003"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Matifat"
+              d="M 10.232681,-241.038361 A 138.999488,138.999488 0,0 1,-67.252930,-380.215240"
+              stroke="#9a96e5" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Louise"
+              d="M -8.690826,6.504649 A 148.743535,148.743535 0,0 1,151.251556,-25.283400"
+              stroke="#c98694" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Finot id_Vernou"
+              d="M 44.177574,-354.649933 A 48.435232,48.435232 0,0 1,12.605935,-395.025269"
+              stroke="#9a96e5" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Florine id_Nathan"
+              d="M -39.788158,-335.774109 A 36.861574,36.861574 0,0 1,-3.211964,-338.704834"
+              stroke="#9a96e5" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Giraud id_Lucien"
+              d="M -159.118057,-280.902435 A 208.106122,208.106122 0,0 1,28.360039,-154.899261"
+              stroke="#9a96e5" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Kolb id_Lucien"
+              d="M -84.257095,64.950439 A 194.961985,194.961985 0,0 1,14.303099,-120.515129"
+              stroke="#c98694" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Mmme_de_Chandour"
+              d="M 169.222168,-22.642357 A 100.463685,100.463685 0,0 1,265.274658,29.670652"
+              stroke="#9a96e5" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Petit-Claud"
+              d="M 156.840332,-12.557153 A 120.263425,120.263425 0,0 1,48.451355,64.521088"
+              stroke="#c98694" stroke-width="3.9" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_M_de_Chandour"
+              d="M 169.295715,-93.587402 A 140.338218,140.338218 0,0 1,233.255829,52.023926"
+              stroke="#9a96e5" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_Kolb"
+              d="M -47.658314,99.067894 A 41.977385,41.977385 0,0 1,-82.545242,72.915039"
+              stroke="#f97743" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_Mmme_de_Sénonches"
+              d="M 119.556999,104.967926 A 38.946039,38.946039 0,0 1,148.172699,77.746895"
+              stroke="#28b36a" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Mmme_de_Sénonches"
+              d="M 164.495880,-13.268864 A 82.267256,82.267256 0,0 1,155.533554,73.473526"
+              stroke="#61a4a7" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mmme_de_Sénonches"
+              d="M 58.962742,-119.766151 A 198.651789,198.651789 0,0 1,153.211411,72.472725"
+              stroke="#61a4a7" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Nathan id_Vernou"
+              d="M -1.098224,-340.647064 A 53.002320,53.002320 0,0 1,9.463107,-396.216888"
+              stroke="#9a96e5" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Kolb"
+              d="M -74.412766,3.825500 A 60.099688,60.099688 0,0 1,-81.271866,65.872993"
+              stroke="#f97743" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Père_Séchard"
+              d="M -72.806793,2.653480 A 116.710378,116.710378 0,0 1,-55.014347,131.693146"
+              stroke="#f97743" stroke-width="3.6000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Dauriat"
+              d="M 81.903442,-307.181915 A 43.183897,43.183897 0,0 1,38.685791,-296.387970"
+              stroke="#9a96e5" stroke-width="3.3000002"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Mmme_de_Chandour"
+              d="M 170.021378,-95.283875 A 139.429888,139.429888 0,0 1,267.013641,29.207394"
+              stroke="#9a96e5" stroke-width="3.3000002"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Dauriat"
+              d="M 13.504576,-243.819397 A 51.831901,51.831901 0,0 1,31.038424,-295.232330"
+              stroke="#9a96e5" stroke-width="3.3000002"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Évêque id_Lucien"
+              d="M 295.294098,-5.724967 A 242.326701,242.326701 0,0 1,49.570553,-109.869850"
+              stroke="#9a96e5" stroke-width="3.3000002"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Giraud"
+              d="M -159.059814,-200.641113 A 69.914949,69.914949 0,0 1,-165.221878,-277.448364"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Ridal"
+              d="M -160.485092,-198.373962 A 66.087777,66.087777 0,0 1,-207.808121,-253.269012"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chrestien id_d&apos;Arthez"
+              d="M -152.856277,-199.941147 A 46.999999,46.999999 0,0 1,-103.965553,-202.755005"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Mlle_des_Touches"
+              d="M 19.579090,-240.939713 A 65.889661,65.889661 0,0 1,89.450478,-226.988510"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Mme_d&apos;Espard"
+              d="M 19.542099,-241.022125 A 122.681638,122.681638 0,0 1,154.991226,-215.427475"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_d&apos;Arthez"
+              d="M 11.866947,-234.736557 A 100.954745,100.954745 0,0 1,-95.526772,-199.002136"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Florine"
+              d="M 30.224600,-297.060730 A 71.212162,71.212162 0,0 1,-41.049599,-329.073242"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Francis id_Françoise_de_La_Haye"
+              d="M 190.799286,110.383728 A 63.075680,63.075680 0,0 1,122.073029,111.354675"
+              stroke="#28b36a" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mmme_de_Chandour"
+              d="M 61.809772,-130.614792 A 236.044912,236.044912 0,0 1,265.897064,29.410868"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Théodore_Gaillard"
+              d="M 44.711647,-155.096863 A 178.100757,178.100757 0,0 1,199.110229,-264.969757"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mmme_de_Sénonches id_Petit-Claud"
+              d="M 148.673584,79.173492 A 91.106112,91.106112 0,0 1,47.315212,67.544174"
+              stroke="#909556" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Giraud"
+              d="M -104.433975,-201.691101 A 85.330775,85.330775 0,0 1,-162.983078,-276.891907"
+              stroke="#9a96e5" stroke-width="3.0" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Vernou"
+              d="M 80.611595,-311.571259 A 95.426028,95.426028 0,0 1,12.601940,-395.024994"
+              stroke="#9a96e5" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Mmme_de_Sénonches"
+              d="M 166.803543,-91.015274 A 145.524553,145.524553 0,0 1,155.523422,73.465210"
+              stroke="#61a4a7" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cointet id_Mmme_de_Sénonches"
+              d="M 2.529794,65.018730 A 128.949376,128.949376 0,0 1,149.132324,74.103508"
+              stroke="#909556" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Finot id_Matifat"
+              d="M 44.251923,-351.869080 A 99.256060,99.256060 0,0 1,-64.148148,-381.121735"
+              stroke="#9a96e5" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Francis id_Louise"
+              d="M 190.962341,105.109734 A 111.531660,111.531660 0,0 1,156.720551,-12.598756"
+              stroke="#61a4a7" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Francis id_Lucien"
+              d="M 190.250641,106.351837 A 238.677511,238.677511 0,0 1,36.598770,-106.375656"
+              stroke="#61a4a7" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_Petit-Claud"
+              d="M 114.480743,109.344925 A 72.364270,72.364270 0,0 1,45.832291,68.623840"
+              stroke="#909556" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Marion"
+              d="M 39.332603,-106.501114 A 214.694002,214.694002 0,0 1,-79.595894,94.839958"
+              stroke="#c98694" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mme_du_Val-Noble"
+              d="M 25.871885,-153.849319 A 257.239039,257.239039 0,0 1,77.472481,-434.030579"
+              stroke="#9a96e5" stroke-width="2.7" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bianchon id_Chrestien"
+              d="M -137.838379,-239.364868 A 41.030281,41.030281 0,0 1,-152.765579,-199.817734"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Lucien"
+              d="M -134.701187,-243.592712 A 173.536523,173.536523 0,0 1,26.359308,-154.080307"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bianchon id_d&apos;Arthez"
+              d="M -134.804947,-242.382278 A 48.240227,48.240227 0,0 1,-100.620369,-204.970337"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Lucien"
+              d="M 107.196510,-382.505463 A 220.097775,220.097775 0,0 1,55.612076,-147.864288"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Florine"
+              d="M 80.892838,-308.530121 A 108.472845,108.472845 0,0 1,-40.193981,-329.730560"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Blondet id_Mme_de_Montcornet"
+              d="M 88.990738,-311.758881 A 71.193018,71.193018 0,0 1,163.913849,-288.122162"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Lucien"
+              d="M -117.028656,-344.831726 A 222.239753,222.239753 0,0 1,35.639736,-156.346725"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Marion"
+              d="M -4.818918,71.948372 A 71.948723,71.948723 0,0 1,-79.344093,97.681763"
+              stroke="#f97743" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_Marion"
+              d="M -47.135887,101.270111 A 33.086035,33.086035 0,0 1,-80.011581,99.019699"
+              stroke="#f97743" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Vernou"
+              d="M 31.287624,-300.847534 A 86.330029,86.330029 0,0 1,10.748900,-395.343842"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Didot"
+              d="M -15.703867,22.714840 A 150.653159,150.653159 0,0 1,-123.035919,154.361328"
+              stroke="#f97743" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Finot"
+              d="M 150.918228,-341.795593 A 88.857005,88.857005 0,0 1,51.480389,-350.592346"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Kolb id_Père_Séchard"
+              d="M -80.448517,71.279091 A 59.828934,59.828934 0,0 1,-56.051197,131.316345"
+              stroke="#f97743" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_M_de_Chandour"
+              d="M 169.050751,-19.350208 A 88.458719,88.458719 0,0 1,231.904968,51.976055"
+              stroke="#9a96e5" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Marion id_Père_Séchard"
+              d="M -79.490822,98.108055 A 39.160434,39.160434 0,0 1,-57.044014,131.206909"
+              stroke="#f97743" stroke-width="2.4" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Coralie"
+              d="M 155.429108,-98.410667 A 170.618076,170.618076 0,0 1,15.796966,-233.837051"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Francis"
+              d="M 168.062820,-92.006310 A 173.006267,173.006267 0,0 1,196.303802,104.011543"
+              stroke="#61a4a7" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cointet id_Françoise_de_La_Haye"
+              d="M 3.112886,66.301491 A 106.096168,106.096168 0,0 1,116.221550,105.629715"
+              stroke="#909556" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Du_Bruel"
+              d="M 11.115111,-242.357437 A 157.701003,157.701003 0,0 1,-24.128897,-420.750671"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Mme_de_Montcornet"
+              d="M 17.993118,-242.957703 A 131.933080,131.933080 0,0 1,162.550781,-286.236053"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_Lucien"
+              d="M -44.786480,95.373047 A 203.547012,203.547012 0,0 1,16.968908,-116.179878"
+              stroke="#c98694" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Du_Bruel id_Lousteau"
+              d="M -19.936327,-421.256744 A 123.477193,123.477193 0,0 1,-13.034912,-280.533386"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Du_Bruel id_Lucien"
+              d="M -19.459881,-421.703888 A 249.136190,249.136190 0,0 1,46.412712,-154.461563"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Gentil id_Louise"
+              d="M 261.790558,-92.624428 A 106.294507,106.294507 0,0 1,169.290268,-21.754637"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Gentil id_Lucien"
+              d="M 259.466736,-94.599419 A 190.758926,190.758926 0,0 1,55.433655,-114.683914"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Giraud id_Ridal"
+              d="M -165.076279,-277.366577 A 42.404132,42.404132 0,0 1,-204.217667,-256.817902"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Kolb id_Petit-Claud"
+              d="M -80.640930,66.523956 A 106.655473,106.655473 0,0 1,40.340282,62.126694"
+              stroke="#f97743" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_M_de_Bargeton"
+              d="M 153.720718,-14.340907 A 53.308211,53.308211 0,0 1,102.679100,-1.107447"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_M_de_Bargeton"
+              d="M 57.673923,-117.584488 A 119.336772,119.336772 0,0 1,99.558693,-6.250269"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Ridal"
+              d="M 11.984771,-128.520599 A 229.568727,229.568727 0,0 1,-206.422333,-253.669083"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_M_de_Chandour id_Mmme_de_Chandour"
+              d="M 234.054550,52.276707 A 34.543414,34.543414 0,0 1,262.989410,33.390350"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Lousteau"
+              d="M -98.970619,-204.905457 A 94.554223,94.554223 0,0 1,-20.663649,-275.806152"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Évêque id_Louise"
+              d="M 295.773804,-4.430345 A 116.979900,116.979900 0,0 1,167.017960,-15.337366"
+              stroke="#9a96e5" stroke-width="2.1000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Giraud"
+              d="M -142.508911,-244.941574 A 37.355812,37.355812 0,0 1,-163.221939,-276.888153"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Ridal"
+              d="M -142.501404,-241.704224 A 59.025050,59.025050 0,0 1,-205.433197,-254.363907"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Blondet"
+              d="M 107.093956,-382.467194 A 65.617699,65.617699 0,0 1,88.192528,-313.216797"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Blondet id_Mme_d&apos;Espard"
+              d="M 88.995705,-309.112152 A 103.701581,103.701581 0,0 1,159.208405,-217.188843"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Chrestien"
+              d="M -119.557930,-342.057892 A 127.417686,127.417686 0,0 1,-153.024261,-200.147888"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Ridal"
+              d="M -121.939354,-341.767517 A 103.616946,103.616946 0,0 1,-204.251877,-257.957703"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Finot"
+              d="M -70.433762,-285.739136 A 116.751094,116.751094 0,0 1,43.996777,-353.744629"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Francis"
+              d="M 2.865796,65.640785 A 166.818612,166.818612 0,0 1,191.395950,104.652870"
+              stroke="#909556" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Mme_du_Val-Noble"
+              d="M 13.322182,-243.764786 A 173.863226,173.863226 0,0 1,77.006821,-434.575806"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Du_Bruel id_Finot"
+              d="M -18.475651,-423.730316 A 83.512271,83.512271 0,0 1,47.543446,-357.572815"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_Lucien"
+              d="M 115.216400,106.642738 A 211.612998,211.612998 0,0 1,30.481546,-107.191879"
+              stroke="#61a4a7" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Louise"
+              d="M 208.522232,-172.271561 A 135.531153,135.531153 0,0 1,167.262238,-27.323793"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Père_Séchard"
+              d="M 43.066002,-107.167145 A 235.839555,235.839555 0,0 1,-53.383095,133.132660"
+              stroke="#c98694" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Marion id_Petit-Claud"
+              d="M -80.622589,93.522049 A 109.327401,109.327401 0,0 1,39.907421,62.953381"
+              stroke="#f97743" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mlle_des_Touches id_Mme_de_Montcornet"
+              d="M 93.651100,-228.073105 A 79.870450,79.870450 0,0 1,162.339630,-284.623505"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Mme_de_Montcornet"
+              d="M 156.345764,-216.414810 A 62.033492,62.033492 0,0 1,163.749710,-281.843842"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Ridal"
+              d="M -104.584183,-199.729431 A 101.903371,101.903371 0,0 1,-206.416763,-253.671860"
+              stroke="#9a96e5" stroke-width="1.8000001"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Coralie"
+              d="M 106.021759,-382.238129 A 144.327005,144.327005 0,0 1,19.619347,-240.845306"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Camusot"
+              d="M 81.809036,-307.269592 A 132.995155,132.995155 0,0 1,-68.239372,-279.865021"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Châtelet"
+              d="M 88.464806,-308.004242 A 189.085610,189.085610 0,0 1,164.849121,-104.558052"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Blondet id_Des_Lupeaulx"
+              d="M 86.975090,-314.233887 A 64.362352,64.362352 0,0 1,150.408737,-344.537842"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Du_Bruel"
+              d="M 80.537064,-311.248413 A 130.432353,130.432353 0,0 1,-21.933327,-420.413055"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Nathan"
+              d="M -70.833321,-285.889679 A 75.992181,75.992181 0,0 1,-3.762892,-336.409637"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Camusot id_d&apos;Arthez"
+              d="M -70.947304,-277.565063 A 71.668171,71.668171 0,0 1,-96.217674,-203.105743"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Françoise_de_La_Haye"
+              d="M 165.823914,-90.498619 A 175.882447,175.882447 0,0 1,121.733238,106.254555"
+              stroke="#61a4a7" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Henri_de_Marsay"
+              d="M 162.157486,-104.803955 A 75.962432,75.962432 0,0 1,202.164658,-174.890533"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Lousteau"
+              d="M 155.450836,-98.553223 A 210.721516,210.721516 0,0 1,-14.990629,-271.486755"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_David"
+              d="M 17.398317,-234.414139 A 211.651069,211.651069 0,0 1,-8.847812,6.357998"
+              stroke="#c98694" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Henri_de_Marsay"
+              d="M 19.754436,-240.481079 A 168.013935,168.013935 0,0 1,203.758255,-181.386536"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Louise"
+              d="M 19.697908,-237.119461 A 217.762646,217.762646 0,0 1,160.189194,-30.895885"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Vernou"
+              d="M 11.821435,-242.993332 A 133.514170,133.514170 0,0 1,10.010529,-395.755127"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Ève"
+              d="M 16.183180,-233.922485 A 211.393284,211.393284 0,0 1,-71.653816,-6.948887"
+              stroke="#c98694" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Matifat"
+              d="M 30.160866,-298.253143 A 110.983158,110.983158 0,0 1,-65.786156,-380.305267"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Du_Bruel id_Florine"
+              d="M -20.902937,-420.687012 A 78.158611,78.158611 0,0 1,-39.988640,-336.013611"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Lucien"
+              d="M 207.811295,-389.706940 A 260.907633,260.907633 0,0 1,59.863438,-141.073166"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Finot id_Mme_du_Val-Noble"
+              d="M 47.196548,-357.500153 A 74.638682,74.638682 0,0 1,76.932297,-434.683807"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Francis id_Petit-Claud"
+              d="M 190.239365,109.322754 A 130.325681,130.325681 0,0 1,46.752640,68.069275"
+              stroke="#909556" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Mme_d&apos;Espard"
+              d="M 201.630814,-177.328552 A 48.444946,48.444946 0,0 1,161.749481,-204.862503"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Montriveau"
+              d="M 211.346786,-179.767944 A 67.300171,67.300171 0,0 1,284.210632,-172.833984"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_M_de_Chandour"
+              d="M 61.436150,-127.003120 A 225.728827,225.728827 0,0 1,231.743607,52.000816"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mlle_des_Touches id_Mme_d&apos;Espard"
+              d="M 96.530289,-225.593063 A 56.791977,56.791977 0,0 1,154.855515,-215.294205"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Florine"
+              d="M -100.993889,-204.902405 A 120.159602,120.159602 0,0 1,-47.260483,-330.632538"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Nathan"
+              d="M -99.930443,-205.015045 A 141.140296,141.140296 0,0 1,-3.556006,-335.194275"
+              stroke="#9a96e5" stroke-width="1.5" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Marron id_Lucien"
+              d="M -82.997551,199.682526 A 296.440621,296.440621 0,0 1,16.619144,-116.648087"
+              stroke="#c98694" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Bridau"
+              d="M -140.544098,-246.997253 A 86.918732,86.918732 0,0 1,-124.408554,-343.019958"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Coralie"
+              d="M -135.401245,-245.627304 A 128.095609,128.095609 0,0 1,10.809980,-241.994232"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Nathan"
+              d="M 103.705139,-382.742126 A 96.832024,96.832024 0,0 1,5.133855,-335.756042"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Matifat"
+              d="M 80.525558,-309.669617 A 140.542953,140.542953 0,0 1,-64.825615,-380.671265"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Blondet id_Mlle_des_Touches"
+              d="M 87.649712,-307.090637 A 72.445975,72.445975 0,0 1,94.706635,-227.633957"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Coralie"
+              d="M -116.830132,-345.981415 A 144.444206,144.444206 0,0 1,13.478116,-243.811920"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Giraud"
+              d="M -121.096939,-341.719360 A 64.599085,64.599085 0,0 1,-159.418213,-282.466370"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bridau id_d&apos;Arthez"
+              d="M -118.174278,-342.969727 A 122.782181,122.782181 0,0 1,-97.829002,-204.490524"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Coralie"
+              d="M -153.496170,-200.615433 A 146.791796,146.791796 0,0 1,10.137768,-240.820587"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_David"
+              d="M 159.972687,-90.443962 A 174.686603,174.686603 0,0 1,-5.797690,13.880243"
+              stroke="#c98694" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Finot"
+              d="M 156.351990,-101.087219 A 233.739691,233.739691 0,0 1,47.340046,-349.200562"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Montriveau"
+              d="M 165.942764,-104.157974 A 120.190463,120.190463 0,0 1,283.283447,-170.630890"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Didot"
+              d="M -3.515276,72.626091 A 127.299393,127.299393 0,0 1,-122.885834,155.517319"
+              stroke="#f97743" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Louise"
+              d="M 0.371549,63.113461 A 153.904832,153.904832 0,0 1,150.504700,-22.499348"
+              stroke="#c98694" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Des_Lupeaulx"
+              d="M 16.398500,-243.779434 A 145.537218,145.537218 0,0 1,150.354385,-343.806366"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cérizet id_Père_Séchard"
+              d="M -42.676666,103.234612 A 32.297359,32.297359 0,0 1,-53.493229,132.978424"
+              stroke="#f97743" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Mme_d&apos;Espard"
+              d="M 156.965607,-340.641083 A 110.965724,110.965724 0,0 1,162.886963,-216.155579"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Mme_de_Montcornet"
+              d="M 157.391022,-341.023468 A 50.120797,50.120797 0,0 1,167.947693,-288.626068"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Du_Bruel id_Nathan"
+              d="M -19.354979,-421.824493 A 75.716454,75.716454 0,0 1,2.283077,-340.750641"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Florine id_Vernou"
+              d="M -42.969028,-337.504822 A 72.040479,72.040479 0,0 1,8.415251,-398.053558"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_Louise"
+              d="M 117.322914,105.072975 A 114.053111,114.053111 0,0 1,152.442581,-15.682952"
+              stroke="#61a4a7" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Laure_de_Rastignac id_Lucien"
+              d="M 282.940460,81.179253 A 273.674712,273.674712 0,0 1,43.440220,-107.266777"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Mlle_des_Touches"
+              d="M 152.271667,-27.048464 A 177.726942,177.726942 0,0 1,91.166656,-219.648346"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Théodore_Gaillard"
+              d="M 155.827911,-29.989353 A 206.300435,206.300435 0,0 1,200.312653,-262.149536"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lousteau id_Mme_d&apos;Espard"
+              d="M -10.966646,-277.702393 A 155.847899,155.847899 0,0 1,155.847336,-216.113388"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Montriveau"
+              d="M 55.312778,-148.199234 A 211.222462,211.222462 0,0 1,283.719574,-172.100388"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Père_Chaboisseau"
+              d="M 15.829439,-117.797447 A 159.302616,159.302616 0,0 1,-151.080276,-127.292564"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Matifat id_Nathan"
+              d="M -62.627369,-384.317902 A 68.909159,68.909159 0,0 1,-0.791895,-340.769623"
+              stroke="#9a96e5" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mmme_de_Chandour id_Mmme_de_Sénonches"
+              d="M 264.878204,36.932713 A 102.132812,102.132812 0,0 1,157.036377,78.135193"
+              stroke="#61a4a7" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_d&apos;Arthez id_Ève"
+              d="M -96.838501,-196.927643 A 165.607916,165.607916 0,0 1,-74.341263,-9.479302"
+              stroke="#c98694" stroke-width="1.2" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Albertine id_Gentil"
+              d="M 307.388794,-123.097435 A 45.808450,45.808450 0,0 1,267.098907,-96.406837"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Albertine id_Louise"
+              d="M 307.618134,-123.012222 A 152.072176,152.072176 0,0 1,169.294266,-21.504436"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Albertine id_Lucien"
+              d="M 305.635681,-124.485336 A 226.761008,226.761008 0,0 1,57.381714,-117.152489"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Lucien"
+              d="M 233.255341,-40.176552 A 183.290487,183.290487 0,0 1,50.361649,-110.358963"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bianchon id_Mlle_des_Touches"
+              d="M -135.291168,-245.456955 A 193.410866,193.410866 0,0 1,89.192368,-226.716385"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Bridau"
+              d="M 102.853004,-383.368927 A 192.084457,192.084457 0,0 1,-117.281616,-344.197876"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Dauriat"
+              d="M -69.039200,-284.774078 A 89.940741,89.940741 0,0 1,30.620916,-299.878906"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Du_Bruel"
+              d="M -73.415176,-285.916016 A 125.897835,125.897835 0,0 1,-25.746685,-422.106537"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Giraud"
+              d="M -75.700981,-279.201996 A 75.836096,75.836096 0,0 1,-159.843246,-278.623901"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chrestien id_Lousteau"
+              d="M -154.487656,-201.247314 A 134.385218,134.385218 0,0 1,-20.666059,-276.941040"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Cointet"
+              d="M 161.644455,-89.970238 A 194.322680,194.322680 0,0 1,3.263713,66.966858"
+              stroke="#c98694" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Dauriat"
+              d="M 155.879593,-100.108620 A 198.381594,198.381594 0,0 1,34.269428,-293.496521"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Des_Lupeaulx"
+              d="M 158.252090,-103.266960 A 205.548024,205.548024 0,0 1,152.137909,-340.489685"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Mlle_des_Touches"
+              d="M 156.101563,-100.613884 A 120.596232,120.596232 0,0 1,91.989464,-219.469711"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Mme_de_Montcornet"
+              d="M 158.605881,-103.524933 A 156.329327,156.329327 0,0 1,163.923416,-281.704254"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Mme_de_Rubempré"
+              d="M 163.540710,-89.908501 A 210.784866,210.784866 0,0 1,38.934273,118.921440"
+              stroke="#c98694" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Petit-Claud"
+              d="M 162.745605,-89.875565 A 167.372226,167.372226 0,0 1,48.244034,63.242054"
+              stroke="#c98694" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Ève"
+              d="M 158.792908,-91.060646 A 215.634630,215.634630 0,0 1,-70.691589,-0.951737"
+              stroke="#c98694" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Évêque"
+              d="M 170.310547,-97.574776 A 136.710251,136.710251 0,0 1,297.974091,-10.495217"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Giraud"
+              d="M 10.151246,-236.910141 A 152.457638,152.457638 0,0 1,-160.531677,-277.862427"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Théodore_Gaillard"
+              d="M 18.578976,-242.435165 A 158.685182,158.685182 0,0 1,199.623337,-267.232361"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_Didot"
+              d="M -45.018795,103.079872 A 83.742444,83.742444 0,0 1,-122.886673,155.556885"
+              stroke="#f97743" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Lousteau"
+              d="M -20.713326,5.680403 A 241.413794,241.413794 0,0 1,-18.667219,-272.384491"
+              stroke="#c98694" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Mlle_des_Touches"
+              d="M 155.055618,-339.820953 A 112.564502,112.564502 0,0 1,96.421501,-225.823303"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Didot id_Père_Séchard"
+              d="M -124.365738,152.334625 A 60.532466,60.532466 0,0 1,-61.201111,134.187103"
+              stroke="#f97743" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Du_Bruel id_Matifat"
+              d="M -23.370955,-420.489014 A 49.797587,49.797587 0,0 1,-62.664036,-384.878784"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Mme_d&apos;Espard"
+              d="M 209.066376,-389.982269 A 157.696438,157.696438 0,0 1,164.325638,-214.870483"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Fifine id_Lolotte"
+              d="M 297.733704,137.426056 A 31.339876,31.339876 0,0 1,273.325134,156.254959"
+              stroke="#28b36a" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Fifine id_Lucien"
+              d="M 295.052795,132.966431 A 310.665474,310.665474 0,0 1,41.223087,-106.765228"
+              stroke="#61a4a7" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Fifine id_M_de_Bartas"
+              d="M 298.541748,129.558899 A 52.070066,52.070066 0,0 1,323.934296,79.984947"
+              stroke="#28b36a" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Fifine id_Mmme_de_Chandour"
+              d="M 295.815247,131.153229 A 87.596826,87.596826 0,0 1,265.912476,37.429794"
+              stroke="#61a4a7" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Finot id_Mme_d&apos;Espard"
+              d="M 52.341869,-352.192200 A 150.646992,150.646992 0,0 1,159.144028,-217.186600"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Finot id_Théodore_Gaillard"
+              d="M 52.480034,-353.845856 A 148.787747,148.787747 0,0 1,201.676773,-269.154755"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Florine id_Mme_d&apos;Espard"
+              d="M -38.845070,-333.386261 A 197.277265,197.277265 0,0 1,156.904175,-216.684387"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Florine id_Mme_du_Val-Noble"
+              d="M -42.267071,-337.386627 A 134.696268,134.696268 0,0 1,76.248878,-436.682709"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Francis id_Mmme_de_Chandour"
+              d="M 194.983902,103.577682 A 86.819219,86.819219 0,0 1,263.054901,34.158421"
+              stroke="#61a4a7" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Giraud id_Nathan"
+              d="M -160.833252,-284.244812 A 144.220168,144.220168 0,0 1,-3.563626,-337.876190"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Laure_de_Rastignac id_Louise"
+              d="M 282.936401,81.246353 A 136.270263,136.270263 0,0 1,162.484863,-12.425771"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lolotte id_Lucien"
+              d="M 265.393799,155.554443 A 308.400282,308.400282 0,0 1,38.726006,-106.447327"
+              stroke="#61a4a7" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lolotte id_M_de_Bartas"
+              d="M 269.380493,152.535110 A 81.535209,81.535209 0,0 1,323.641510,79.299500"
+              stroke="#28b36a" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lolotte id_Mmme_de_Chandour"
+              d="M 266.886963,153.335312 A 102.642736,102.642736 0,0 1,264.803589,36.882202"
+              stroke="#61a4a7" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Louise id_Lousteau"
+              d="M 150.995895,-24.641388 A 257.952947,257.952947 0,0 1,-15.894504,-271.431671"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Mme_de_Rubempré"
+              d="M 158.856003,-12.111102 A 157.872410,157.872410 0,0 1,39.198715,119.736824"
+              stroke="#c98694" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lousteau id_Théodore_Gaillard"
+              d="M -11.595168,-279.094543 A 182.926985,182.926985 0,0 1,200.086670,-267.928955"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_M_de_Chandour id_Mmme_de_Sénonches"
+              d="M 229.829254,59.094162 A 68.754308,68.754308 0,0 1,156.906113,78.548088"
+              stroke="#61a4a7" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Marion id_Mme_de_Rubempré"
+              d="M -79.544159,94.950783 A 100.305865,100.305865 0,0 1,31.591015,117.373405"
+              stroke="#f97743" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Matifat id_Vernou"
+              d="M -63.874462,-387.291107 A 67.064918,67.064918 0,0 1,8.651663,-400.767731"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Milaud id_Petit-Claud"
+              d="M 49.951660,211.605087 A 125.306392,125.306392 0,0 1,41.636810,68.310913"
+              stroke="#f97743" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Mme_du_Val-Noble"
+              d="M 154.152191,-214.447845 A 199.651672,199.651672 0,0 1,79.159218,-433.026337"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Théodore_Gaillard"
+              d="M 159.990097,-217.164307 A 58.326687,58.326687 0,0 1,199.280457,-263.943359"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Nathan id_Théodore_Gaillard"
+              d="M 5.013750,-337.840515 A 179.133739,179.133739 0,0 1,201.007660,-268.777679"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Évêque id_Francis"
+              d="M 298.958740,-2.324830 A 129.468315,129.468315 0,0 1,198.550919,106.990013"
+              stroke="#61a4a7" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Évêque id_Laure_de_Rastignac"
+              d="M 301.379669,-2.762189 A 74.057284,74.057284 0,0 1,289.686035,78.546638"
+              stroke="#9a96e5" stroke-width="0.90000004"
+              stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Carlos_Herrera id_Lucien"
+              d="M -49.306664,215.015915 A 300.121346,300.121346 0,0 1,18.223989,-114.667206"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Marron id_Père_Séchard"
+              d="M -82.839851,199.637482 A 60.602465,60.602465 0,0 1,-60.623718,138.175415"
+              stroke="#f97743" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Abbé_Marron id_Ève"
+              d="M -84.288155,200.313187 A 172.432333,172.432333 0,0 1,-82.583458,3.253931"
+              stroke="#f97743" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Camusot"
+              d="M -137.046494,-247.024460 A 64.069949,64.069949 0,0 1,-76.504456,-282.120331"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Ève"
+              d="M -135.624329,-240.738876 A 206.692446,206.692446 0,0 1,-75.247879,-9.910460"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bixiou id_Des_Lupeaulx"
+              d="M 109.803558,-385.891907 A 53.882133,53.882133 0,0 1,153.441360,-347.838409"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Finot"
+              d="M 103.932961,-382.625092 A 55.211841,55.211841 0,0 1,52.492035,-353.010498"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Florine"
+              d="M 103.376953,-382.944427 A 131.950004,131.950004 0,0 1,-39.006866,-331.712860"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Louise"
+              d="M 108.617271,-383.430664 A 307.393151,307.393151 0,0 1,164.229523,-29.832989"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Lousteau"
+              d="M 104.857323,-382.313538 A 136.529510,136.529510 0,0 1,-10.818246,-276.930359"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bixiou id_Mme_du_Val-Noble"
+              d="M 102.096802,-388.354858 A 47.174331,47.174331 0,0 1,79.808998,-432.883545"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Bridau"
+              d="M 80.912178,-308.490509 A 174.307231,174.307231 0,0 1,-118.180817,-342.963409"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Louise"
+              d="M 88.221092,-307.673431 A 248.778906,248.778906 0,0 1,163.283203,-30.261997"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Blondet id_Mme_du_Val-Noble"
+              d="M 82.156601,-313.884888 A 105.521236,105.521236 0,0 1,78.074814,-433.540649"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Camusot"
+              d="M -117.036797,-344.805908 A 67.492044,67.492044 0,0 1,-72.341125,-286.095367"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Dauriat"
+              d="M -117.061646,-347.580322 A 135.931747,135.931747 0,0 1,31.908068,-301.412384"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Finot"
+              d="M -117.787277,-348.913177 A 141.385670,141.385670 0,0 1,44.691132,-355.724701"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Florine"
+              d="M -117.253754,-348.055084 A 65.835270,65.835270 0,0 1,-46.611038,-336.163330"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Lousteau"
+              d="M -116.829971,-346.325073 A 105.419727,105.419727 0,0 1,-17.518705,-281.009552"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Matifat"
+              d="M -119.717529,-350.315796 A 55.447061,55.447061 0,0 1,-70.911018,-384.308472"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bridau id_Mme_du_Val-Noble"
+              d="M -119.075073,-350.016296 A 184.285754,184.285754 0,0 1,76.328484,-437.831665"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Nathan"
+              d="M -117.465553,-348.449646 A 101.969454,101.969454 0,0 1,-2.710097,-339.436829"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Vernou"
+              d="M -118.875290,-349.895874 A 119.759262,119.759262 0,0 1,8.409449,-400.081146"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Chrestien"
+              d="M -72.869156,-277.447876 A 99.319848,99.319848 0,0 1,-152.030045,-198.032059"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Camusot id_Mlle_des_Touches"
+              d="M -67.994919,-282.991394 A 145.465947,145.465947 0,0 1,90.010086,-227.447266"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Camusot id_Mme_d&apos;Espard"
+              d="M -68.055328,-283.178101 A 201.824040,201.824040 0,0 1,155.553970,-215.904968"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Camusot id_Mme_du_Val-Noble"
+              d="M -71.536926,-286.053070 A 181.358597,181.358597 0,0 1,76.292641,-436.308441"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Florine"
+              d="M -156.010864,-201.633301 A 147.089774,147.089774 0,0 1,-47.773846,-331.861603"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chrestien id_Père_Chaboisseau"
+              d="M -153.732422,-193.838394 A 56.437172,56.437172 0,0 1,-152.143280,-132.974121"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Ève"
+              d="M -152.624725,-195.034836 A 174.685815,174.685815 0,0 1,-76.250504,-10.230000"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Gentil"
+              d="M 169.049911,-101.515320 A 83.520517,83.520517 0,0 1,259.782104,-98.843285"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_M_de_Bargeton"
+              d="M 162.922485,-89.875565 A 95.489244,95.489244 0,0 1,102.608498,-3.697822"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Théodore_Gaillard"
+              d="M 160.060593,-104.301437 A 143.888137,143.888137 0,0 1,200.148804,-262.331604"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Coralie"
+              d="M -4.633677,63.462841 A 255.921061,255.921061 0,0 1,11.628657,-234.920929"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Milaud"
+              d="M 2.448174,70.644432 A 130.546069,130.546069 0,0 1,53.568699,210.853745"
+              stroke="#f97743" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Dauriat id_Mme_du_Val-Noble"
+              d="M 33.216621,-302.085602 A 122.031550,122.031550 0,0 1,77.021439,-434.555450"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Dauriat id_Théodore_Gaillard"
+              d="M 38.536514,-299.752045 A 143.395762,143.395762 0,0 1,200.495316,-268.366638"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Françoise_de_La_Haye"
+              d="M -5.781172,13.422116 A 137.107360,137.107360 0,0 1,117.313202,105.076202"
+              stroke="#909556" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Mlle_des_Touches"
+              d="M -17.026196,4.074849 A 217.046500,217.046500 0,0 1,88.674278,-221.683426"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Mmme_de_Sénonches"
+              d="M -6.072046,10.987082 A 149.593894,149.593894 0,0 1,150.159149,73.179703"
+              stroke="#909556" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Théodore_Gaillard"
+              d="M -14.837915,3.902332 A 295.065652,295.065652 0,0 1,199.263199,-264.004242"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Mme_du_Val-Noble"
+              d="M 150.508667,-344.984985 A 99.150616,99.150616 0,0 1,80.571503,-432.850616"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Nathan"
+              d="M 151.252075,-341.310974 A 128.252342,128.252342 0,0 1,4.474701,-334.095642"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Didot id_Ève"
+              d="M -128.208511,151.646469 A 138.054969,138.054969 0,0 1,-84.076195,1.785660"
+              stroke="#f97743" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Du_Bruel id_Vernou"
+              d="M -18.422207,-424.236450 A 35.859326,35.859326 0,0 1,10.934895,-402.887512"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Lousteau"
+              d="M 205.773422,-390.113861 A 210.251635,210.251635 0,0 1,-10.841935,-275.655243"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Fifine id_Francis"
+              d="M 295.294830,135.095306 A 89.894418,89.894418 0,0 1,197.132538,111.133492"
+              stroke="#28b36a" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Fifine id_Louise"
+              d="M 295.092102,132.751038 A 173.648370,173.648370 0,0 1,160.954407,-12.118592"
+              stroke="#61a4a7" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Florine id_Giraud"
+              d="M -45.699539,-329.078522 A 108.843723,108.843723 0,0 1,-159.211182,-280.072235"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Florine id_Mlle_des_Touches"
+              d="M -38.832230,-332.757263 A 145.237713,145.237713 0,0 1,91.352371,-228.070923"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Francis id_M_de_Bartas"
+              d="M 197.183273,104.616348 A 113.839005,113.839005 0,0 1,323.774597,76.360397"
+              stroke="#28b36a" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gentil id_Théodore_Gaillard"
+              d="M 259.719727,-98.754936 A 149.091893,149.091893 0,0 1,202.233871,-260.972504"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Giraud id_Lousteau"
+              d="M -159.816284,-283.209351 A 122.911588,122.911588 0,0 1,-19.674454,-279.399170"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Mlle_des_Touches"
+              d="M 201.766937,-175.999481 A 102.894054,102.894054 0,0 1,94.843956,-220.113220"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Kolb id_Mme_de_Rubempré"
+              d="M -79.874611,68.167824 A 107.817328,107.817328 0,0 1,32.364269,116.794250"
+              stroke="#f97743" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Mme_de_Montcornet"
+              d="M 154.571564,-29.269197 A 219.598405,219.598405 0,0 1,163.892868,-281.727661"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Louise id_Montriveau"
+              d="M 160.752792,-30.859957 A 163.226630,163.226630 0,0 1,283.371826,-169.317932"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lousteau id_Mlle_des_Touches"
+              d="M -10.856832,-277.206848 A 100.275481,100.275481 0,0 1,90.410362,-227.693069"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lousteau id_Mme_du_Val-Noble"
+              d="M -16.179756,-281.319458 A 155.961399,155.961399 0,0 1,76.566475,-435.362000"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lousteau id_Père_Chaboisseau"
+              d="M -16.375250,-271.469879 A 168.213609,168.213609 0,0 1,-150.397552,-130.350159"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lousteau id_Ridal"
+              d="M -19.444366,-273.090546 A 161.180210,161.180210 0,0 1,-204.747955,-255.229233"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_M_de_Bartas"
+              d="M 61.815044,-130.814331 A 298.610752,298.610752 0,0 1,326.340424,74.026581"
+              stroke="#61a4a7" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lucien id_Mme_Courtois"
+              d="M 29.126705,-107.588264 A 235.766262,235.766262 0,0 1,-181.382141,43.624084"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_M_de_Bartas id_Mlle_des_Touches"
+              d="M 323.590393,76.883568 A 318.834546,318.834546 0,0 1,92.616241,-219.440659"
+              stroke="#61a4a7" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mlle_des_Touches id_Nathan"
+              d="M 88.262825,-224.970047 A 121.133037,121.133037 0,0 1,0.981462,-332.070435"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Montriveau"
+              d="M 165.487473,-212.738617 A 111.808137,111.808137 0,0 1,284.892181,-173.474838"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_du_Val-Noble id_Vernou"
+              d="M 78.568489,-433.258118 A 64.888278,64.888278 0,0 1,16.385302,-398.657318"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_David"
+              d="M -96.038109,-197.885162 A 191.565938,191.565938 0,0 1,-12.947655,4.168089"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Finot"
+              d="M -99.330292,-204.970322 A 177.519753,177.519753 0,0 1,44.041348,-352.646790"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Louise"
+              d="M -72.251190,-7.757350 A 198.876309,198.876309 0,0 1,151.798050,-26.336561"
+              stroke="#c98694" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Mme_Postel"
+              d="M -80.343498,4.399250 A 143.348523,143.348523 0,0 1,-211.259964,100.832718"
+              stroke="#f97743" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Évêque id_Lolotte"
+              d="M 301.272614,-2.709213 A 138.219001,138.219001 0,0 1,272.229187,153.792725"
+              stroke="#61a4a7" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Évêque id_M_de_Bartas"
+              d="M 302.858582,-4.020889 A 74.253798,74.253798 0,0 1,328.826660,74.006027"
+              stroke="#61a4a7" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Évêque id_Mmme_de_Chandour"
+              d="M 299.089539,-2.311624 A 42.780617,42.780617 0,0 1,271.233734,32.182560"
+              stroke="#9a96e5" stroke-width="0.6" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Carlos_Herrera id_Abbé_Marron"
+              d="M -51.691708,219.379303 A 30.791870,30.791870 0,0 1,-79.119537,207.818146"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Marron id_Cointet"
+              d="M -82.104874,199.505096 A 131.618634,131.618634 0,0 1,-6.522717,69.851997"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Abbé_Marron id_David"
+              d="M -82.990494,199.680389 A 168.316199,168.316199 0,0 1,-22.861322,18.782745"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Abbé_Marron id_Didot"
+              d="M -86.115288,203.051666 A 55.324158,55.324158 0,0 1,-126.335503,159.432465"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Marron id_Louise"
+              d="M -80.831673,199.561356 A 275.378661,275.378661 0,0 1,150.522446,-20.306580"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Marron id_M_de_Bargeton"
+              d="M -81.279617,199.500580 A 228.462134,228.462134 0,0 1,94.924187,-1.433256"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Marron id_Mme_de_Rubempré"
+              d="M -80.211655,199.722855 A 119.268845,119.268845 0,0 1,30.122587,120.726143"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Abbé_Marron id_comte_de_Maucombe"
+              d="M -81.898094,208.591217 A 80.748199,80.748199 0,0 1,-137.693130,279.106079"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Albertine id_Châtelet"
+              d="M 306.185822,-123.860748 A 124.167539,124.167539 0,0 1,169.680588,-94.342941"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Albertine id_Mme_d&apos;Espard"
+              d="M 304.923737,-126.333328 A 142.900118,142.900118 0,0 1,162.107132,-205.016785"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Albertine id_Théodore_Gaillard"
+              d="M 305.063202,-127.946571 A 144.954116,144.954116 0,0 1,203.581970,-260.791626"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baron_de_Rastignac id_Henri_de_Marsay"
+              d="M 402.190460,-177.617416 A 166.953958,166.953958 0,0 1,211.101227,-174.221970"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baron_de_Rastignac id_Louise"
+              d="M 404.917755,-175.563263 A 245.364192,245.364192 0,0 1,169.282349,-21.004347"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baron_de_Rastignac id_Lucien"
+              d="M 402.680237,-177.043777 A 311.388385,311.388385 0,0 1,59.119259,-120.069702"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baron_de_Rastignac id_Marquis_de_Pimentel"
+              d="M 411.490479,-185.730743 A 167.085743,167.085743 0,0 1,601.372437,-215.884308"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baron_de_Rastignac id_Mme_d&apos;Espard"
+              d="M 401.733032,-178.318726 A 207.898678,207.898678 0,0 1,164.088760,-206.464676"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Bridau"
+              d="M 233.173401,-41.328350 A 392.382288,392.382288 0,0 1,-120.262459,-341.831055"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Chrestien"
+              d="M 233.304901,-39.968876 A 352.953045,352.953045 0,0 1,-154.013763,-193.648056"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Châtelet"
+              d="M 233.165985,-41.176003 A 77.842417,77.842417 0,0 1,165.246216,-90.274689"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Coralie"
+              d="M 233.181717,-41.433121 A 248.099635,248.099635 0,0 1,15.956389,-233.868530"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Fifine"
+              d="M 240.832291,-38.670429 A 154.346345,154.346345 0,0 1,300.233154,129.695114"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Francis"
+              d="M 238.791000,-37.093906 A 129.167424,129.167424 0,0 1,197.722092,105.190506"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_M_de_Bartas"
+              d="M 241.387192,-39.823830 A 124.496404,124.496404 0,0 1,327.524902,73.828026"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Mmme_de_Chandour"
+              d="M 240.887543,-38.753036 A 66.850850,66.850850 0,0 1,268.168518,29.314922"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_d&apos;Arthez"
+              d="M 233.244110,-40.231388 A 310.891432,310.891432 0,0 1,-97.771370,-196.266190"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Ève"
+              d="M 234.309174,-38.164494 A 264.769149,264.769149 0,0 1,-71.413574,0.854263"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Baronne_de_Rastignac id_Évêque"
+              d="M 241.548172,-41.469715 A 59.195033,59.195033 0,0 1,297.587158,-10.328961"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Châtelet"
+              d="M -134.762650,-244.082687 A 279.225326,279.225326 0,0 1,159.314362,-103.954773"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Finot"
+              d="M -137.155060,-247.073120 A 180.817304,180.817304 0,0 1,44.001282,-353.792297"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Florine"
+              d="M -137.990784,-247.330872 A 109.090953,109.090953 0,0 1,-47.874138,-332.382782"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bianchon id_Henri_de_Marsay"
+              d="M -135.093872,-245.094223 A 293.224170,293.224170 0,0 1,203.295929,-181.005402"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Lousteau"
+              d="M -136.192352,-246.488998 A 106.155518,106.155518 0,0 1,-20.383867,-278.118774"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bianchon id_Mme_d&apos;Espard"
+              d="M -135.244904,-245.379379 A 249.945720,249.945720 0,0 1,154.678665,-215.107941"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bianchon id_Nathan"
+              d="M -137.359238,-247.154602 A 139.805445,139.805445 0,0 1,-3.761712,-336.719299"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Camusot"
+              d="M 104.067818,-382.563934 A 171.958421,171.958421 0,0 1,-67.834076,-281.313568"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Cointet"
+              d="M 107.331825,-382.560760 A 388.896672,388.896672 0,0 1,2.112057,64.449043"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Dauriat"
+              d="M 105.473831,-382.232239 A 94.606745,94.606745 0,0 1,38.786648,-299.077301"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bixiou id_Henri_de_Marsay"
+              d="M 109.348427,-384.418610 A 193.604894,193.604894 0,0 1,207.759644,-182.306732"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Matifat"
+              d="M 102.396461,-383.884796 A 143.737151,143.737151 0,0 1,-63.391914,-381.931091"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bixiou id_Mlle_des_Touches"
+              d="M 107.850441,-382.828461 A 135.878659,135.878659 0,0 1,95.363770,-227.168228"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bixiou id_Mme_d&apos;Espard"
+              d="M 109.003006,-383.874664 A 152.980773,152.980773 0,0 1,161.443787,-216.855652"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bixiou id_Vernou"
+              d="M 102.047340,-384.440033 A 78.517955,78.517955 0,0 1,15.308744,-396.300720"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Cointet"
+              d="M 86.576729,-306.422943 A 323.329608,323.329608 0,0 1,2.083325,64.415329"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Blondet id_Duc_de_Rhétoré"
+              d="M 86.320091,-314.534943 A 123.651538,123.651538 0,0 1,203.466690,-393.929047"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Blondet id_Henri_de_Marsay"
+              d="M 89.110992,-309.557861 A 150.546856,150.546856 0,0 1,206.232239,-182.356033"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Blondet id_Ève"
+              d="M 85.477356,-306.106506 A 290.038390,290.038390 0,0 1,-71.219383,-6.175465"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Châtelet"
+              d="M -116.841934,-345.788177 A 314.702772,314.702772 0,0 1,161.202240,-104.654457"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bridau id_Des_Lupeaulx"
+              d="M -117.667328,-348.754730 A 229.769583,229.769583 0,0 1,151.171204,-346.324371"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Bridau id_Évêque"
+              d="M -116.830383,-345.975281 A 450.576561,450.576561 0,0 1,298.390594,-10.626086"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Châtelet"
+              d="M -67.814697,-281.611847 A 248.921270,248.921270 0,0 1,160.788361,-104.549446"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Cointet"
+              d="M -68.939667,-278.821869 A 297.102751,297.102751 0,0 1,0.355541,63.105965"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Camusot id_Henri_de_Marsay"
+              d="M -67.977661,-282.932098 A 248.287064,248.287064 0,0 1,203.983109,-181.542175"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Louise"
+              d="M -67.905312,-280.851440 A 290.569726,290.569726 0,0 1,158.923248,-30.853371"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Ridal"
+              d="M -75.191971,-278.613556 A 115.191404,115.191404 0,0 1,-204.589096,-255.527039"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Camusot id_Vernou"
+              d="M -72.172035,-286.098846 A 120.501030,120.501030 0,0 1,8.489902,-397.801147"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_David"
+              d="M -152.229111,-195.849167 A 211.269485,211.269485 0,0 1,-14.905197,3.900005"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chrestien id_Henri_de_Marsay"
+              d="M -152.680222,-199.692566 A 303.067310,303.067310 0,0 1,202.819702,-180.501343"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Matifat"
+              d="M -157.086258,-201.569168 A 172.776978,172.776978 0,0 1,-70.418221,-382.369263"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chrestien id_Mlle_des_Touches"
+              d="M -153.099380,-200.232483 A 208.506322,208.506322 0,0 1,88.708496,-226.040802"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chrestien id_Mme_d&apos;Espard"
+              d="M -152.926926,-200.031296 A 263.316793,263.316793 0,0 1,154.085876,-214.350479"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Chrestien id_Nathan"
+              d="M -155.374405,-201.543732 A 174.875380,174.875380 0,0 1,-3.744891,-336.123108"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Fifine"
+              d="M 169.690674,-94.365982 A 223.442832,223.442832 0,0 1,299.479919,129.545502"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Florine"
+              d="M 155.538956,-99.006989 A 260.926503,260.926503 0,0 1,-42.988426,-328.451996"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Lolotte"
+              d="M 169.224045,-93.467087 A 229.452251,229.452251 0,0 1,270.251129,152.647812"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_M_de_Bartas"
+              d="M 170.176849,-95.930153 A 200.528824,200.528824 0,0 1,327.111053,73.857697"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Châtelet id_Mme_du_Val-Noble"
+              d="M 157.122437,-102.184456 A 291.240503,291.240503 0,0 1,78.766479,-433.168640"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Châtelet id_Nathan"
+              d="M 155.800507,-99.899849 A 240.794617,240.794617 0,0 1,0.546780,-332.066101"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cointet id_Henri_de_Marsay"
+              d="M -1.450155,62.637352 A 268.145360,268.145360 0,0 1,201.767670,-175.996353"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Lousteau"
+              d="M -5.033229,63.752331 A 287.028924,287.028924 0,0 1,-18.517582,-272.279236"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cointet id_Mme_Prieur"
+              d="M 1.439408,71.751259 A 116.979429,116.979429 0,0 1,9.313355,204.471420"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cointet id_Nathan"
+              d="M -4.847671,63.610600 A 336.937014,336.937014 0,0 1,-1.969805,-332.958679"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Coralie id_Petit-Claud"
+              d="M 18.299187,-235.058517 A 254.049978,254.049978 0,0 1,46.297043,60.782730"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Coralie id_Ridal"
+              d="M 10.506431,-236.212875 A 186.543406,186.543406 0,0 1,-205.176682,-254.633133"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Cérizet id_Louise"
+              d="M -41.997120,95.518227 A 197.160827,197.160827 0,0 1,150.482498,-22.269407"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cérizet id_Mme_Prieur"
+              d="M -40.037045,101.255257 A 99.893935,99.893935 0,0 1,7.921186,203.924728"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cérizet id_Mmme_de_Sénonches"
+              d="M -40.594864,96.507301 A 164.582602,164.582602 0,0 1,148.699432,74.734879"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_David"
+              d="M 36.567375,-293.978271 A 262.626994,262.626994 0,0 1,-8.547344,6.644738"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Du_Bruel"
+              d="M 30.734474,-300.088776 A 115.632701,115.632701 0,0 1,-23.253983,-420.463135"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Louise"
+              d="M 38.388996,-295.739502 A 252.912384,252.912384 0,0 1,161.736328,-30.714911"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Dauriat id_Mme_d&apos;Espard"
+              d="M 38.949223,-297.964935 A 126.852704,126.852704 0,0 1,157.248016,-216.818665"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Dauriat id_Père_Chaboisseau"
+              d="M 33.630215,-293.584412 A 210.801396,210.801396 0,0 1,-150.348709,-129.998672"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Dauriat id_Ève"
+              d="M 35.724388,-293.647827 A 263.165807,263.165807 0,0 1,-71.682602,-6.993441"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Florine"
+              d="M -21.323709,6.161157 A 289.529484,289.529484 0,0 1,-45.762188,-329.116608"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Francis"
+              d="M -5.959033,11.487182 A 191.541829,191.541829 0,0 1,192.179443,104.085587"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Gentil"
+              d="M -10.112380,5.386277 A 249.270213,249.270213 0,0 1,259.145569,-97.504715"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_M_de_Bartas"
+              d="M -6.680568,9.294475 A 290.720534,290.720534 0,0 1,324.773590,74.942726"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Milaud"
+              d="M -7.586549,18.857351 A 177.056534,177.056534 0,0 1,53.698528,210.892639"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Mme_Courtois"
+              d="M -21.839359,19.986567 A 144.070200,144.070200 0,0 1,-181.782806,45.503159"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Mme_Postel"
+              d="M -20.042313,21.386253 A 181.997623,181.997623 0,0 1,-211.355591,101.776497"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Mme_Prieur"
+              d="M -8.923272,20.334127 A 163.188737,163.188737 0,0 1,9.157113,204.377869"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Mme_d&apos;Espard"
+              d="M -14.837217,3.902359 A 236.747885,236.747885 0,0 1,153.257446,-209.043961"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_David id_Nathan"
+              d="M -20.372496,5.445276 A 291.851032,291.851032 0,0 1,-2.104752,-333.063904"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_David id_Père_Chaboisseau"
+              d="M -24.455111,11.591947 A 166.228072,166.228072 0,0 1,-153.773407,-125.660805"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Duc_de_Rhétoré"
+              d="M 155.287628,-347.877106 A 60.755994,60.755994 0,0 1,203.507767,-393.212799"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Florine"
+              d="M 151.280319,-341.276062 A 165.098171,165.098171 0,0 1,-39.556770,-330.509399"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Louise"
+              d="M 156.934708,-340.617249 A 268.697321,268.697321 0,0 1,165.263031,-29.206476"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Des_Lupeaulx id_Vernou"
+              d="M 150.488174,-342.829895 A 127.042104,127.042104 0,0 1,14.546607,-395.665009"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Didot id_Kolb"
+              d="M -127.534019,151.479218 A 80.443455,80.443455 0,0 1,-87.503403,70.970879"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Didot id_Lucien"
+              d="M -127.378380,151.457748 A 275.222437,275.222437 0,0 1,14.354217,-120.409760"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Didot id_Marion"
+              d="M -126.793930,151.431610 A 61.092279,61.092279 0,0 1,-87.008904,97.858795"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Didot id_Mme_de_Rubempré"
+              d="M -124.224014,152.455734 A 137.757067,137.757067 0,0 1,30.512985,118.886848"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Du_Bruel id_Duc_de_Rhétoré"
+              d="M -18.912954,-426.337524 A 193.366425,193.366425 0,0 1,204.609009,-396.648499"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Finot"
+              d="M 204.945129,-390.648682 A 136.981730,136.981730 0,0 1,52.203823,-351.788269"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Florine"
+              d="M 204.928421,-390.662659 A 215.172314,215.172314 0,0 1,-39.176899,-331.230347"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Henri_de_Marsay"
+              d="M 209.984314,-390.484833 A 180.513998,180.513998 0,0 1,209.904617,-181.384338"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Mme_de_Montcornet"
+              d="M 208.627625,-389.838409 A 97.020508,97.020508 0,0 1,169.722687,-287.148621"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Mme_du_Val-Noble"
+              d="M 203.645737,-392.599792 A 111.940201,111.940201 0,0 1,82.761795,-433.610626"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Duc_de_Rhétoré id_Montriveau"
+              d="M 210.969421,-391.503571 A 197.793749,197.793749 0,0 1,288.445007,-174.098221"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Fifine id_M_de_Chandour"
+              d="M 295.122986,132.615799 A 85.230156,85.230156 0,0 1,232.802307,60.029858"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Fifine id_Mme_de_Rubempré"
+              d="M 295.682281,135.834366 A 220.553606,220.553606 0,0 1,38.283112,123.634323"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Fifine id_Mmme_de_Sénonches"
+              d="M 295.140533,134.628952 A 130.820295,130.820295 0,0 1,155.118393,80.785217"
+              stroke="#28b36a" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Finot id_Mlle_des_Touches"
+              d="M 51.721565,-350.901367 A 114.073800,114.073800 0,0 1,93.782898,-228.035309"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Finot id_Mme_de_Montcornet"
+              d="M 52.485874,-353.790955 A 113.766284,113.766284 0,0 1,164.718567,-288.600281"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Florine id_Henri_de_Marsay"
+              d="M -38.840385,-333.330261 A 245.615021,245.615021 0,0 1,204.896118,-182.017609"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Florine id_Ridal"
+              d="M -45.595089,-329.018005 A 151.164443,151.164443 0,0 1,-204.272186,-256.471191"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Florine id_Théodore_Gaillard"
+              d="M -39.125713,-334.599976 A 213.331405,213.331405 0,0 1,200.766586,-268.599976"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Francis id_Laure_de_Rastignac"
+              d="M 197.019867,104.478333 A 80.260687,80.260687 0,0 1,283.161377,80.116096"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Francis id_Lolotte"
+              d="M 198.634613,107.686928 A 74.522073,74.522073 0,0 1,267.809784,152.819672"
+              stroke="#28b36a" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Francis id_M_de_Chandour"
+              d="M 194.443359,103.526939 A 53.639772,53.639772 0,0 1,228.606277,57.310909"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_Henri_de_Marsay"
+              d="M 117.255661,105.095840 A 249.578848,249.578848 0,0 1,202.654465,-174.088608"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_M_de_Chandour"
+              d="M 120.663063,105.394592 A 104.632272,104.632272 0,0 1,228.457642,55.235626"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_Milaud"
+              d="M 118.895355,113.174110 A 103.900619,103.900619 0,0 1,56.194454,213.197876"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Françoise_de_La_Haye id_Mmme_de_Chandour"
+              d="M 120.517868,105.316895 A 138.921732,138.921732 0,0 1,263.041565,32.756268"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gentil id_M_de_Chandour"
+              d="M 264.739746,-92.789528 A 129.586278,129.586278 0,0 1,235.418671,53.246548"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Gentil id_Mme_d&apos;Espard"
+              d="M 259.096039,-97.296074 A 128.607223,128.607223 0,0 1,160.149811,-204.458710"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Giraud id_Henri_de_Marsay"
+              d="M -159.382874,-282.376831 A 320.222003,320.222003 0,0 1,203.632767,-181.291748"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Giraud id_Matifat"
+              d="M -162.665344,-284.953613 A 117.799347,117.799347 0,0 1,-70.832985,-383.528351"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Giraud id_Mlle_des_Touches"
+              d="M -159.460724,-282.566650 A 218.309699,218.309699 0,0 1,89.617065,-227.141663"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Lousteau"
+              d="M 201.744797,-176.097961 A 203.063613,203.063613 0,0 1,-13.279796,-272.084869"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_M_de_Bargeton"
+              d="M 207.220535,-172.003220 A 171.284834,171.284834 0,0 1,102.564781,-3.810243"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Mme_de_Montcornet"
+              d="M 202.522995,-180.105057 A 95.897722,95.897722 0,0 1,165.313461,-281.021973"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Mmme_de_Sénonches"
+              d="M 208.957611,-172.443649 A 216.564984,216.564984 0,0 1,156.036514,73.957458"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Nathan"
+              d="M 201.630814,-177.328064 A 217.109163,217.109163 0,0 1,1.956626,-332.236755"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Henri_de_Marsay id_Petit-Claud"
+              d="M 207.038727,-171.992722 A 242.898143,242.898143 0,0 1,48.192730,63.090126"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Kolb id_Mme_Courtois"
+              d="M -87.701508,70.542709 A 87.164100,87.164100 0,0 1,-182.784531,46.797462"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Laure_de_Rastignac id_M_de_Bartas"
+              d="M 290.074493,78.971138 A 34.023252,34.023252 0,0 1,323.943298,76.012177"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Laure_de_Rastignac id_Mmme_de_Chandour"
+              d="M 283.594147,79.247818 A 43.275800,43.275800 0,0 1,266.345856,37.544277"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Laure_de_Rastignac id_Mmme_de_Sénonches"
+              d="M 283.612915,83.689667 A 111.968583,111.968583 0,0 1,156.242706,79.748299"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lolotte id_Louise"
+              d="M 265.563416,155.044678 A 174.157619,174.157619 0,0 1,159.256332,-12.076311"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lolotte id_M_de_Chandour"
+              d="M 265.965607,154.296463 A 89.266621,89.266621 0,0 1,231.359848,59.899895"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lolotte id_Mme_de_Rubempré"
+              d="M 265.723053,158.441620 A 197.754343,197.754343 0,0 1,37.970493,123.981865"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Lolotte id_Mmme_de_Sénonches"
+              d="M 265.265167,156.682663 A 117.684042,117.684042 0,0 1,154.194183,81.245163"
+              stroke="#28b36a" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_M_de_Bartas"
+              d="M 169.264771,-22.224150 A 162.522831,162.522831 0,0 1,325.970184,74.164902"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Louise id_Milaud"
+              d="M 161.697372,-12.234734 A 216.214616,216.214616 0,0 1,55.981731,212.755936"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Louise id_Mme_Prieur"
+              d="M 160.206940,-12.062154 A 229.596142,229.596142 0,0 1,10.940391,206.489304"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Louise id_Père_Séchard"
+              d="M 156.893768,-12.539174 A 223.179541,223.179541 0,0 1,-52.615971,135.648788"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Mme_Prieur"
+              d="M 49.075535,-109.583969 A 283.768960,283.768960 0,0 1,9.829357,204.857956"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Lucien id_Rastignac"
+              d="M 20.018549,-112.863403 A 238.255631,238.255631 0,0 1,-237.008347,-61.127094"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_M_de_Bartas id_Mme_de_Rubempré"
+              d="M 324.644684,80.946236 A 246.667750,246.667750 0,0 1,38.770580,122.899117"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_M_de_Bartas id_Mmme_de_Chandour"
+              d="M 323.438019,77.899353 A 62.571339,62.571339 0,0 1,268.550507,37.411736"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Matifat id_Mme_du_Val-Noble"
+              d="M -64.431938,-387.748138 A 130.226308,130.226308 0,0 1,76.403992,-438.131653"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Matifat id_Ridal"
+              d="M -67.626472,-380.276611 A 158.443852,158.443852 0,0 1,-204.212845,-257.673981"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Matifat id_Théodore_Gaillard"
+              d="M -62.727009,-385.231842 A 246.130539,246.130539 0,0 1,201.304535,-268.964203"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Milaud id_Mme_de_Rubempré"
+              d="M 49.593983,211.934647 A 79.697301,79.697301 0,0 1,32.810322,124.919594"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_Prieur id_Petit-Claud"
+              d="M 5.713753,204.134460 A 123.278893,123.278893 0,0 1,40.619694,67.412704"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Mme_de_Rubempré"
+              d="M 161.121445,-204.650986 A 295.177321,295.177321 0,0 1,38.570015,118.240517"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Mmme_de_Chandour"
+              d="M 164.924271,-207.595734 A 222.463726,222.463726 0,0 1,268.116974,29.303144"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Mmme_de_Sénonches"
+              d="M 163.041779,-205.554703 A 239.882956,239.882956 0,0 1,155.421188,73.383904"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_d&apos;Espard id_Petit-Claud"
+              d="M 160.879944,-204.588440 A 248.814509,248.814509 0,0 1,47.823036,62.308121"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_de_Montcornet id_Mme_du_Val-Noble"
+              d="M 162.690216,-286.585358 A 145.575276,145.575276 0,0 1,79.895309,-432.872681"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_de_Rubempré id_Petit-Claud"
+              d="M 32.797813,116.566254 A 47.436585,47.436585 0,0 1,40.970699,67.788254"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_de_Rubempré id_Père_Séchard"
+              d="M 31.433163,123.952980 A 77.452205,77.452205 0,0 1,-53.063263,137.554779"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_du_Val-Noble id_Nathan"
+              d="M 80.176262,-432.850006 A 106.814380,106.814380 0,0 1,5.032321,-337.777161"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mme_du_Val-Noble id_Théodore_Gaillard"
+              d="M 84.290504,-435.686554 A 176.137192,176.137192 0,0 1,203.523590,-269.544556"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mmme_de_Chandour id_Théodore_Gaillard"
+              d="M 264.050232,30.621880 A 254.424276,254.424276 0,0 1,201.679520,-261.179260"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Mmme_de_Sénonches id_Père_Séchard"
+              d="M 149.837967,80.543800 A 181.433899,181.433899 0,0 1,-52.896568,137.167480"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Théodore_Gaillard id_Vernou"
+              d="M 199.106735,-265.075195 A 194.482300,194.482300 0,0 1,13.648625,-395.231628"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_comte_de_Maucombe id_David"
+              d="M -142.298965,276.309570 A 246.091757,246.091757 0,0 1,-23.440977,17.862583"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_comte_de_Maucombe id_Père_Séchard"
+              d="M -141.931274,276.255188 A 139.579030,139.579030 0,0 1,-61.066654,137.394897"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Dauriat"
+              d="M -98.526131,-204.783752 A 138.463638,138.463638 0,0 1,30.145838,-297.891083"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Matifat"
+              d="M -101.998878,-204.552155 A 155.782096,155.782096 0,0 1,-69.765633,-381.469330"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Mlle_des_Touches"
+              d="M -96.572845,-203.535675 A 161.588891,161.588891 0,0 1,88.668869,-225.971207"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Mme_d&apos;Espard"
+              d="M -96.337563,-203.262878 A 216.320436,216.320436 0,0 1,154.085236,-214.349518"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Mme_de_Rubempré"
+              d="M -95.980759,-197.978714 A 290.173608,290.173608 0,0 1,35.800896,116.276466"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Rastignac"
+              d="M -100.748367,-195.775635 A 164.079316,164.079316 0,0 1,-236.745316,-63.227615"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_d&apos;Arthez id_Vernou"
+              d="M -100.517570,-204.983566 A 190.218867,190.218867 0,0 1,8.642617,-397.409393"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Francis"
+              d="M -70.672913,-4.667471 A 244.998592,244.998592 0,0 1,192.047516,104.163315"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ève id_Françoise_de_La_Haye"
+              d="M -70.494370,-3.652171 A 188.557388,188.557388 0,0 1,116.927460,105.226433"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Giraud"
+              d="M -84.119980,-7.421454 A 242.353048,242.353048 0,0 1,-164.509384,-277.117004"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Lousteau"
+              d="M -81.033806,-9.836782 A 233.786866,233.786866 0,0 1,-19.487513,-273.139679"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Milaud"
+              d="M -71.065918,0.146766 A 211.428812,211.428812 0,0 1,52.858181,210.721588"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ève id_Mlle_des_Touches"
+              d="M -77.822311,-10.442995 A 232.624426,232.624426 0,0 1,88.283279,-222.620575"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ève id_Mme_d&apos;Espard"
+              d="M -76.374580,-10.259161 A 263.033310,263.033310 0,0 1,153.035156,-210.242111"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Ève id_Mmme_de_Sénonches"
+              d="M -70.772614,-5.032242 A 203.431452,203.431452 0,0 1,150.063446,73.244141"
+              stroke="#909556" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Nathan"
+              d="M -80.999611,-9.851275 A 285.726460,285.726460 0,0 1,-2.700765,-333.646912"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Rastignac"
+              d="M -85.386230,-0.857531 A 144.417490,144.417490 0,0 1,-238.482986,-59.330162"
+              stroke="#f97743" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Ève id_Ridal"
+              d="M -84.825821,-6.291012 A 238.152940,238.152940 0,0 1,-208.861145,-253.301422"
+              stroke="#c98694" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Évêque id_Fifine"
+              d="M 301.917480,-3.090554 A 116.764217,116.764217 0,0 1,301.458496,130.301865"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Évêque id_Mme_d&apos;Espard"
+              d="M 295.454529,-7.926087 A 206.394569,206.394569 0,0 1,159.226456,-204.416779"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Évêque id_Mmme_de_Sénonches"
+              d="M 297.703705,-2.673059 A 140.742538,140.742538 0,0 1,157.159012,77.476463"
+              stroke="#61a4a7" stroke-width="0.3" stroke-opacity="0.64705884"/>
+        <path stroke-linecap="round" fill="none" class="id_Évêque id_Montriveau"
+              d="M 296.715851,-9.759507 A 136.802935,136.802935 0,0 1,285.170319,-166.818573"
+              stroke="#9a96e5" stroke-width="0.3" stroke-opacity="0.64705884"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.7165265" cx="14.883643"
+                class="id_Coralie" cy="-238.8817" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.8202655"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.5583367" cx="-15.742752"
+                class="id_Lousteau" cy="-276.38406" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.7927542"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="8.663183" cx="-15.197032"
+                class="id_David" cy="13.311986" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.5066406"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="8.66872" cx="159.87178"
+                class="id_Louise" cy="-21.478712" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.5076034"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="6.991815" cx="-78.05136"
+                class="id_Ève" cy="-2.8466487" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.2159679"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="6.8814025" cx="162.834"
+                class="id_Châtelet" cy="-97.35483" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.1967657"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="4.73333" cx="-1.8182807"
+                class="id_Cointet" cy="67.76909" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.82318777"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.9223948" cx="48.24351"
+                class="id_Finot" cy="-353.36722" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6821556"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.1798625" cx="-43.370132"
+                class="id_Florine" cy="-332.97925" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.7269326"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.005687" cx="-72.16667"
+                class="id_Camusot" cy="-281.74484" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6966412"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="23.0" cx="36.821323"
+                class="id_Lucien" cy="-131.37466" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="4.0"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.2799773" cx="-99.975395"
+                class="id_d&apos;Arthez" cy="-200.36311" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.7443439"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.049853" cx="34.54785"
+                class="id_Dauriat" cy="-297.8897" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.70432216"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.0200076" cx="84.82887"
+                class="id_Blondet" cy="-310.4277" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6991318"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.7466915" cx="-43.590645"
+                class="id_Cérizet" cy="99.26601" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.6515985"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.7749114" cx="-83.88473"
+                class="id_Kolb" cy="69.036674" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.65650636"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.976443" cx="-156.29326"
+                class="id_Chrestien" cy="-197.32031" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6915553"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="3.9816363" cx="194.30992"
+                class="id_Francis" cy="107.852745" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="0.6924585"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.7849016" cx="206.82994"
+                class="id_Henri_de_Marsay" cy="-177.18951" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.83215684"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7666957" cx="154.44812"
+                class="id_Des_Lupeaulx" cy="-343.86987" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6550775"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="4.059053" cx="-57.02788"
+                class="id_Père_Séchard" cy="135.6189" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.70592225"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.724606" cx="-163.1664"
+                class="id_Giraud" cy="-280.93625" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.64775753"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="3.8271086" cx="118.62815"
+                class="id_Françoise_de_La_Haye" cy="109.022804" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="0.6655841"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.1258473" cx="0.71960884"
+                class="id_Nathan" cy="-336.5474" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.71753865"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.8935952" cx="299.44928"
+                class="id_Évêque" cy="-6.5284743" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.677147"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="4.1765976" cx="152.64676"
+                class="id_Mmme_de_Sénonches" cy="76.97725" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="0.7263648"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7479627" cx="-138.76668"
+                class="id_Bianchon" cy="-243.33157" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6518196"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7956645" cx="105.70352"
+                class="id_Bixiou" cy="-386.35156" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6601156"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.0840826" cx="-121.265945"
+                class="id_Bridau" cy="-346.15536" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.7102752"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.6897573" cx="-83.20372"
+                class="id_Marion" cy="96.59169" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64169693"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7025442" cx="-22.443176"
+                class="id_Du_Bruel" cy="-424.40512" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6439207"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7210798" cx="263.0547"
+                class="id_Gentil" cy="-96.46645" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6471443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7285073" cx="232.43889"
+                class="id_M_de_Chandour" cy="55.993458" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.648436"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.0414596" cx="92.50578"
+                class="id_Mlle_des_Touches" cy="-223.83215" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.70286256"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="5.8775344" cx="159.39911"
+                class="id_Mme_d&apos;Espard" cy="-210.80307" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.0221798"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7767892" cx="207.57002"
+                class="id_Duc_de_Rhétoré" cy="-393.80505" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6568329"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="4.191985" cx="-81.66739"
+                class="id_Abbé_Marron" cy="204.04056" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.7290409"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.6831932" cx="286.93445"
+                class="id_Laure_de_Rastignac" cy="81.454666" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6405553"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.8105068" cx="-66.76921"
+                class="id_Matifat" cy="-384.32877" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.66269684"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.8775654" cx="267.20407"
+                class="id_Mmme_de_Chandour" cy="33.417835" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6743592"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.68" cx="308.89612"
+                class="id_Albertine" cy="-126.80257" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.8664727" cx="237.36671"
+                class="id_Baronne_de_Rastignac" cy="-41.047894" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.67243004"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.6998947" cx="-126.90692"
+                class="id_Didot" cy="155.45164" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.6434599"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="3.7383788" cx="299.06842"
+                class="id_Fifine" cy="133.58807" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="0.6501528"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="3.7139986" cx="269.3006"
+                class="id_Lolotte" cy="156.57127" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="0.64591277"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.687223" cx="52.483578"
+                class="id_Milaud" cy="214.7119" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64125615"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.68" cx="-47.74973"
+                class="id_Abbé_Carlos_Herrera" cy="218.70047" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="3.845494" cx="327.61652"
+                class="id_M_de_Bartas" cy="78.006905" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="0.6687816"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7986746" cx="80.367546"
+                class="id_Mme_du_Val-Noble" cy="-436.97458" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.66063905"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="5.691767" cx="407.13168"
+                class="id_Baron_de_Rastignac" cy="-181.34027" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.9898726"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.68" cx="7.180989"
+                class="id_Mme_Prieur" cy="207.85565" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7110019" cx="166.36266"
+                class="id_Mme_de_Montcornet" cy="-284.91684" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6453916"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="4.2260404" cx="34.716087"
+                class="id_Mme_de_Rubempré" cy="120.74006" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.73496354"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="4.026953" cx="203.48288"
+                class="id_Théodore_Gaillard" cy="-265.16763" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.7003396"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.68" cx="-141.5305"
+                class="id_comte_de_Maucombe" cy="280.23505" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="4.073262" cx="44.02432"
+                class="id_Petit-Claud" cy="64.58235" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.7083934"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7367787" cx="12.345493"
+                class="id_Vernou" cy="-399.0786" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.64987457"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.6981525" cx="-208.21207"
+                class="id_Ridal" cy="-257.2684" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.64315695"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.6939332" cx="98.844864"
+                class="id_M_de_Bargeton" cy="-2.299087" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.64242315"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.7040439" cx="287.29068"
+                class="id_Montriveau" cy="-170.24112" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6441815"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.6824563" cx="-154.33382"
+                class="id_Père_Chaboisseau" cy="-129.62405" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.6404272"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.68" cx="-185.38004"
+                class="id_Mme_Courtois" cy="43.75389" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.68" cx="-215.25932"
+                class="id_Mme_Postel" cy="100.90424" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="3.68" cx="604.94324"
+                class="id_Marquis_de_Pimentel" cy="-214.08168" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="3.68" cx="-240.70436"
+                class="id_Rastignac" cy="-62.656647" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="0.64"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="12" x="14.883643" y="-236.661" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Coralie">
+            Coralie
+        </text>
+        <text font-size="12" x="-15.742752" y="-274.20145" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Lousteau">
+            Lousteau
+        </text>
+        <text font-size="23" x="-15.197032" y="17.495335" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_David">
+            David
+        </text>
+        <text font-size="23" x="159.87178" y="-17.295362" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Louise">
+            Louise
+        </text>
+        <text font-size="18" x="-78.05136" y="1.2402654" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Ève">
+            Ève
+        </text>
+        <text font-size="18" x="162.834" y="-94.02377" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Châtelet">
+            Châtelet
+        </text>
+        <text font-size="12" x="-1.8182807" y="69.98979" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Cointet">
+            Cointet
+        </text>
+        <text font-size="10" x="48.24351" y="-351.54837" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Finot">
+            Finot
+        </text>
+        <text font-size="11" x="-43.370132" y="-330.97852" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Florine">
+            Florine
+        </text>
+        <text font-size="10" x="-72.16667" y="-279.89426" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Camusot">
+            Camusot
+        </text>
+        <text font-size="60" x="36.821323" y="-120.46158" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Lucien">
+            Lucien
+        </text>
+        <text font-size="11" x="-99.975395" y="-198.36238" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_d&apos;Arthez">
+            d&apos;Arthez
+        </text>
+        <text font-size="11" x="34.54785" y="-295.88898" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Dauriat">
+            Dauriat
+        </text>
+        <text font-size="10" x="84.82887" y="-308.60886" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Blondet">
+            Blondet
+        </text>
+        <text font-size="10" x="-43.590645" y="101.11659" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Cérizet">
+            Cérizet
+        </text>
+        <text font-size="10" x="-83.88473" y="70.85552" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Kolb">
+            Kolb
+        </text>
+        <text font-size="10" x="-156.29326" y="-195.46973" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Chrestien">
+            Chrestien
+        </text>
+        <text font-size="10" x="194.30992" y="109.67159" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Francis">
+            Francis
+        </text>
+        <text font-size="12" x="206.82994" y="-174.4107" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Henri_de_Marsay">
+            Henri de Marsay
+        </text>
+        <text font-size="10" x="154.44812" y="-341.5835" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Des_Lupeaulx">
+            Des Lupeaulx
+        </text>
+        <text font-size="11" x="-57.02788" y="137.65454" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Père_Séchard">
+            Père Séchard
+        </text>
+        <text font-size="10" x="-163.1664" y="-279.08566" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Giraud">
+            Giraud
+        </text>
+        <text font-size="10" x="118.62815" y="111.33848" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Françoise_de_La_Haye">
+            Françoise de La Haye
+        </text>
+        <text font-size="11" x="0.71960884" y="-334.54666" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Nathan">
+            Nathan
+        </text>
+        <text font-size="10" x="299.44928" y="-3.7904372" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Évêque">
+            Évêque
+        </text>
+        <text font-size="11" x="152.64676" y="79.01289" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mmme_de_Sénonches">
+            Mmme de Sénonches
+        </text>
+        <text font-size="10" x="-138.76668" y="-241.51273" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Bianchon">
+            Bianchon
+        </text>
+        <text font-size="10" x="105.70352" y="-384.5327" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Bixiou">
+            Bixiou
+        </text>
+        <text font-size="11" x="-121.265945" y="-344.15463" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Bridau">
+            Bridau
+        </text>
+        <text font-size="10" x="-83.20372" y="98.41054" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Marion">
+            Marion
+        </text>
+        <text font-size="10" x="-22.443176" y="-422.58627" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Du_Bruel">
+            Du Bruel
+        </text>
+        <text font-size="10" x="263.0547" y="-94.61587" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Gentil">
+            Gentil
+        </text>
+        <text font-size="10" x="232.43889" y="57.844044" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_M_de_Chandour">
+            M de Chandour
+        </text>
+        <text font-size="11" x="92.50578" y="-221.83142" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mlle_des_Touches">
+            Mlle des Touches
+        </text>
+        <text font-size="15" x="159.39911" y="-207.3735" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mme_d&apos;Espard">
+            Mme d&apos;Espard
+        </text>
+        <text font-size="10" x="207.57002" y="-391.97644" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Duc_de_Rhétoré">
+            Duc de Rhétoré
+        </text>
+        <text font-size="11" x="-81.66739" y="206.05203" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Abbé_Marron">
+            Abbé Marron
+        </text>
+        <text font-size="10" x="286.93445" y="83.77034" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Laure_de_Rastignac">
+            Laure de Rastignac
+        </text>
+        <text font-size="10" x="-66.76921" y="-382.4794" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Matifat">
+            Matifat
+        </text>
+        <text font-size="10" x="267.20407" y="35.26842" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mmme_de_Chandour">
+            Mmme de Chandour
+        </text>
+        <text font-size="10" x="308.89612" y="-124.98372" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Albertine">
+            Albertine
+        </text>
+        <text font-size="10" x="237.36671" y="-38.73222" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Baronne_de_Rastignac">
+            Baronne de Rastignac
+        </text>
+        <text font-size="10" x="-126.90692" y="157.2705" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Didot">
+            Didot
+        </text>
+        <text font-size="10" x="299.06842" y="135.43744" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Fifine">
+            Fifine
+        </text>
+        <text font-size="10" x="269.3006" y="158.39012" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Lolotte">
+            Lolotte
+        </text>
+        <text font-size="10" x="52.483578" y="216.53075" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Milaud">
+            Milaud
+        </text>
+        <text font-size="10" x="-47.74973" y="220.55106" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Abbé_Carlos_Herrera">
+            Abbé Carlos Herrera
+        </text>
+        <text font-size="10" x="327.61652" y="79.82575" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_M_de_Bartas">
+            M de Bartas
+        </text>
+        <text font-size="10" x="80.367546" y="-435.15573" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mme_du_Val-Noble">
+            Mme du Val-Noble
+        </text>
+        <text font-size="15" x="407.13168" y="-177.86676" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Baron_de_Rastignac">
+            Baron de Rastignac
+        </text>
+        <text font-size="10" x="7.180989" y="209.6745" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mme_Prieur">
+            Mme Prieur
+        </text>
+        <text font-size="10" x="166.36266" y="-283.098" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mme_de_Montcornet">
+            Mme de Montcornet
+        </text>
+        <text font-size="11" x="34.716087" y="123.265816" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mme_de_Rubempré">
+            Mme de Rubempré
+        </text>
+        <text font-size="11" x="203.48288" y="-263.132" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Théodore_Gaillard">
+            Théodore Gaillard
+        </text>
+        <text font-size="10" x="-141.5305" y="282.0539" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_comte_de_Maucombe">
+            comte de Maucombe
+        </text>
+        <text font-size="11" x="44.02432" y="66.618" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Petit-Claud">
+            Petit-Claud
+        </text>
+        <text font-size="10" x="12.345493" y="-397.25977" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Vernou">
+            Vernou
+        </text>
+        <text font-size="10" x="-208.21207" y="-255.44955" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Ridal">
+            Ridal
+        </text>
+        <text font-size="10" x="98.844864" y="0.01658678" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_M_de_Bargeton">
+            M de Bargeton
+        </text>
+        <text font-size="10" x="287.29068" y="-168.42227" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Montriveau">
+            Montriveau
+        </text>
+        <text font-size="10" x="-154.33382" y="-127.77347" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Père_Chaboisseau">
+            Père Chaboisseau
+        </text>
+        <text font-size="10" x="-185.38004" y="45.604477" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mme_Courtois">
+            Mme Courtois
+        </text>
+        <text font-size="10" x="-215.25932" y="102.72309" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Mme_Postel">
+            Mme Postel
+        </text>
+        <text font-size="10" x="604.94324" y="-211.7953" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Marquis_de_Pimentel">
+            Marquis de Pimentel
+        </text>
+        <text font-size="10" x="-240.70436" y="-60.340973" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_Rastignac">
+            Rastignac
+        </text>
+    </g>
+</svg>
