@@ -83,7 +83,7 @@ check_and_load(pkgs)
 
 # I. Qu’est-ce que l’analyse de réseau ?
 
-Si je vous demandais quel est le personnage central du dernier roman que vous avez lu, selon le roman en question, la réponse pourrait être évidente — ou non. Qu’entend-on par «central»? Désigne-t-on par là le personnage qui est en relation avec le plus grand nombre d'individus? Celui qui est entouré des personnages qui comptent le plus? Celui par qui transite l'information entre divers groupes?
+Si je vous demandais quel est le personnage central du dernier roman que vous avez lu, selon le roman en question, la réponse pourrait être évidente ou, au contraire, la réponse pourrait dépendre de plusieurs facteurs. Qu’entend-on par «central»? Désigne-t-on par là le personnage qui est en relation avec le plus grand nombre d’individus? Celui qui est entouré des personnages qui comptent le plus? Celui par qui transite l’information entre divers groupes?
 
 C’est le genre de questions que se posent celles et ceux qui s’intéressent aux réseaux. L’analyse de réseau permet de regarder autrement les rapports de force et les interactions entre individus (dans le monde réel) ou personnages (dans le monde fictionnel), sans tenir compte *a priori* de leur statut social, de leur capital économique ou de leurs titres. L’analyse de réseau prend en considération les échanges et interactions concrètes (Lacroix, 2003), qui ont lieu dans le cadre de la fiction. Si, par exemple, un roman a comme titre le nom d’un personnage, on dira spontanément qu’il s’agit du personnage central du roman. L’analyse de réseau pourrait nous apprendre qu’un autre personnage est en réalité plus central, si on considère les relations qu’il entretient avec l’ensemble des autres personnages, par exemple. En somme, l’analyse de réseau est un autre outil qui, dans l’arsenal de l’analyste, peut lui permettre de faire apparaître des aspects cachés ou moins apparents de la fiction.
 
@@ -134,7 +134,7 @@ L’un des résultats les plus surprenants de l’analyse de Moretti vient d’u
 
 Horatio est ce que les théoriciens des réseaux appellent un **«lien faible»** (*weak tie*). Il n’appartient pas au cœur dense de la cour, mais il est le seul **pont** (ou *bridge*) qui relie des communautés qui, sans lui, ne communiqueraient à peu près pas (la cour, les soldats de la garde, le monde extérieur représenté par Fortinbras). Son importance n’est pas dans le nombre de ses connexions, mais dans leur nature stratégique. Il assure la cohésion de l’ensemble.
 
-> **Question :** connaissez-vous, dans *La Comédie humaine* ou dans d’autres œuvres (*Harry Potter*, *Le Seigneur des anneaux*, etc.), des personnages qui, bien que n’étant pas au centre du pouvoir, sont indispensables parce qu'ils connectent des mondes sociaux différents ?
+> **Question :** connaissez-vous, dans *La Comédie humaine* ou dans d’autres œuvres (*Harry Potter*, *Le Seigneur des anneaux*, etc.), des personnages qui, bien que n’étant pas au centre du pouvoir, sont indispensables parce qu’ils connectent des mondes sociaux différents ?
 
 ### **De l’image au chiffre : les limites de la visualisation**
 
@@ -142,7 +142,7 @@ Dans son épilogue, Moretti fait un aveu important. Son projet, qui visait la **
 
 Il constate que lorsque les réseaux deviennent trop grands ou trop complexes (par exemple, en ajoutant le «poids» et la «direction» des liens), les images deviennent des «boules de poils» illisibles où l’intuition ne sert plus à rien. Pour analyser rigoureusement la structure, il faut alors passer des images aux concepts et aux mesures chiffrées : calculer la centralité, la densité, le *clustering*, etc.
 
-Ce passage de l’image au chiffre, de l’intuition au calcul, est exactement le chemin que nous allons emprunter dans la deuxième partie de l'atelier. Cependant, avant d’aller plus loin, il est important de faire le point sur le concept de «centralité».
+Ce passage de l’image au chiffre, de l’intuition au calcul, est exactement le chemin que nous allons emprunter dans la deuxième partie de l’atelier. Cependant, avant d’aller plus loin, il est important de faire le point sur le concept de «centralité».
 
 ### **Mesurer l’importance : les différentes facettes de la centralité**
 
@@ -170,9 +170,9 @@ Voici les trois mesures de centralité les plus couramment utilisées :
 
 -   **Définition :** cette mesure calcule la distance moyenne d’un personnage à *tous* les autres personnages du réseau. Un personnage avec une haute centralité de proximité est, en moyenne, «proche» de tout le monde.
 
--   **Interprétation littéraire :** le personnage n’est pas forcément le plus populaire (degré) ni un pont essentiel (intermédiarité), mais il est «au milieu de l’action». Il a la capacité d’entendre rapidement les nouvelles et de les répandre efficacement. Un valet de chambre bien placé ou un journaliste à l’affût comme Étienne Lousteau pourraient avoir une forte centralité de proximité. Dans Hamlet, c'est le protagoniste qui possède la plus haute centralité de degré.
+-   **Interprétation littéraire :** le personnage n’est pas forcément le plus populaire (degré) ni un pont essentiel (intermédiarité), mais il est «au milieu de l’action». Il a la capacité d’entendre rapidement les nouvelles et de les répandre efficacement. Un valet de chambre bien placé ou un journaliste à l’affût comme Étienne Lousteau pourraient avoir une forte centralité de proximité. Dans Hamlet, c’est le protagoniste qui possède la plus haute centralité de degré.
 
-### **Autres mesures de l'analyse de réseau**
+### **Autres mesures de l’analyse de réseau**
 
 1.  **La densité du réseau (*Network Density*)**
 
@@ -188,4 +188,686 @@ Voici les trois mesures de centralité les plus couramment utilisées :
 
 -   **Question :** « ce réseau est-il un seul grand bloc homogène, ou est-il naturellement divisé en plusieurs sous-groupes distincts et cohérents ? »
 
--   **Interprétation littéraire :** la modularité est l’une des mesures les plus puissantes pour l’analyse littéraire, car elle quantifie notre intuition qu’un univers fictionnel est composé de «mondes» sociaux distincts. L’algorithme de détection de communautés de Gephi, qui attribue les couleurs aux clusters, est basé sur cette mesure. Un score de modularité élevé pour le réseau des *Illusions perdues* confirme l’analyse de l’univers balzacien : non pas une société unifiée, mais une société fragmentée en sphères (la province, Paris, l'aristocratie, la presse, le Cénacle...) qui possèdent leurs propres logiques internes.
+-   **Interprétation littéraire :** la modularité est l’une des mesures les plus puissantes pour l’analyse littéraire, car elle quantifie notre intuition qu’un univers fictionnel est composé de «mondes» sociaux distincts. L’algorithme de détection de communautés de Gephi, qui attribue les couleurs aux clusters, est basé sur cette mesure. Un score de modularité élevé pour le réseau des *Illusions perdues* confirme l’analyse de l’univers balzacien : non pas une société unifiée, mais une société fragmentée en sphères (la province, Paris, l’aristocratie, la presse, le Cénacle...) qui possèdent leurs propres logiques internes.
+
+# **II. Atelier pratique : de l’œuvre au réseau**
+
+Maintenant que nous avons exploré les concepts théoriques de l’analyse de réseau et les différentes manières de mesurer la centralité, il est temps de mettre les mains à la pâte. La première étape, et la plus cruciale, n’est pas technique, mais **conceptuelle**. Elle consiste à décider comment nous allons traduire l’univers foisonnant d’une œuvre littéraire en un jeu de données structuré — un ensemble de nœuds et de liens.
+
+### **Du jeu de données brut aux tables pour Gephi**
+
+Pour lancer notre exploration de la méthode, nous allons utiliser un jeu de données créé en 2023 par Hyeon-Ju Jeon et O-Joun Lee, disponible sur [Figshare](#0). Ce jeu de données comprend, pour 79 romans de la *Comédie humaine*, la liste des personnages qu’on trouve dans chaque roman. Les nœuds de notre réseau seront les personnages recensés par Jeon et Lee. Un personnage nommé, par exemple, «Rubempré, Lucien-Chardon de», apparaît, selon le jeu de données, dans six romans de *La Comédie humaine*, mais comme il s’agit du même personnage dans ces romans, il sera représenté par un seul nœud.
+
+> Note: Lucien de Rubempré n’apparaît pas réellement dans 6 romans différents: Jeon et Lee ont compté comme des romans distincts chacune des trois parties d*’Illusions perdues*, parues d’abord, il est vrai, comme des romans autonomes entre 1837 et 1843, puis réunis en 1843 sous le titre *Illusions perdues* dans le tome VIII de *La Comédie humaine*, dans les *Scènes de la vie de province*.
+
+Pour les liens, nous utiliserons la cooccurrence des personnages au sein d’un même roman. Par exemple, si Lucien et Nathan apparaissent dans un roman, un lien de valeur 1 sera compté.
+
+> Question: quelles conséquences découlent de ce choix? Quelle simplification ce choix suppose-t-il? Rappelez-vous des limitations évoquées par Franco Moretti dans son analyse de *Hamlet*.
+
+```{r}
+
+# On importe la table initiale dans l’environnement sous la forme d’une data.table
+ch <- fread("donnees/ReOccurring_Characters_in_Each_Novel.tsv")
+
+# On modifie le nom de la colonne correspondant à l’Id
+setnames(ch, old=c("V1"), new = "Id")
+
+# On supprime une colonne inutile
+ch[, `# of Re-Occurring Characters`:=NULL]
+
+View(ch)
+```
+
+Partant de cette table, il va falloir extraire les noms de chaque liste et compter les paires de cooccurrences pour chaque ligne du tableau.
+
+```{r}
+
+# --- Étape de Nettoyage ---
+# On transforme la colonne 'Characters' en une vraie liste de vecteurs de caractères
+ch_clean <- ch
+
+# La fonction de nettoyage personnalisée
+parse_character_string <- function(char_string) {
+  # 1. On retire les crochets du début et de la fin, et l’apostrophe initiale et finale
+  clean_string <- str_sub(char_string, 3, -3)
+  
+  # 2. On scinde la chaîne de caractères en utilisant le bon délimiteur : "', '"
+  characters_vector <- str_split(clean_string, pattern = "', '")[[1]]
+  
+  return(characters_vector)
+}
+
+# On applique cette fonction à toute la colonne
+ch_clean$Characters <- lapply(ch$Characters, parse_character_string)
+
+# --- Construction de la table des liens (Edges) ---
+edges_list <- list()
+for(i in 1:nrow(ch_clean)) {
+  characters <- ch_clean$Characters[[i]]
+  novel <- ch_clean$Novel[i]
+  
+  # On s’assure qu’il y a au moins deux personnages pour créer un lien
+  if(length(characters) > 1) {
+    # Créer toutes les paires possibles (votre logique, qui est excellente)
+    pairs <- combn(sort(characters), 2, simplify = FALSE) # Ajout de sort() pour avoir des paires source-target cohérentes
+    
+    # Stocker les paires avec le nom du roman
+    edges_list[[i]] <- data.table(
+      source = sapply(pairs, `[`, 1),
+      target = sapply(pairs, `[`, 2),
+      novel = novel
+    )
+  }
+}
+
+edges_dt <- rbindlist(edges_list)
+
+View(edges_dt)
+```
+
+Cette table des liens est redondante. Par exemple, si Rastignac et Vautrin apparaissent tous deux dans trois romans, nous avons trois lignes pour le lien « Rastignac-Vautrin ». Ce que nous voulons, c’est un seul lien entre eux, mais un lien proportionnel au nombre d’occurrences. Nous allons donc compter ces occurrences pour en faire le poids du lien. Enfin, nous allons extraire la liste unique des personnages pour créer notre table des sommets.
+
+```{r}
+# Rappel du code de l’étape précédente (avec la correction et le nouveau nom 'ch')
+# Assume que 'ch' est déjà chargé dans RStudio.
+
+# --- 1. Nettoyage de la colonne 'Characters' ---
+parse_character_string <- function(char_string) {
+  clean_string <- str_sub(char_string, 3, -3)
+  characters_vector <- str_split(clean_string, pattern = "', '")[[1]]
+  return(characters_vector)
+}
+
+ch_clean <- ch # On travaille sur une copie
+ch_clean$Characters <- lapply(ch$Characters, parse_character_string)
+
+# --- 2. Création de la table des liens bruts ---
+edges_list <- list()
+for(i in 1:nrow(ch_clean)) {
+  characters <- ch_clean$Characters[[i]]
+  novel <- ch_clean$Novel[i]
+  
+  if(length(characters) > 1) {
+    pairs <- combn(sort(characters), 2, simplify = FALSE)
+    edges_list[[i]] <- data.table(
+      source = sapply(pairs, `[`, 1),
+      target = sapply(pairs, `[`, 2)
+    )
+  }
+}
+all_edges <- rbindlist(edges_list)
+
+# --- 3. Finalisation des tables pour Gephi ---
+
+# a) Table des liens pondérés (Edges Table)
+gephi_edges <- all_edges[, .(Weight = .N), by = .(Source = source, Target = target)]
+# On ajoute une colonne 'Type' pour dire à Gephi que les liens sont non dirigés
+gephi_edges[, Type := "Undirected"]
+
+
+# b) Table des sommets (Nodes Table)
+# On extrait la liste unique de tous les personnages
+all_characters <- unique(c(gephi_edges$Source, gephi_edges$Target))
+gephi_nodes <- data.table(Id = all_characters, Label = all_characters)
+
+# --- 4. Exportation des fichiers CSV ---
+# On sauvegarde les fichiers dans le dossier de travail nommé "Gephi"
+
+if(!dir.exists("Gephi")) {dir.create("Gephi")}
+fwrite(gephi_nodes, "Gephi/comedie_humaine_nodes.csv")
+fwrite(gephi_edges, "Gephi/comedie_humaine_edges.csv")
+
+View(gephi_nodes)
+View(gephi_edges)
+```
+
+À partir d’ici, nous pouvons utiliser le puissant logiciel Gephi, y importer nos deux tables (`comedie_humaine_nodes.csv`, `comedie_humaine_edges.csv`) pour:
+
+1.  calculer la densité et la modularité du réseau, ainsi que les divers types de centralité pour chacun des personnages;
+2.  représenter le réseau sous forme de graphe.
+
+Le graphe obtenu au terme de la spacialisation, pourrait ressembler à celui-ci:
+
+![](images/CH_reseau_clusters.svg)
+
+### **Deuxième partie : le réseau des *Illusions perdues***
+
+Dans notre premier exercice, nous avons adopté une vue **macro**. Nous avons survolé *La Comédie humaine* pour cartographier les grandes constellations de personnages qui traversent l’œuvre. Pour cela, nous avons utilisé un jeu de données déjà structuré où le lien était simple : deux personnages étaient liés s’ils apparaissaient dans le même roman.
+
+Il est temps maintenant de changer d’échelle et de passer à une vue **méso**. Nous allons plonger dans un seul roman de *La Comédie humaine*, *Illusions perdues*, et tenter de cartographier son univers social interne.
+
+La différence fondamentale est que nous ne partirons pas d’un tableau tout fait, mais d’un matériau brut, soit **le texte lui-même**, récupéré depuis [*Gutenberg Project*](https://www.gutenberg.org/ "Gutenberg Project").
+
+Ce détour par le texte brut nous confronte à un défi que tout chercheur en humanités numériques rencontre : comment identifier un personnage dans un texte ? Balzac n’écrit pas toujours « Madame de Bargeton ». Il utilisera tour à tour « Louise », « Naïs », ou encore « la baronne du Châtelet ». Pour un ordinateur, ce sont trois personnes différentes. Pour le lecteur, c’est la même entité.
+
+Pour résoudre ce problème, nous allons utiliser un outil essentiel : un **dictionnaire des personnages**. C’est une table de correspondance que j’ai préparée et qui, pour chaque personnage, liste les principales **variantes** de son nom et les associe à un **nom canonique** unique.
+
+L’immense avantage de cette méthode est que notre dictionnaire contient également des informations complémentaires que nous pourrons exploiter dans l’exploration du réseau : le statut social, le secteur d’activité ou encore le sexe de chaque personnage. Une fois dans Gephi, nous pourrons poser des questions comme : « Les nobles parlent-ils surtout entre eux ? », « Quels personnages font le pont entre le monde de l’aristocratie et celui du journalisme ? ».
+
+Pour cette analyse, nous devons aussi redéfinir ce qu’est un « lien ». Si le lien n’est plus la coprésence dans un roman, quelle est sa nouvelle définition ? Nous ferons un choix méthodologique courant : **deux personnages seront considérés comme liés s’ils sont mentionnés dans le même paragraphe**. Le paragraphe représente une unité de scène ou de pensée cohérente, rendant leur coprésence significative. Précisions qu’il s’agit d’un choix pédagogique et pratique orientée vers l’exploration plus que la démonstration.
+
+Notre projet sera donc de «lire» avec R le texte des *Illusions perdues*, d’y détecter les personnages grâce à notre dictionnaire, de construire le réseau de leurs interactions paragraphe par paragraphe et, enfin, d’exporter le tout pour l’analyser dans Gephi.
+
+Voyons maintenant comment nous pouvons traduire cette idée en code.
+
+## Chargement du texte du roman
+
+Vous n’avez pas besoin de comprendre dans le détail le code suivant. Ce qu’il fait est décrit ligne par ligne à l’intérieur du bloc.
+
+```{r load-text}
+
+# 1. Chargement du texte depuis Gutenberg
+# L’objet `text_gutenberg` est un tibble avec les colonnes `gutenberg_id` et `text`.
+text_gutenberg <- gutenberg_download("54723", mirror = "http://aleph.gutenberg.org")
+
+# 2. Nettoyage : Suppression de l’en-tête et du pied de page de Gutenberg
+# On identifie les lignes de début et de fin du contenu réel.
+start_line <- which(str_detect(text_gutenberg$text, "A MONSIEUR VICTOR HUGO."))
+end_line <- which(str_detect(text_gutenberg$text, "FIN DU HUITIÈME VOLUME."))
+
+# On ne garde que le corps du texte.
+text_body <- text_gutenberg  |> 
+  slice(start_line:end_line)
+
+# 3. Reconstitution des paragraphes
+corpus_paragraphes <- text_body |>
+  
+  # On crée une colonne qui indique si une ligne est une rupture de paragraphe (vide ou NA).
+  mutate(is_break = (is.na(text) | text == "")) |>
+  
+  # L’astuce : `cumsum` crée un identifiant de groupe qui change à chaque nouvelle rupture.
+  mutate(para_id = cumsum(is_break)) |>
+  
+  # On retire les lignes de rupture elles-mêmes.
+  filter(!is_break) |>
+  
+  # On groupe par notre nouvel identifiant de paragraphe.
+  group_by(para_id) |>
+  
+  # On colle toutes les lignes d’un même groupe en un seul texte, séparées par un espace.
+  summarize(paragraph_text = paste(text, collapse = " ")) |>
+  
+  # On extrait la colonne de texte pour obtenir notre vecteur final.
+  pull(paragraph_text)
+
+# 4. Vérification
+cat("Nombre de paragraphes détectés :", length(corpus_paragraphes), "\n")
+cat("\n--- Aperçu du paragraphe 50 ---\n")
+print(corpus_paragraphes[50])
+cat("\n--- Aperçu du paragraphe 100 ---\n")
+print(corpus_paragraphes[100])
+```
+
+## Chargement du dictionnaire des personnages
+
+Nous chargeons maintenant dans l’environnement de programmation le dictionnaire des personnages d’*Illusions perdues* que j’ai fabriqué.
+
+```{r load-dictionary}
+# Chargement du dictionnaire
+dict_raw <- read_delim("donnees/dictionnaire-personnages-Illusions2.tsv", 
+                       delim = "\t",
+                       locale = locale(encoding = "UTF-8"),
+                       col_types = cols(.default = "c"))
+
+# Nettoyage et normalisation
+dict_personnages <- dict_raw |>  
+  filter(!is.na(Nom_canonique), Nom_canonique != "")  |> 
+  rename(
+    nom_canonique = `Nom_canonique`,
+    variantes = Variantes,
+    statut = Statut,
+    secteur = Secteur,
+    sexe = Sexe
+  ) |> 
+  mutate(
+    # Nettoyage des crochets dans les variables catégorielles
+    statut = str_remove_all(statut, "\\[|\\]"),
+    secteur = str_remove_all(secteur, "\\[|\\]"),
+    sexe = str_remove_all(sexe, "\\[|\\]")
+  )
+
+cat("Nombre de personnages dans le dictionnaire :", nrow(dict_personnages))
+
+# Aperçu du dictionnaire
+dict_personnages |> 
+  head(10) |> 
+  kable(caption = "Aperçu du dictionnaire des personnages")
+```
+
+# Prétraitement des données
+
+## Gestion des variantes nominales
+
+Comme nous l’avons dit déjà, un même personnage peut être désigné de plusieurs façons dans un roman : par son prénom, son nom de famille, un titre, un surnom, etc. Pour que l’analyse de réseau soit fiable, il faut idéalement regrouper toutes ces formes sous un **nom canonique unique**.
+
+Ce que nous allons faire:
+
+1.  Extraire les variantes proposées dans le dictionnaire maison;
+2.  Créer une table où chaque variante est associée à un nom canonique
+3.  Vérifier que chaque variante est bien associée
+
+```{r extract-variants}
+# Fonction d’extraction des variantes à partir du champ texte
+extraire_variantes <- function(chaine) {
+  if (is.na(chaine) || chaine == "") return(character(0))
+  
+  # Nettoyage des crochets et séparation par virgule
+  chaine <- str_remove_all(chaine, "\\[|\\]")
+  variantes <- str_split(chaine, ",\\s*")[[1]]
+  
+  # Suppression des espaces superflus
+  variantes <- str_trim(variantes)
+  
+  # Retirer les variantes vides
+  variantes[variantes != ""]
+}
+
+# Création du dictionnaire de correspondance
+correspondance_variantes <- dict_personnages |>
+  rowwise() |>
+  mutate(variantes_liste = list(extraire_variantes(variantes))) |>
+  ungroup() |>
+  select(nom_canonique, variantes_liste) |>
+  tidyr::unnest(variantes_liste) |>
+  rename(variante = variantes_liste)
+
+# Aperçu de la table de correspondance
+correspondance_variantes |>
+  head(20) |>
+  kable(caption = "Exemples de variantes associées à leur nom canonique")
+```
+
+> 📌 **Remarque pédagogique** :
+>
+> Cette table de correspondance permet de détecter les personnages dans le texte, même lorsqu’ils sont mentionnés sous des formes variées. Elle est essentielle pour éviter les doublons et garantir la cohérence du réseau.
+
+Nous utiliserons cette table dans les prochaines étapes pour identifier les personnages présents dans chaque segment du texte.
+
+# Segmentation du texte
+
+## Pourquoi segmenter le texte ?
+
+La segmentation permet de diviser le texte en **unités d’analyse** homogènes. Chaque segment est une fenêtre d’observation dans laquelle on peut détecter la présence simultanée de plusieurs personnages.
+
+Deux paramètres contrôlent cette opération :
+
+\- **Longueur du segment** : nombre de mots par segment
+
+\- **Chevauchement** : proportion de mots partagés entre deux segments consécutifs
+
+> 📌 Exemple : un segment de 100 mots avec un chevauchement de 20 % signifie que chaque nouveau segment commence 80 mots après le précédent, partageant ainsi 20 mots avec lui.
+
+## Fonction de segmentation
+
+```{r}
+# Chargement du package nécessaire pour la segmentation avancée
+library(tokenizers)
+
+# --- Création d’une fonction de segmentation ---
+
+segmenter_texte <- function(texte,
+                            methode = "paragraphe",
+                            taille_segment = 1,
+                            chevauchement = 0) {
+  # ... (code de la fonction identique à votre version)
+  # 1. Découpage initial du texte en unités de base (mots, phrases, paragraphes)
+  unites <- switch(methode,
+    "mot"        = tokenize_words(texte, lowercase = FALSE, strip_punct = FALSE)[[1]],
+    "phrase"     = tokenize_sentences(texte)[[1]],
+    "paragraphe" = tokenize_paragraphs(texte)[[1]],
+    stop("Méthode de segmentation non valide. Choisissez 'mot', 'phrase' ou 'paragraphe'.")
+  )
+  
+  total_unites <- length(unites)
+  if (total_unites == 0) return(character(0))
+
+  # 2. Création des segments en fonction des paramètres
+  segments <- list()
+  pas <- taille_segment - chevauchement
+  if (pas <= 0) stop("Le chevauchement doit être inférieur à la taille du segment.")
+  
+  debut <- 1
+  while (debut <= total_unites) {
+    fin <- min(debut + taille_segment - 1, total_unites)
+    segment_unites <- unites[debut:fin]
+    segments <- append(segments, paste(segment_unites, collapse = " "))
+    debut <- debut + pas
+  }
+  
+  return(segments)
+}
+
+# --- Exemples d'application ---
+
+# On recrée une chaîne de texte unique à partir de notre vecteur de paragraphes.
+# C’est cette chaîne unique que nous passerons à notre fonction.
+corpus_texte_integral <- paste(corpus_paragraphes, collapse = "\n\n")
+
+
+# Maintenant, toutes les méthodes fonctionneront sur l’intégralité du texte.
+
+# Méthode 1 : Par paragraphes (par défaut)
+# `tokenize_paragraphs` va retrouver les `\n\n` que nous avons utilisés comme "colle".
+segments_para <- segmenter_texte(corpus_texte_integral, methode = "paragraphe")
+cat("--- Segmentation par 1 paragraphe ---\n")
+cat("Nombre de segments de type paragraphe :", length(segments_para), "\n\n")
+
+# Méthode 2 : Par phrases
+segments_phrase <- segmenter_texte(corpus_texte_integral, methode = "phrase", taille_segment = 3, chevauchement = 1)
+cat("--- Segmentation par 3 phrases (chevauchement de 1) ---\n")
+cat("Segment 1 (phrases 1-3) :\n", segments_phrase[[1]], "\n\n")
+cat("Segment 2 (phrases 3-5) :\n", segments_phrase[[2]], "\n\n")
+
+# Méthode 3 : Par mots - Cette fois, `segments_mot` contiendra de nombreux éléments.
+segments_mot <- segmenter_texte(corpus_texte_integral, methode = "mot", taille_segment = 100, chevauchement = 20)
+cat("--- Segmentation par 100 mots (chevauchement de 20) ---\n")
+cat("Segment 1 (mots 1-100) :\n", substr(segments_mot[[1]], 1, 300), "...\n\n")
+cat("Segment 2 (mots 81-180) :\n", substr(segments_mot[[2]], 1, 300), "...\n")
+```
+
+Dans les prochaines étapes, nous utiliserons ces segments pour détecter les personnages présents et construire la matrice de cooccurrence.
+
+# Détection des personnages dans les segments
+
+## Objectif
+
+Nous voulons identifier les personnages présents dans chaque segment du texte. Pour cela, nous comparons chaque segment avec la liste des variantes de noms, en utilisant une recherche insensible à la casse.
+
+Deux modes de détection sont possibles :
+
+-   **Présence/Absence** : un personnage est considéré présent s’il est mentionné au moins une fois.
+
+-   **Fréquence minimale** : un personnage est considéré présent seulement s’il est mentionné plusieurs fois (paramétrable).
+
+## Fonction de détection
+
+```{r}
+
+# --- Détection des personnages et création des arêtes ---
+
+construire_aretes_depuis_segments <- function(segments,
+                                              correspondance_variantes,
+                                              min_freq_detection = 1) {
+  
+  # 1. PRÉPARATION : création d’un "super-motif" regex et une table de correspondance rapide.
+  # str_escape est une sécurité pour les noms avec des caractères spéciaux comme l’apostrophe.
+  motif_global <- paste0("\\b", stringr::str_escape(correspondance_variantes$variante), "\\b", collapse = "|")
+  
+  # On crée un "dictionnaire" R pour une traduction rapide.
+  lookup_table <- setNames(correspondance_variantes$nom_canonique, correspondance_variantes$variante)
+  
+  
+  # 2. DÉTECTION : scanner chaque segment.
+  # On applique la détection à tous les segments d’un coup.
+  tous_les_personnages_par_segment <- lapply(segments, function(segment) {
+    
+    # a) Extraire toutes les variantes trouvées dans le segment
+    variantes_trouvees <- stringr::str_extract_all(segment,
+                                                   stringr::regex(motif_global, ignore_case = TRUE))[[1]]
+    
+    # Si aucun personnage n’est trouvé, on retourne une liste vide.
+    if (length(variantes_trouvees) == 0) {
+      return(character(0))
+    }
+    
+    # b) Traduire les variantes trouvées en noms canoniques
+    noms_canoniques_bruts <- lookup_table[variantes_trouvees]
+    
+    # c) Appliquer le filtre de fréquence (si min_freq_detection > 1)
+    if (min_freq_detection > 1) {
+      comptes <- table(noms_canoniques_bruts)
+      personnages_filtres <- names(comptes[comptes >= min_freq_detection])
+      return(personnages_filtres)
+    } else {
+      # Si min_freq = 1, on prend juste les noms uniques.
+      return(unique(noms_canoniques_bruts))
+    }
+  })
+  
+  # 3. CRÉATION DES LIENS (ARÊTES)
+  aretes_liste <- list()
+  for (personnages_segment in tous_les_personnages_par_segment) {
+    
+    # On trie d’abord le vecteur. `sort()` enlève les NA par défaut.
+    # On obtient ainsi la liste propre des personnages valides pour ce segment.
+    personnages_tries <- sort(personnages_segment)
+    
+    # On ne crée des paires que si la liste, une fois nettoyée et triée, 
+    # contient encore au moins 2 personnages.
+    if (length(personnages_tries) > 1) {
+      # On utilise directement le vecteur déjà trié.
+      paires <- combn(personnages_tries, 2, simplify = FALSE)
+      aretes_liste <- append(aretes_liste, paires)
+    }
+  }
+  
+  # Si aucune arête n’a été trouvée, retourner une table vide
+  if (length(aretes_liste) == 0) {
+    return(data.table::data.table(Source = character(), Target = character()))
+  }
+  
+  # Conversion en un data.table propre pour la suite
+  aretes_dt <- data.table::rbindlist(
+    lapply(aretes_liste, function(p) data.table::data.table(Source = p[1], Target = p[2]))
+  )
+  
+  return(aretes_dt)
+}
+
+# --- Application ---
+
+# On utilise les paragraphes comme segments (après nettoyage du texte)
+segments_paragraphes <- segmenter_texte(corpus_texte_integral, methode = "paragraphe")
+
+# Génération des arêtes (chaque coprésence dans un paragraphe crée un lien)
+# On garde la valeur par défaut `min_freq_detection = 1`.
+aretes_brutes <- construire_aretes_depuis_segments(segments_paragraphes, correspondance_variantes)
+
+# Aperçu des premières arêtes générées
+cat("Nombre total de co-présences (arêtes brutes) trouvées :", nrow(aretes_brutes), "\n\n")
+print(head(aretes_brutes, 10))
+```
+
+### **Étape finale : agrégation et exportation pour Gephi**
+
+Nous avons maintenant une longue table `aretes_brutes` où chaque ligne représente une seule coprésence dans un paragraphe. Si Lucien et Madame de Bargeton sont mentionnés ensemble dans 10 paragraphes différents, ils apparaissent sur 10 lignes.
+
+Notre objectif est de transformer cette liste en deux fichiers propres pour Gephi :
+
+1.  Une **table de liens (edges)**, où chaque paire de personnages n’apparaît qu’une seule fois, avec une colonne `Weight` (poids) qui indique le nombre de fois où ils sont apparus ensemble.
+
+2.  Une **table de sommets (nodes)**, qui liste chaque personnage unique et l’enrichit avec les métadonnées de notre dictionnaire (`statut`, `secteur`, `sexe`) ainsi qu’une mesure de son importance : le degré (le nombre de personnages différents auxquels il est lié).
+
+#### **1. Agrégation et pondération des liens**
+
+Nous allons compter le nombre d’occurrences de chaque paire `(Source, Target)` pour calculer le poids de leur lien.
+
+```{r}
+# Chargement des packages nécessaires pour la suite
+library(igraph)
+
+# Agrégation des arêtes brutes
+# On groupe par paire de personnages et on compte le nombre de lignes
+aretes_ponderees <- aretes_brutes %>%
+  group_by(Source, Target) %>%
+  summarize(Weight = n(), .groups = 'drop') %>%
+  arrange(desc(Weight)) # On trie pour voir les liens les plus forts en premier
+
+# Aperçu de la table des liens finale
+cat("Nombre de liens uniques (après agrégation) :", nrow(aretes_ponderees), "\n\n")
+head(aretes_ponderees, 10) %>%
+  knitr::kable(caption = "Top 10 des liens les plus forts dans *Illusions perdues*")
+```
+
+#### **2. Création de la table des sommets (nodes)**
+
+Maintenant que nous avons nos liens, nous pouvons en extraire la liste exacte des personnages qui font partie du réseau. Nous allons ensuite y joindre les métadonnées de notre dictionnaire.
+
+```{r}
+# Création du graphe avec le package 'igraph' pour calculer les métriques
+# C’est la méthode la plus simple et robuste pour calculer le degré.
+g <- graph_from_data_frame(d = aretes_ponderees, directed = FALSE)
+
+# Calcul du degré (nombre de connexions uniques pour chaque personnage)
+degre_nodes <- degree(g)
+table_degres <- data.frame(
+  Id = names(degre_nodes),
+  Degre = as.numeric(degre_nodes)
+)
+
+# Création de la table de base des sommets
+# On prend la liste des personnages uniques du graphe et on la joint avec les degrés
+table_sommets <- data.frame(Id = V(g)$name) %>%
+  left_join(table_degres, by = "Id") %>%
+  # On ajoute une colonne Label, que Gephi utilise pour l’affichage
+  mutate(Label = Id) %>%
+  # On joint les métadonnées de notre dictionnaire de personnages
+  left_join(
+    select(dict_personnages, nom_canonique, statut, secteur, sexe), 
+    by = c("Id" = "nom_canonique")
+  ) %>%
+  # On réorganise les colonnes pour plus de clarté
+  select(Id, Label, Degre, statut, secteur, sexe) %>%
+  distinct(Id, .keep_all = TRUE) # Sécurité pour garantir des sommets uniques
+
+# Aperçu de la table des sommets finale
+head(table_sommets, 10)
+```
+
+#### **3. Exportation des fichiers CSV pour Gephi**
+
+Tout est prêt ! Il ne nous reste plus qu’à écrire nos deux tables dans des fichiers CSV que Gephi pourra importer directement.
+
+```{r}
+# Création d’un répertoire pour les résultats
+output_dir <- "Gephi"
+if (!dir.exists(output_dir)) {
+  dir.create(output_dir)
+}
+
+# Renommage de la table des liens pour correspondre aux colonnes Gephi
+table_liens_gephi <- aretes_ponderees
+
+# Exportation des deux fichiers
+write_csv(table_sommets, file.path(output_dir, "illusions_perdues_nodes.csv"), na = "")
+write_csv(table_liens_gephi, file.path(output_dir, "illusions_perdues_edges.csv"))
+
+cat(paste0("Fichiers exportés avec succès dans le répertoire '", output_dir, "' :\n"))
+cat("- illusions_perdues_nodes.csv (", nrow(table_sommets), " sommets)\n")
+cat("- illusions_perdues_edges.csv (", nrow(table_liens_gephi), " liens)\n")
+```
+
+Retrouvons-nous maintenant dans Gephi et importons-y nos deux tables. Le graphe obtenu pourrait ressembler à ceci:
+
+![](images/Illusions_perdues_reseau_clusters.svg){width="703"}
+
+# **Pour aller plus loin : adapter le modèle pour de nouvelles questions**
+
+L’analyse de réseau que nous avons menée offre un premier aperçu de la structure sociale du roman, c'est-à-dire des relations entre les personnages. Nous avons suivi en cela le chemin tracé par Franco Moretti. Cela ne veut cependant pas dire que cette approche se limite à l'exploration et à la mesure des structures sociales. Les scientifiques utilisent la méthode pour étudier les interactions entre les gènes dans une cellule. Dans un autre atelier, nous utiliserons ces mêmes concepts pour étudier les liens entre les mots clés d'un thème. Ainsi, l'analyse de réseau se présente comme un couteau suisse et les seules limites sont celles de la créativité du chercheur!
+
+Pour clore cet atelier, nous allons évoquer, sans les approfondir, deux autres applications possibles de l'analyse de réseau dans le contexte d'une analyse littéraire.
+
+Nous allons nous concentrer sur la deuxième partie du roman de Balzac, *Un grand homme de province à Paris*. Les deux analyses concernent l'exploration des espaces du Paris balzacien d*'Illusions perdues*.
+
+## **1. Réseau bipartite : cartographier les espaces parisiens**
+
+Le premier modèle que nous pouvons envisager est un **réseau bipartite** (ou à deux modes). Avec cette approche, nous définissons deux types distincts de sommets qui ne peuvent être connectés qu’entre eux.
+
+-   **Type 1 - les personnages** : Lucien de Rubempré, Coralie, Étienne Lousteau, Daniel d’Arthez, etc.
+
+-   **Type 2 - les lieux intra-parisiens** : des espaces spécifiques comme `l’Opéra`, `le théâtre du Gymnase`, `le café Flicoteaux`, `le bois de Boulogne`, `le domicile de Coralie`, `les bureaux des journaux`, etc.
+
+Le lien se forme lorsqu’un personnage est présent dans un lieu. Le réseau qui en résulte ne connecte donc jamais deux personnages entre eux, ni deux lieux entre eux, mais tisse une carte des fréquentations (`Personnage <-> Lieu`).
+
+Un tel réseau permettrait de répondre à des questions de sociospatialisaton :
+
+-   **Quels sont les principaux lieux de sociabilité ouverts,** où se croisent des personnages d’origines diverses ? On peut imaginer que le Palais-Royal serait l'un de ces lieux.
+
+-   **Quels sont les espaces les plus exclusifs ?** Certains salons ou domiciles privés n’auront de liens qu’avec un cercle très restreint de personnages, matérialisant visuellement l’entre-soi. D'après vous, quel est l'espace de sociabilité le plus exclusif du roman? Le salon de la noble marquise d'Espard ou l'appartement du romancier d'Arthez?
+
+## **2. Réseau dirigé : visualiser les flux et les trajectoires narratives**
+
+Une seconde approche consiste à revenir à un réseau dont les sommets sont de même nature (univarié), mais dont les liens sont dirigés. Ce modèle permet de cartographier non plus la présence, mais le mouvement.
+
+-   **Les sommets** : uniquement les **lieux intra-parisiens** (les mêmes que précédemment).
+
+-   **Les liens** : Ils sont **dirigés** (`->`) et représentent un déplacement. Un lien est créé de `Lieu A -> Lieu B` si la narration dit qu'un personnage se déplace du premier lieu vers le second dans une séquence textuelle rapprochée (par exemple, d’un paragraphe à l’autre).
+
+Ce réseau de flux ne nous dit plus qui va où, mais révèle la structure dynamique de la ville telle que la narration la construit.
+
+Il devient possible de poser des questions sur la logique des déplacements :
+
+-   **Quelles sont les «grandes routes» de la vie parisienne de l'univers balzacien ?** Des liens avec un poids très élevé entre certains lieux montreraient les trajets les plus fréquents, structurant le quotidien des personnages. Ex.: appartement ==\> bureaux des journaux ==\> salon ==\> restaurant.
+
+-   **Quels lieux fonctionnent comme des destinations ou des points de départ ?** Un lieu avec un fort «degré entrant» (beaucoup de flèches pointent vers lui) est une destination majeure (par exemple: l’Opéra). Un lieu avec un fort «degré sortant» est un point de départ ou de passage.
+
+Ces deux exemples illustrent un principe important : en analyse de réseau appliquée aux textes, la modélisation n’est pas une simple étape technique, mais le cœur même de l'analyse. Le choix de définir ce que sont les sommets et les liens est déjà un acte d’interprétation qui oriente l’ensemble de l’analyse et détermine les découvertes qu’il sera possible de faire.
+
+### **Un dernier exercice : mettre le réseau à l’épreuve**
+
+L’analyse de réseau ne se limite pas à créer une «photographie» statique d’un texte. Elle peut aussi devenir un terrain d’expérimentation pour tester des hypothèses sur la structure narrative elle-même. Dans l’article «Network Theory, Plot Analysis» que nous avons lu, Franco Moretti propose un test sur le réseau de *Hamlet*. Il supprime certains personnages de ses données pour observer l’effet sur le réseau. Nous pouvons répliquer cette expérience avec nos propres données pour répondre à une question sur la structure du roman de Balzac : **le monde social des *Illusions perdues* est-il aussi dépendant de son protagoniste, Lucien de Rubempré ?** Si nous retirons Lucien du réseau, celui-ci s’effondrera-t-il, ou fera-t-il preuve de résilience ?
+
+Voici comment procéder.
+
+#### **1. Préparer les données amputées (dans R)**
+
+Retournons à R pour créer deux nouveaux fichiers CSV, identiques aux précédents, mais desquels Lucien de Rubempré et tous les liens qui lui sont associés auront été supprimés.
+
+```{r}
+# Le nom canonique à supprimer
+personnage_a_retirer <- "Lucien"
+
+# Filtrer la table des sommets
+sommets_sans_lucien <- table_sommets %>%
+  filter(Id != personnage_a_retirer)
+
+# Filtrer la table des liens (edges)
+# On retire tous les liens où Lucien est soit la Source, soit la Target.
+liens_sans_lucien <- table_liens_gephi %>%
+  filter(Source != personnage_a_retirer, Target != personnage_a_retirer)
+
+# Exporter ces nouvelles tables vers le répertoire de résultats
+write_csv(sommets_sans_lucien, file.path(output_dir, "illusions_sans_lucien_nodes.csv"), na = "")
+write_csv(liens_sans_lucien, file.path(output_dir, "illusions_sans_lucien_edges.csv"))
+
+cat("Fichiers pour l’exercice 'sans Lucien' créés avec succès :\n")
+cat("- illusions_sans_lucien_nodes.csv (", nrow(sommets_sans_lucien), " sommets)\n")
+cat("- illusions_sans_lucien_edges.csv (", nrow(liens_sans_lucien), " liens)\n")
+
+```
+
+#### **2. Observer et interpréter le résultat (dans Gephi)**
+
+Maintenant, ouvrez Gephi et créez un **nouvel espace de travail**. Importez vos deux nouveaux fichiers (`illusions_sans_lucien_nodes.csv` et `illusions_sans_lucien_edges.csv`).
+
+Appliquez les mêmes paramètres de visualisation que précédemment (spatialisation ForceAtlas 2, taille des nœuds par degré, couleur par communauté, etc.) pour pouvoir comparer équitablement les deux graphes.
+
+Le graphe obtenu pourrait ressembler à ceci:
+
+![](images/Illusions_perdues_sans_Lucien_reseau_clusters.svg)
+
+Observez le résultat et tentez de répondre à ces questions :
+
+1.  **Fragmentation ou résilience ?** Le réseau éclate-t-il en une multitude de fragments isolés, comme celui d’*Hamlet* lorsque le protagoniste est retiré du réseau? Ou bien une structure globale et connectée subsiste-t-elle ?
+
+2.  **Quelles structures survivent ?** Si le réseau reste dense, observez-le attentivement. Le monde d’Angoulême (autour de David et Ève) et celui de Paris (autour de Coralie, Lousteau, Nathan) forment-ils encore des ensembles cohérents et, surtout, sont-ils toujours connectés entre eux ?
+
+3.  **Qui sont les nouveaux centres ?** Qui sont désormais les personnages les plus centraux du roman ? Leur identité (s’agit-il de personnages parisiens, provinciaux, artistes, aristocrates ?) vous donne-t-elle des indices sur la structure sous-jacente de l’œuvre ?
+
+4.  **Quel était le véritable rôle de Lucien ?** Au vu de vos résultats, était-il le pilier indispensable qui tenait tout l’édifice social, ou fonctionnait-il plutôt comme le «pont» le plus visible entre des mondes qui possèdent leur propre cohésion interne ?
+
+Ce simple test de suppression, qui ne prend que quelques minutes, transforme le graphe en un outil d’analyse littéraire. Il nous renseigne sur les choix structurels de Balzac et sur la manière dont il a construit son roman, non pas autour d’un seul individu, mais peut-être autour de la confrontation de systèmes sociaux robustes.
+
+# Suggestions de lectures
+
+-   Chen, Newman, Frédérique Mélanie & Thierry Poibeau, « Network Analysis, Plot Theory: Revisiting French Literature through Character Networks », arXiv, 2024. https://doi.org/10.48550/arXiv.2503.13449
+
+-   « Introduction to Network Visualization with GEPHI \| Martin Grandjean » \[billet de blogue\], en ligne: <https://www.martingrandjean.ch/introduction-to-network-visualization-gephi/>.
+
+-   Lacroix, Michel, «Littérature, analyse de réseaux et centralité: esquisse d’une théorisation du lien social concret en littérature», *Recherches sociographiques*, volume 44, no 3, septembre-décembre 2003, p. 475-497. <https://www.erudit.org/fr/revues/rs/2003-v44-n3-rs727/008203ar/>
+
+-   Moretti, Franco, « Network Theory, Plot Analysis » (2011), en ligne: *Literary Lab Pamphlet* \<<https://litlab.stanford.edu/assets/pdf/LiteraryLabPamphlet2.pdf>\>.
+
+-   « Martin Grandjean \| Digital humanities, Data visualization, Network analysis » \[billet de blogue\], en ligne: <https://www.martingrandjean.ch/>.
+
+Gemini-2.5-Pro (Google, 2025-09) a été utilisé pour améliorer ce document (ajout de commentaires de ligne; optimisation du code R; critique de contenu).
