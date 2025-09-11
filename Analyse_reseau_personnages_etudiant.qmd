@@ -23,47 +23,17 @@ execute:
   message: false
 ---
 
-```{r setup, include=FALSE}
 
-#' Vérifier, installer (si besoin) et charger des packages R
-#'
-#' @param pkgs Character vector : noms des packages à tester.
-#' @param repos Repository URL for installing missing packages (default: CRAN mirror).
-#' @param dependencies Logical : installer les dépendances (default = TRUE).
-#' @param quiet Logical : supprime les messages de démarrage des packages (default = TRUE).
-#' @param update Logical : mettre à jour les packages déjà installés (default = FALSE).
-#' @return Inviolible : le vecteur `pkgs` (facile à rappeler si besoin).
-#' @export
-check_and_load <- function(
-  pkgs,
-  repos   = "https://cloud.r-project.org",
-  dependencies = TRUE,
-  quiet   = TRUE
-) {
-  if (!is.character(pkgs)) {
-    stop("'pkgs' doit être un vecteur de caractères.")
-  }
-  
-  installed <- pkgs %in% rownames(installed.packages())
-  
-  if (any(!installed)) {
-    miss <- pkgs[!installed]
-    message("Installation des packages suivants : ", paste(miss, collapse = ", "))
-    install.packages(miss, repos = repos, dependencies = dependencies)
-  }
-  
-  invisible(lapply(pkgs, function(pkg) {
-    # Vérifier que le package est bien installé (utile après installation)
-    if (!requireNamespace(pkg, quietly = TRUE)) {
-      stop(sprintf("Impossible de charger le package '%s'.", pkg))
+```{r, include=FALSE}
+
+
+install_and_load <- function(packages) {
+  for (pkg in packages) {
+    if (!pkg %in% rownames(installed.packages())) {
+      install.packages(pkg)
     }
-    # Charger, avec ou sans suppression des messages de démarrage
-    if (quiet) {
-      suppressPackageStartupMessages(library(pkg, character.only = TRUE))
-    } else {
-      library(pkg, character.only = TRUE)
-    }
-  }))
+    library(pkg, character.only = TRUE)
+  }
 }
 
 pkgs <- c(
@@ -78,8 +48,9 @@ pkgs <- c(
   "igraph"
 )
 
-check_and_load(pkgs)
+install_and_load(pkgs)
 ```
+
 
 # I. Qu’est-ce que l’analyse de réseau ?
 
