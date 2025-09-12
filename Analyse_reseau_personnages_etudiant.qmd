@@ -23,7 +23,6 @@ execute:
   message: false
 ---
 
-
 ```{r, include=FALSE}
 
 
@@ -51,23 +50,22 @@ pkgs <- c(
 install_and_load(pkgs)
 ```
 
-
 # I. Qu’est-ce que l’analyse de réseau ?
 
-Si je vous demandais quel est le personnage central du dernier roman que vous avez lu, selon le roman en question, la réponse pourrait être évidente ou, au contraire, la réponse pourrait dépendre de plusieurs facteurs. Qu’entend-on par «central»? Désigne-t-on par là le personnage qui est en relation avec le plus grand nombre d’individus? Celui qui est entouré des personnages qui comptent le plus? Celui par qui transite l’information entre divers groupes?
+Si je vous demandais quel est le personnage central du dernier roman que vous avez lu, selon le roman en question, la réponse pourrait être évidente ou, au contraire, elle pourrait dépendre de plusieurs facteurs. Qu’entend-on par «central»? Désigne-t-on par là le personnage qui est en relation avec le plus grand nombre d’individus? Celui qui est entouré des personnages qui comptent le plus? Celui par qui transite l’information entre plusieurs communautés?
 
-C’est le genre de questions que se posent celles et ceux qui s’intéressent aux réseaux. L’analyse de réseau permet de regarder autrement les rapports de force et les interactions entre individus (dans le monde réel) ou personnages (dans le monde fictionnel), sans tenir compte *a priori* de leur statut social, de leur capital économique ou de leurs titres. L’analyse de réseau prend en considération les échanges et interactions concrètes (Lacroix, 2003), qui ont lieu dans le cadre de la fiction. Si, par exemple, un roman a comme titre le nom d’un personnage, on dira spontanément qu’il s’agit du personnage central du roman. L’analyse de réseau pourrait nous apprendre qu’un autre personnage est en réalité plus central, si on considère les relations qu’il entretient avec l’ensemble des autres personnages, par exemple. En somme, l’analyse de réseau est un autre outil qui, dans l’arsenal de l’analyste, peut lui permettre de faire apparaître des aspects cachés ou moins apparents de la fiction.
+C’est le genre de questions que se posent celles et ceux qui s’intéressent aux réseaux sociaux. L’analyse de réseau permet de regarder autrement les rapports de force et les interactions entre individus (dans le monde réel) ou personnages (dans le monde fictionnel), sans tenir compte *a priori* de leur statut social, de leur capital économique ou de leurs titres (prince, duc, comtesse, etc.). L’analyse de réseau prend en considération les échanges et interactions concrètes qui ont lieu dans le cadre de la fiction. Si, par exemple, un roman a comme titre le nom d’un personnage, on dira spontanément qu’il s’agit du personnage central du roman. Or l’analyse de réseau pourrait nous apprendre qu’un autre personnage est en réalité plus central, si on considère les relations qu’il entretient avec la somme de ses relations avec les autres personnages, par exemple. En somme, l’analyse de réseau est un autre outil qui, dans l’arsenal de l’analyste, lui permet de faire apparaître des aspects cachés ou moins apparents de la fiction.
 
 Pour rendre visible cette structure sociale, l’analyse de réseau propose de traduire l’univers complexe d’une œuvre en un objet simple et visuel. La méthode repose sur deux concepts fondamentaux :
 
--   Les **nœuds** (ou *vertices* en anglais) : ce sont les entités que nous étudions. Dans notre cas, il s’agira le plus souvent des **personnages** d’un roman ou d’un ensemble d’œuvres, comme *La Comédie humaine*.
--   Les **liens** (ou *edges* en anglais) : ce sont les **relations** qui unissent les nœuds. Un lien peut représenter diverses choses : des paroles échangées (conversation), la présence de deux individus dans un même lieu, un lien de parenté, une transaction financière, un échange de lettres, etc. Le choix de ce qui constitue un lien tient à la question de recherche, à ce que veut découvrir et faire apparaître l’analyste.
+-   Les **sommets** ou **nœuds** (ou *vertices* en anglais) : ce sont les entités que nous étudions. Dans notre cas, il s’agira le plus souvent des **personnages** d'une ou de plusieurs œuvres littérairers.
+-   Les **liens** (ou *edges* en anglais) : ce sont les **relations** qui unissent les nœuds. Un lien peut représenter diverses choses : des paroles échangées (conversation), la présence de deux individus dans un même espace, un lien de parenté, une transaction financière, un échange de lettres, etc. Le choix de ce qui constitue un lien tient à la question de recherche, à ce que veut découvrir et faire apparaître l’analyste.
 
 L’ensemble de ces nœuds et de ces liens forme ce que l’on appelle un **réseau**. En dessinant ce réseau, la «toile» abstraite des relations que nous percevons à la lecture devient une carte que l’on peut explorer concrètement, un **graphe**.
 
 Une fois cette carte dessinée, nous pouvons aller au-delà de la simple identification du personnage «central». L’analyse de réseau ouvre la porte à une série d’explorations nouvelles :
 
--   **Cartographier des communautés :** on peut utiliser des algorithmes pour détecter automatiquement les «cercles sociaux» ou les factions au sein d’un roman. Les mondes du cénacle de la rue des Quatre-vents et du journalisme, dans *Illusions perdues*, apparaitraient dans un graphe comme des groupes distincts et denses.
+-   **Cartographier des communautés :** on peut utiliser des algorithmes pour détecter automatiquement les «cercles sociaux» ou les factions au sein d’un roman. Les membres qui fréquentent le cénacle de la rue des Quatre-vents ou ceux qui pratiquent le journalisme, dans *Illusions perdues*, apparaitraient dans un graphe comme des groupes distincts et denses.
 -   **Identifier les passeurs :** on peut mesurer l’importance d’un personnage non pas seulement au nombre de ses relations, mais à son rôle de «pont» entre des communautés qui, sans lui, resteraient isolées.
 -   **Suivre la circulation :** on peut modéliser la manière dont une information, une rumeur ou une intrigue se propagerait à travers l’univers fictionnel, en identifiant les chemins les plus courts ou les plus probables.
 
@@ -125,7 +123,7 @@ Voici les trois mesures de centralité les plus couramment utilisées :
 
 -   **Définition :** c’est la mesure la plus simple. Elle correspond au nombre total de liens directs qu’un personnage possède.
 
--   **Question :** « qui est la personne la plus connectée ou la plus “populaire” ? »
+-   **Type de question :** « qui est la personne la plus connectée ou la plus “populaire” ? »
 
 -   **Interprétation littéraire :** un personnage avec une haute centralité de degré est comme un «papillon social» ; il interagit avec un grand nombre d’autres personnages. C’est une mesure directe de l’activité et de la visibilité sociale. Dans l’univers de Balzac, une hôtesse de salon célèbre pourrait avoir une centralité de degré très élevée.
 
@@ -133,13 +131,15 @@ Voici les trois mesures de centralité les plus couramment utilisées :
 
 -   **Définition :** cette mesure évalue le nombre de fois qu’un personnage se trouve sur le chemin le plus court entre deux autres personnages qui ne sont pas directement liés.
 
--   **Question :** « qui joue le rôle de “pont”, de “passeur” ou d’“intermédiaire” ? »
+-   **Type de question :** « qui joue le rôle de “pont”, de “passeur” ou d’“intermédiaire” ? »
 
 -   **Interprétation littéraire :** un personnage avec une haute centralité d’intermédiarité contrôle le flux d’informations ou de relations entre différents groupes sociaux. Il est stratégiquement positionné. C’est le cas typique d’**Horatio** dans *Hamlet*, qui connecte des mondes autrement séparés. Dans *La Comédie humaine*, un personnage comme **Vautrin** est un intermédiaire : il met en contact le monde du crime, celui des pensions modestes et celui des ambitions aristocratiques.
 
 #### **3. La centralité de proximité (*Closeness Centrality*)**
 
 -   **Définition :** cette mesure calcule la distance moyenne d’un personnage à *tous* les autres personnages du réseau. Un personnage avec une haute centralité de proximité est, en moyenne, «proche» de tout le monde.
+
+-   **Type de question**: quel personnage serait en mesure de transmettre le plus rapidement une nouvelle dans le réseau?
 
 -   **Interprétation littéraire :** le personnage n’est pas forcément le plus populaire (degré) ni un pont essentiel (intermédiarité), mais il est «au milieu de l’action». Il a la capacité d’entendre rapidement les nouvelles et de les répandre efficacement. Un valet de chambre bien placé ou un journaliste à l’affût comme Étienne Lousteau pourraient avoir une forte centralité de proximité. Dans Hamlet, c’est le protagoniste qui possède la plus haute centralité de degré.
 
@@ -149,7 +149,7 @@ Voici les trois mesures de centralité les plus couramment utilisées :
 
 -   **Définition :** la densité mesure à quel point un réseau est «connecté». Elle représente la proportion de liens réels par rapport à tous les liens qui pourraient potentiellement exister. C’est un **score entre 0 (aucune connexion) et 1 (tous les personnages sont directement liés les uns aux autres)**.
 
--   **Question :** «ce monde social est-il un village soudé où tout le monde se connaît, ou une métropole où les individus sont étrangers les uns aux autres ?»
+-   **Type de question :** «ce monde social est-il un village soudé où tout le monde se connaît, ou une métropole où les individus sont étrangers les uns aux autres ?»
 
 -   **Interprétation littéraire :** la densité permet de caractériser l’atmosphère d’un groupe social. Un réseau très dense suggère un monde social clos, voire étouffant, où l’information circule vite et où la pression du groupe est forte. On pourrait s’attendre à ce que la densité du cercle aristocratique d’Angoulême soit bien plus élevée que celle du réseau parisien dans son ensemble, qui est plus vaste et fragmenté. Comme le fait Moretti dans son essai, on peut calculer et observer la densité de zones seulement, puis les comparer.
 
@@ -157,7 +157,7 @@ Voici les trois mesures de centralité les plus couramment utilisées :
 
 -   **Définition :** la modularité est une mesure qui évalue la qualité de la division d’un réseau en communautés (ou « modules »). Un score de modularité élevé (proche de 1) signifie que le réseau est clairement et naturellement divisé en clusters denses, dont les membres sont bien plus connectés entre eux qu’avec le reste du réseau.
 
--   **Question :** « ce réseau est-il un seul grand bloc homogène, ou est-il naturellement divisé en plusieurs sous-groupes distincts et cohérents ? »
+-   **Type de question :** « ce réseau est-il un seul grand bloc homogène, ou est-il naturellement divisé en plusieurs sous-groupes distincts et cohérents ? »
 
 -   **Interprétation littéraire :** la modularité est l’une des mesures les plus puissantes pour l’analyse littéraire, car elle quantifie notre intuition qu’un univers fictionnel est composé de «mondes» sociaux distincts. L’algorithme de détection de communautés de Gephi, qui attribue les couleurs aux clusters, est basé sur cette mesure. Un score de modularité élevé pour le réseau des *Illusions perdues* confirme l’analyse de l’univers balzacien : non pas une société unifiée, mais une société fragmentée en sphères (la province, Paris, l’aristocratie, la presse, le Cénacle...) qui possèdent leurs propres logiques internes.
 
@@ -169,11 +169,11 @@ Maintenant que nous avons exploré les concepts théoriques de l’analyse de r�
 
 Pour lancer notre exploration de la méthode, nous allons utiliser un jeu de données créé en 2023 par Hyeon-Ju Jeon et O-Joun Lee, disponible sur [Figshare](#0). Ce jeu de données comprend, pour 79 romans de la *Comédie humaine*, la liste des personnages qu’on trouve dans chaque roman. Les nœuds de notre réseau seront les personnages recensés par Jeon et Lee. Un personnage nommé, par exemple, «Rubempré, Lucien-Chardon de», apparaît, selon le jeu de données, dans six romans de *La Comédie humaine*, mais comme il s’agit du même personnage dans ces romans, il sera représenté par un seul nœud.
 
-> Note: Lucien de Rubempré n’apparaît pas réellement dans 6 romans différents: Jeon et Lee ont compté comme des romans distincts chacune des trois parties d*’Illusions perdues*, parues d’abord, il est vrai, comme des romans autonomes entre 1837 et 1843, puis réunis en 1843 sous le titre *Illusions perdues* dans le tome VIII de *La Comédie humaine*, dans les *Scènes de la vie de province*.
+> Note: Lucien de Rubempré n’apparaît pas réellement dans 6 romans différents: Jeon et Lee ont compté comme des romans distincts chacune des trois parties d*’Illusions perdues*, parues d’abord, il est vrai, comme des romans autonomes entre 1837 et 1843, puis réunis en 1843 sous le titre *Illusions perdues* dans le tome VIII de *La Comédie humaine*.
 
-Pour les liens, nous utiliserons la cooccurrence des personnages au sein d’un même roman. Par exemple, si Lucien et Nathan apparaissent dans un roman, un lien de valeur 1 sera compté.
+Pour les liens, nous utiliserons la cooccurrence des personnages au sein d’un même roman. Par exemple, si Lucien et Nathan apparaissent dans un roman, un lien sera établi entre les deux sommets les représentant.
 
-> Question: quelles conséquences découlent de ce choix? Quelle simplification ce choix suppose-t-il? Rappelez-vous des limitations évoquées par Franco Moretti dans son analyse de *Hamlet*.
+> Question: quelles conséquences découlent de ce choix? Quelle simplification ce choix suppose-t-il? Rappelez-vous les limitations évoquées par Franco Moretti dans son analyse de *Hamlet*.
 
 ```{r}
 
@@ -186,7 +186,8 @@ setnames(ch, old=c("V1"), new = "Id")
 # On supprime une colonne inutile
 ch[, `# of Re-Occurring Characters`:=NULL]
 
-View(ch)
+# Pour visualiser la table dans le module de visualisation, enlevez le croisillon de la ligne qui suit et exécutez la commande.
+# View(ch)
 ```
 
 Partant de cette table, il va falloir extraire les noms de chaque liste et compter les paires de cooccurrences pour chaque ligne du tableau.
@@ -233,10 +234,10 @@ for(i in 1:nrow(ch_clean)) {
 
 edges_dt <- rbindlist(edges_list)
 
-View(edges_dt)
+# View(edges_dt)
 ```
 
-Cette table des liens est redondante. Par exemple, si Rastignac et Vautrin apparaissent tous deux dans trois romans, nous avons trois lignes pour le lien « Rastignac-Vautrin ». Ce que nous voulons, c’est un seul lien entre eux, mais un lien proportionnel au nombre d’occurrences. Nous allons donc compter ces occurrences pour en faire le poids du lien. Enfin, nous allons extraire la liste unique des personnages pour créer notre table des sommets.
+Cette table des liens est redondante. Par exemple, si Rastignac et Vautrin apparaissent ensemble dans trois romans, nous avons trois lignes pour le lien « Rastignac-Vautrin ». Ce que nous voulons, c’est un seul lien entre eux, mais un lien proportionnel au nombre d’occurrences. Nous allons donc compter ces occurrences pour en faire le poids du lien. Enfin, nous allons extraire la liste unique des personnages pour créer notre table des sommets.
 
 ```{r}
 # Rappel du code de l’étape précédente (avec la correction et le nouveau nom 'ch')
@@ -288,8 +289,8 @@ if(!dir.exists("Gephi")) {dir.create("Gephi")}
 fwrite(gephi_nodes, "Gephi/comedie_humaine_nodes.csv")
 fwrite(gephi_edges, "Gephi/comedie_humaine_edges.csv")
 
-View(gephi_nodes)
-View(gephi_edges)
+# View(gephi_nodes)
+# View(gephi_edges)
 ```
 
 À partir d’ici, nous pouvons utiliser le puissant logiciel Gephi, y importer nos deux tables (`comedie_humaine_nodes.csv`, `comedie_humaine_edges.csv`) pour:
@@ -303,21 +304,21 @@ Le graphe obtenu au terme de la spacialisation, pourrait ressembler à celui-ci:
 
 ### **Deuxième partie : le réseau des *Illusions perdues***
 
-Dans notre premier exercice, nous avons adopté une vue **macro**. Nous avons survolé *La Comédie humaine* pour cartographier les grandes constellations de personnages qui traversent l’œuvre. Pour cela, nous avons utilisé un jeu de données déjà structuré où le lien était simple : deux personnages étaient liés s’ils apparaissaient dans le même roman.
+Dans le premier exercice, nous avons adopté une vue **macro**. Nous avons survolé *La Comédie humaine* pour cartographier les grandes constellations de personnages qui traversent l’œuvre. Pour cela, nous avons utilisé un jeu de données déjà structuré où le lien était simple : deux personnages étaient liés s’ils apparaissaient dans le même roman.
 
 Il est temps maintenant de changer d’échelle et de passer à une vue **méso**. Nous allons plonger dans un seul roman de *La Comédie humaine*, *Illusions perdues*, et tenter de cartographier son univers social interne.
 
 La différence fondamentale est que nous ne partirons pas d’un tableau tout fait, mais d’un matériau brut, soit **le texte lui-même**, récupéré depuis [*Gutenberg Project*](https://www.gutenberg.org/ "Gutenberg Project").
 
-Ce détour par le texte brut nous confronte à un défi que tout chercheur en humanités numériques rencontre : comment identifier un personnage dans un texte ? Balzac n’écrit pas toujours « Madame de Bargeton ». Il utilisera tour à tour « Louise », « Naïs », ou encore « la baronne du Châtelet ». Pour un ordinateur, ce sont trois personnes différentes. Pour le lecteur, c’est la même entité.
+Ce détour par le texte brut nous confronte à un défi que tout chercheur en humanités numériques rencontre : comment identifier un personnage dans un texte ? Balzac n’écrit pas toujours « Madame de Bargeton ». Il utilisera tour à tour « Louise », « Naïs », ou encore « la baronne du Châtelet ». Pour le lecteur, c’est la même entité, mais pour un ordinateur, ce sont trois personnes différentes.
 
 Pour résoudre ce problème, nous allons utiliser un outil essentiel : un **dictionnaire des personnages**. C’est une table de correspondance que j’ai préparée et qui, pour chaque personnage, liste les principales **variantes** de son nom et les associe à un **nom canonique** unique.
 
 L’immense avantage de cette méthode est que notre dictionnaire contient également des informations complémentaires que nous pourrons exploiter dans l’exploration du réseau : le statut social, le secteur d’activité ou encore le sexe de chaque personnage. Une fois dans Gephi, nous pourrons poser des questions comme : « Les nobles parlent-ils surtout entre eux ? », « Quels personnages font le pont entre le monde de l’aristocratie et celui du journalisme ? ».
 
-Pour cette analyse, nous devons aussi redéfinir ce qu’est un « lien ». Si le lien n’est plus la coprésence dans un roman, quelle est sa nouvelle définition ? Nous ferons un choix méthodologique courant : **deux personnages seront considérés comme liés s’ils sont mentionnés dans le même paragraphe**. Le paragraphe représente une unité de scène ou de pensée cohérente, rendant leur coprésence significative. Précisions qu’il s’agit d’un choix pédagogique et pratique orientée vers l’exploration plus que la démonstration.
+Pour cette analyse, nous devons aussi redéfinir ce qu’est un « lien ». Si le lien n’est plus la coprésence dans un roman, quelle est sa nouvelle définition ? Nous ferons un choix méthodologique courant : **deux personnages seront considérés comme liés s’ils sont mentionnés dans le même paragraphe**. Nous aurions pu prendre la phrase comme fenêtre de texte, ou encore un nombre de mots fixe (ex.: 100 mots). Le paragraphe représente une unité de scène ou de pensée cohérente, rendant la coprésence de personnages significative. Précisions qu’il s’agit d’un choix pédagogique et pratique orientée vers l’exploration plus que la démonstration.
 
-Notre projet sera donc de «lire» avec R le texte des *Illusions perdues*, d’y détecter les personnages grâce à notre dictionnaire, de construire le réseau de leurs interactions paragraphe par paragraphe et, enfin, d’exporter le tout pour l’analyser dans Gephi.
+Notre projet sera donc de plonger avec R dans le texte des *Illusions perdues*, d’y détecter les personnages grâce à notre dictionnaire, de construire le réseau de leurs interactions paragraphe par paragraphe et, enfin, d’exporter le tout pour l’analyser dans Gephi.
 
 Voyons maintenant comment nous pouvons traduire cette idée en code.
 
@@ -371,7 +372,7 @@ print(corpus_paragraphes[100])
 
 ## Chargement du dictionnaire des personnages
 
-Nous chargeons maintenant dans l’environnement de programmation le dictionnaire des personnages d’*Illusions perdues* que j’ai fabriqué.
+Nous chargeons maintenant dans l’environnement de programmation le dictionnaire des personnages d’*Illusions perdues*.
 
 ```{r load-dictionary}
 # Chargement du dictionnaire
@@ -409,13 +410,13 @@ dict_personnages |>
 
 ## Gestion des variantes nominales
 
-Comme nous l’avons dit déjà, un même personnage peut être désigné de plusieurs façons dans un roman : par son prénom, son nom de famille, un titre, un surnom, etc. Pour que l’analyse de réseau soit fiable, il faut idéalement regrouper toutes ces formes sous un **nom canonique unique**.
+Nous avons jusqu'ici importé notre texte ainsi qu'un dictionnaire comprenant, pour chaque entité (personnage) du roman, les noms qui servent à le désigner.
 
-Ce que nous allons faire:
+Ce que nous allons maintenant faire:
 
 1.  Extraire les variantes proposées dans le dictionnaire maison;
-2.  Créer une table où chaque variante est associée à un nom canonique
-3.  Vérifier que chaque variante est bien associée
+2.  Créer une table où chaque variante est associée à un nom canonique;
+3.  Vérifier le résultat.
 
 ```{r extract-variants}
 # Fonction d’extraction des variantes à partir du champ texte
@@ -448,23 +449,11 @@ correspondance_variantes |>
   kable(caption = "Exemples de variantes associées à leur nom canonique")
 ```
 
-> 📌 **Remarque pédagogique** :
->
-> Cette table de correspondance permet de détecter les personnages dans le texte, même lorsqu’ils sont mentionnés sous des formes variées. Elle est essentielle pour éviter les doublons et garantir la cohérence du réseau.
-
 Nous utiliserons cette table dans les prochaines étapes pour identifier les personnages présents dans chaque segment du texte.
 
 # Segmentation du texte
 
-## Pourquoi segmenter le texte ?
-
-La segmentation permet de diviser le texte en **unités d’analyse** homogènes. Chaque segment est une fenêtre d’observation dans laquelle on peut détecter la présence simultanée de plusieurs personnages.
-
-Deux paramètres contrôlent cette opération :
-
-\- **Longueur du segment** : nombre de mots par segment
-
-\- **Chevauchement** : proportion de mots partagés entre deux segments consécutifs
+La fonction que nous allons construire dans le bloc suivant permet de segmenter le texte de trois manière différente (au choix de l'analyste): par paragraphe, par phrase, par segments comprenant un nombre de mots fixe, avec la possibilité de faire se chevaucher les segments.
 
 > 📌 Exemple : un segment de 100 mots avec un chevauchement de 20 % signifie que chaque nouveau segment commence 80 mots après le précédent, partageant ainsi 20 mots avec lui.
 
@@ -508,14 +497,10 @@ segmenter_texte <- function(texte,
   return(segments)
 }
 
-# --- Exemples d'application ---
-
 # On recrée une chaîne de texte unique à partir de notre vecteur de paragraphes.
 # C’est cette chaîne unique que nous passerons à notre fonction.
 corpus_texte_integral <- paste(corpus_paragraphes, collapse = "\n\n")
 
-
-# Maintenant, toutes les méthodes fonctionneront sur l’intégralité du texte.
 
 # Méthode 1 : Par paragraphes (par défaut)
 # `tokenize_paragraphs` va retrouver les `\n\n` que nous avons utilisés comme "colle".
@@ -529,14 +514,9 @@ cat("--- Segmentation par 3 phrases (chevauchement de 1) ---\n")
 cat("Segment 1 (phrases 1-3) :\n", segments_phrase[[1]], "\n\n")
 cat("Segment 2 (phrases 3-5) :\n", segments_phrase[[2]], "\n\n")
 
-# Méthode 3 : Par mots - Cette fois, `segments_mot` contiendra de nombreux éléments.
-segments_mot <- segmenter_texte(corpus_texte_integral, methode = "mot", taille_segment = 100, chevauchement = 20)
-cat("--- Segmentation par 100 mots (chevauchement de 20) ---\n")
-cat("Segment 1 (mots 1-100) :\n", substr(segments_mot[[1]], 1, 300), "...\n\n")
-cat("Segment 2 (mots 81-180) :\n", substr(segments_mot[[2]], 1, 300), "...\n")
 ```
 
-Dans les prochaines étapes, nous utiliserons ces segments pour détecter les personnages présents et construire la matrice de cooccurrence.
+Dans les prochaines étapes, nous utiliserons la segmentation par paragraphe pour détecter les personnages présents et construire la matrice de cooccurrence.
 
 # Détection des personnages dans les segments
 
