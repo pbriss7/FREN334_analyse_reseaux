@@ -44,7 +44,10 @@ pkgs <- c(
   "dplyr",
   "igraph",
   "ggplot2",
-  "readr"
+  "readr",
+  "visNetwork",
+  "shinythemes",
+  "shiny"
 )
 
 install_and_load(pkgs)
