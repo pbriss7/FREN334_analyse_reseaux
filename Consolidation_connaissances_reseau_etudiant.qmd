@@ -47,7 +47,8 @@ pkgs <- c(
   "readr",
   "visNetwork",
   "shinythemes",
-  "shiny"
+  "shiny",
+  "lsa"
 )
 
 install_and_load(pkgs)
@@ -412,7 +413,7 @@ if (!dir.exists("Gephi")) {
 write_csv(nodes_table, "Gephi/illusions_perdues_lexique_nodes.csv")
 write_csv(edges_table, "Gephi/illusions_perdues_lexique_edges.csv")
 
-cat("Les fichiers 'illusions-perdues-nodes.csv' et 'illusions-perdues-edges.csv' ont été créés dans le dossier 'gephi_data/'.\n")
+cat("Les fichiers 'illusions-perdues-nodes.csv' et 'illusions-perdues-edges.csv' ont été créés dans le dossier 'Gephi_data/'.\n")
 ```
 
 Notre travail de préparation des données est maintenant terminé. Nous sommes prêts à passer à la phase d'exploration et de visualisation.
