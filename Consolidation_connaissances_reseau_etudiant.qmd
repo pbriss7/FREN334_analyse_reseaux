@@ -1,0 +1,423 @@
+---
+title: "Consolidation des connaissances -- les réseaux lexicaux"
+author: "Pascal Brissette"
+date: 2025-09-13
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: left
+    code-fold: true
+    code-tools: true
+    theme: Yeti
+    reference-location: margin
+    title-block-banner: true
+    self-contained: true
+    standalone: true
+editor: visual
+lang: fr
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r, include=FALSE}
+
+install_and_load <- function(packages) {
+  for (pkg in packages) {
+    if (!pkg %in% rownames(installed.packages())) {
+      install.packages(pkg)
+    }
+    library(pkg, character.only = TRUE)
+  }
+}
+
+pkgs <- c(
+  "data.table",
+  "tidyr",
+  "stringr",
+  "kableExtra",
+  "DT",
+  "gutenbergr",
+  "dplyr",
+  "igraph",
+  "ggplot2",
+  "readr"
+)
+
+install_and_load(pkgs)
+```
+
+On l'a dit déjà : l'analyse de réseau est une méthode extrêmement flexible qui peut s'adapter à des types d'entités (ex. : êtres humains, personnages de fiction, villes, protéines, véhicules) et des types de relation aussi diverses (ex. : communication par lettre ou présence dans un même espace de deux individus ou personnages, flux migratoires, co-expression, mobilité). Même si on cible le seul domaine des études littéraires, la variété des usages de l'analyse de réseau est impressionnante : cartographie de personnages, structure narrative, intertextualité, études thématiques, histoire littéraire. **Dès qu'il s'agit d'étudier des relations, des interactions, des déplacements, des cooccurrences, et de mesurer la force et, si on le souhaite, la direction de relations entre des entités, la théorie des réseaux constitue une alliée de premier plan**.
+
+Après avoir exploré les réseaux de personnages de *La Comédie humaine* et d'*Illusions perdues*, nous allons maintenant changer de perspective pour examiner les mots eux-mêmes comme acteurs du réseau. Car, oui, même des mots peuvent devenir les entités d'un réseau! Pour consolider notre maîtrise de l'analyse de réseau tout en approfondissant notre compréhension d'*Illusions perdues*, nous allons procéder à une analyse de son lexique, ce qui nous permettra d'observer l'évolution thématique à travers les trois parties du roman.
+
+## Description du projet
+
+Ce projet vise à analyser le vocabulaire des trois parties du roman *Illusions perdues* pour y déceler les thèmes. Notre première étape consistera donc à découper le texte en trois parties («Les deux poètes», «Un grand homme de province à Paris», «Les souffrances de l'inventeur»).
+
+Ensuite, nous filtrerons le vocabulaire du roman pour ne conserver que les mots porteurs de sens. Parmi les nombreuses méthodes de filtrage, nous utilerons celle qui consiste à ne retenir que certaines catégories grammaticales : les noms communs, les noms propres, les adjectifs et les verbes. Allons-nous devoir analyser chaque phrase manuellement pour en extraire les mots correspondant à ces catégories ? Heureusement, non ! Nous emploierons un modèle de langage spécialisé qui, pour chaque mot du roman, apposera une étiquette grammaticale (appelée *Part-of-Speech tag* ou `POS`). Nous pourrons ensuite utiliser ces étiquettes pour extraire les mots «pleins» du roman.
+
+Une fois le vocabulaire filtré, nous construirons un **réseau**. Les mots sélectionnés deviendront les **sommets** de ce réseau, et leur **cooccurrence** au sein d'une même phrase formera les **liens** qui les relient. Nous obtiendrons ainsi une carte visuelle des relations entre les concepts, les personnages et les actions du roman.
+
+## Préparation du corpus
+
+La préparation du corpus comprend l'importation du texte depuis le site du Projet Gutenberg, l'élimination du paratexte éditorial (ce sont des mots qu'on ne veut pas voir dans notre réseau!), l'identification des frontières entre les parties, et finalement la création d'une structure de données qui associe chaque mot à sa partie d'origine.
+
+```{r load-text}
+library(gutenbergr)
+
+# 1. Chargement du texte depuis Gutenberg
+text_gutenberg <- gutenberg_download("54723", mirror = "http://aleph.gutenberg.org")
+
+# 2. Nettoyage : Suppression de l'en-tête et du pied de page de Gutenberg
+start_line <- which(str_detect(text_gutenberg$text, "A MONSIEUR VICTOR HUGO."))
+end_line <- which(str_detect(text_gutenberg$text, "FIN DU HUITIÈME VOLUME."))
+text_body <- text_gutenberg |> 
+  slice(start_line:end_line)
+
+# 3. Identification des débuts de parties
+premiere_partie_start <- which(str_detect(text_body$text, "PREMIÈRE PARTIE."))
+deuxieme_partie_start <- which(str_detect(text_body$text, "DEUXIÈME PARTIE."))
+troisieme_partie_start <- which(str_detect(text_body$text, "TROISIÈME PARTIE."))
+
+# 4. Attribution des parties à chaque ligne
+text_with_parts <- text_body |> 
+  mutate(
+    ligne = row_number(),
+    partie = case_when(
+      ligne >= premiere_partie_start & ligne < deuxieme_partie_start ~ "Partie_1",
+      ligne >= deuxieme_partie_start & ligne < troisieme_partie_start ~ "Partie_2",
+      ligne >= troisieme_partie_start ~ "Partie_3",
+      TRUE ~ "Avant_roman"  # Pour les lignes avant la première partie
+    )
+  )
+
+# 5. Création des paragraphes avec identification de partie
+paragraphs_data <- text_with_parts |> 
+  filter(partie != "Avant_roman") |> 
+  # Création d'un ID de paragraphe qui se réinitialise pour chaque partie
+  group_by(partie) |>
+  mutate(
+    paragraph_id_in_part = cumsum(text == "" | str_detect(text, "^\\s*$")) + 1
+  ) |>
+  ungroup() |>
+  filter(text != "", !str_detect(text, "^\\s*$")) |> 
+  group_by(partie, paragraph_id_in_part) |> 
+  summarise(
+    paragraph_text = paste(text, collapse = " "),
+    .groups = "drop"
+  ) |>
+  # Création d'un identifiant unique de document pour chaque paragraphe
+  mutate(doc_id = paste(partie, paragraph_id_in_part, sep = "_")) |> 
+  select(doc_id, partie, paragraph_id_in_part, paragraph_text)
+
+paragraphs_data |> head()
+
+```
+
+## Pause méthodologique : la loi de Zipf
+
+Avant de procéder au nettoyage lexical, prenons un moment pour explorer une propriété fondamentale des corpus textuels : la **loi de Zipf**. Cette loi empirique, formulée par le linguiste George Kingsley Zipf en 1949, stipule que dans un corpus textuel, la fréquence d'un mot est inversement proportionnelle à son rang dans la liste des mots classés par fréquence décroissante. Pour le dire de manière simple: **une petite minorité de mots apparaît très souvent, tandis que la grande majorité des mots n'apparaît que rarement**. Concrètement, dans *Illusions perdues*, les 100 mots les plus fréquents représentent probablement plus de la moitié du texte total !
+
+Cette distribution n'est pas un hasard : elle reflète la structure même du langage. Les mots les plus fréquents sont généralement des chevilles grammaticales ("le", "de", "et", "dans", "un") qui structurent les phrases mais portent peu d'information sémantique. À l'autre extrême, nous trouvons de nombreux mots qui n'apparaissent qu'une seule fois dans tout le roman (les *hapax*).
+
+Vérifions cette loi sur notre corpus d'*Illusions perdues* :
+
+```{r loi de Zipf}
+
+# Création d'un corpus simple pour analyser les fréquences
+corpus_simple <- paragraphs_data |>
+  # Tokenisation basique
+  mutate(text_clean = str_to_lower(paragraph_text)) |>
+  mutate(text_clean = str_remove_all(text_clean, "[[:punct:]]")) |>
+  separate_rows(text_clean, sep = "\\s+") |>
+  filter(text_clean != "") |>
+  rename(mot = text_clean)
+
+# Calcul des fréquences et rangs
+frequences_zipf <- corpus_simple |>
+  count(mot, sort = TRUE) |>
+  mutate(
+    rang = row_number(),
+    log_rang = log10(rang),
+    log_freq = log10(n)
+  )
+
+# Activer ggplot2 si cela n'a pas déjà été fait
+library(ggplot2)
+
+# Graphique en échelle logarithmique
+p1 <- frequences_zipf |>
+  head(500) |> 
+  ggplot(aes(x = rang, y = n)) + # <-- ICI : rang en x, fréquence (n) en y
+  geom_point(alpha = 0.6, color = "steelblue") +
+  labs(
+    title = "Loi de Zipf dans Illusions perdues",
+    subtitle = "Chute de la fréquence en fonction du rang",
+    x = "Rang du mot (par fréquence décroissante)", # label corrigé
+    y = "Fréquence totale (nombre d'occurrences)"  # label corrigé
+  ) +
+  theme_minimal()
+
+p1
+
+# Affichage des mots les plus fréquents
+frequences_zipf |>
+  head(10) |>
+  select(mot, n, rang) |>
+  print()
+```
+
+## Conséquences pratiques pour l'analyse de réseau
+
+Le graphique et la liste de mots ci-dessus ne sont pas de simples illustrations ; ils sont un avertissement. Ils nous montrent précisément ce qui se passerait si nous construisions notre réseau lexical à partir du texte brut : après le travail du dernier cours, vous le devinez, le résultat serait un graphe illisible, une immense "boule de poils".
+
+La table des 10 mots les plus fréquents le confirme : les sommets les plus importants de ce réseau ne seraient pas «lucien» ou «Bargeton» ou «amour», mais les chevilles grammaticales «de», «la», «à», «et», «il»... L'élimination de ces mots vides (en anglais: *stopwords*), sémantiquement pauvres, est donc notre première tâche pour faire émerger un signal pertinent.
+
+Mais ce n'est que la première étape. Le défi suivant est plus corsé et concerne la richesse de la langue française elle-même. Lorsque nous lisons «pensa», «pensait», «pense» et «penser», notre cerveau les identifie comme un seul et même concept: l'acte de «penser». L'ordinateur, lui, voit quatre formes distinctes et ne va pas «penser» (!) à les regrouper, à moins que ne lui commande. Si nous laissons les choses en l'état, nous allons surcharger notre graphe d'une multitude de nœuds redondants et diluer la fréquence réelle de chaque concept. Pour contrer cet effet, nous devons ramener toutes ces variations à une forme unique, leur **lemme** (la forme du dictionnaire). C'est seulement ainsi que nous obtiendrons la véritable fréquence du verbe «penser» et que ce concept pourra peser de tout son poids dans notre réseau.
+
+### Annotation automatique et utilisation des lemmes
+
+Pour palier les problèmes exposés ci-dessus, nous allons tout d'abord exécuter une annotation morphosyntaxique de notre texte. Ce type d'annotation, menée à l'aide d'un modèle de langage (non génératif), segmente le texte en paragraphes et en phrases, analyse chaque mot de chaque phrase, détermine sa nature et sa fonction, puis, partant de là, détermine sa forme neutre, son lemme. Le «lemme» est la forme canonique ou non fléchie d'un mot, telle qu'elle apparait dans un dictionnaire de langue. Ainsi, «penser» est le lemme unique des quatre formes fléchies données en exemple ci-dessus. Ce sont ces lemmes que nous allons utiliser dans notre réseau lexical, de manière à réduire le nombre de sommets.
+
+> 🔎 L'**annotation automatique** consiste à utiliser des outils informatiques (algorithmes, réseaux de neurones, IA générative, etc.) pour enrichir automatiquement des données textuelles avec des informations linguistiques structurées. Dans le contexte du Traitement automatique des langues (TAL), l'annotation automatique consiste le plus souvent à ajouter des étiquettes (morphosyntaxiques, sémantiques, pragmatique, etc.) à des mots, voire à tous les mots d'un texte.
+>
+> 🔎 L'**annotation morphosyntaxique** (ou *POS Tagging* en anglais) est un type d'annotation automatique. Le processus consiste à assigner des informations morphologiques et syntaxiques à chaque mot d'un texte. Cette tâche est exécutée à l'aide d'un réseau de neurones pré-entrainé sur de grandes masses de textes.
+>
+> 🔎 Le **lemme** est la forme canonique ou "forme du dictionnaire" d'un mot. Le processus de *lemmatisation* consiste à réduire toutes les variantes flexionnelles d'un mot (conjugaisons, accords en genre et en nombre) à cette forme de base unique.
+
+### **Filtrage par catégorie grammaticale**
+
+L'annotation morphosyntaxique nous permet d'exploiter deux niveaux d'information linguistique : d'une part les **lemmes**, d'autre part les **étiquettes morphosyntaxiques** qui identifient la catégorie grammaticale et les traits morphologiques de chaque mot (en anglais: *token*).
+
+**Mise en œuvre technique**
+
+Le pipeline d'annotation s'appuie sur le modèle **french-gsd** d'UDPipe, entraîné sur le corpus *Universal Dependencies* pour le français. Le processus comprend plusieurs étapes automatisées :
+
+1.  **Segmentation** : découpage du texte brut en phrases puis en tokens
+
+2.  **Annotation morphosyntaxique** : attribution d'une étiquette POS à chaque token
+
+3.  **Lemmatisation** : normalisation de chaque forme fléchie vers sa forme canonique
+
+4.  **Filtrage** : sélection des tokens selon les critères catégoriels définis
+
+UDPipe traite l'ensemble du corpus en une seule passe, garantissant la cohérence des annotations sur tous les paragraphes.
+
+Note: comme l'annotation automatique peut prendre plusieurs minutes, le texte a été pré-annoté et enregistré dans votre dossier `donnees`, d'où vous pourrez l'importer en exécutant le bloc suivant.
+
+```{r}
+# library(udpipe)
+# # 1. Téléchargement du modèle de langue française (si non présent)
+# ud_model_path <- "french-gsd-ud-2.5-191206.udpipe"
+# if (!file.exists(ud_model_path)) {
+#   udpipe_download_model(language = "french-gsd", model_dir = getwd())
+# }
+# 
+# # 2. Chargement du modèle
+# ud_model <- udpipe_load_model(file = ud_model_path)
+# 
+# # 3. Annotation du texte de nos paragraphes
+# # On utilise les colonnes 'doc_id' et 'paragraph_text' de notre table 'paragraphs_data'
+# annotations <- udpipe_annotate(ud_model, 
+#                                x = paragraphs_data$paragraph_text,
+#                                doc_id = paragraphs_data$doc_id)
+# 
+# # 4. Conversion du résultat en un format 'tibble' pour une manipulation aisée
+# annotations_df <- as_tibble(annotations)
+# 
+# # 5. Rajout de l'information 'partie' dans notre table d'annotations
+# # On extrait la partie depuis le doc_id (ex: "Partie_1_1" -> "Partie_1")
+# annotations_df <- annotations_df |>
+#   mutate(partie = str_extract(doc_id, "Partie_[1-3]"))
+# 
+# saveRDS(annotations_df, "donnees/annotations_df.RDS")
+
+annotations_df <- readRDS("donnees/annotations_df.RDS")
+
+```
+
+### Exploration du résultat de l'annotation
+
+Jetons un œil au tableau de données que nous venons de créer. Chaque ligne correspond à un mot (*token*) du roman. Pour chaque mot, des informations sur sa position dans la phrase, sa catégorie grammaticale et sa morphologie sont fournies.
+
+```{r}
+library(kableExtra)
+
+annotations_df[8:25,] |>
+  #select(doc_id, token, lemma, upos, partie) |>
+  #head(13) |>
+  kableExtra::kbl(caption = "Aperçu des données annotées avec udpipe") |>
+  kableExtra::kable_styling(bootstrap_options = "striped", full_width = F)
+```
+
+Nous voyons par exemple que les mots «l'» et «époque» ont été correctement identifiés comme déterminant (DET) et nom (NOUN), et que leur lemme est «le» et «époque».
+
+## Création des données du réseau : nœuds et liens
+
+Nous allons maintenant sculpter la petite base de données retournées par UDPipe pour en extraire les deux fichiers nécessaires à toute analyse de réseau dans Gephi :
+
+-   Une table des nœuds (ou sommets), qui liste les entités de notre réseau.
+-   Une table des liens (ou arêtes), qui décrit les relations entre ces entités.
+
+### **1. Sélection des nœuds : filtrage par catégorie grammaticale**
+
+Notre objectif est de cartographier la structure conceptuelle et thématique du roman. Les pronoms (`il`, `elle`), les déterminants (`le`, `un`) ou les prépositions (`à`, `dans`) sont essentiels à la syntaxe, mais ils ne contribuent pas à la formation de thèmes. Nous allons donc décider que nos nœuds seront les lemmes relevant uniquement des **catégories grammaticales** suivantes :
+
+-   `NOUN` : noms communs (ex: `amour`, `argent`, `art`)
+
+-   `PROPN` : noms propres (ex: `Lucien`, `Paris`, `David`)
+
+-   `ADJ` : adjectifs (ex: `beau`, `pauvre`, `grand`)
+
+-   `VERB` : verbes (ex: `aimer`, `écrire`, `mourir`)
+
+De plus, la loi de Zipf nous a montré qu'un très grand nombre de mots n'apparaissent qu'une seule fois dans tout le roman (les hapax). Ces lemmes très rares ont peu de chance de former des connexions significatives et peuvent encombrer notre graphe. Nous allons donc également les retirer.
+
+Enfin, pour réduire encore la taille de nos tables, nous allons filtrer les sommets (lemmes) par seuil de fréquence (supérieure à 10 occurrences dans le texte) et supprimer les derniers mots trop communs à l'aide d'un antidictionnaire.
+
+Le bloc ci-dessous implémente ces étapes.
+
+```{r}
+
+library(lsa)
+# Définition des catégories grammaticales qui nous intéressent
+pos_of_interest <- c("NOUN", "PROPN", "ADJ", "VERB")
+
+# Filtrage des annotations pour ne garder que les lemmes pertinents
+lemmes_interessants <- annotations_df |>
+  filter(upos %in% pos_of_interest)
+
+nodes_table_auto <- lemmes_interessants |>
+  group_by(lemma) |>
+  summarise(
+    Total_Frequency = n(),
+    POS_Category = names(which.max(table(upos)))
+  ) |>
+  ungroup()
+
+nodes_table_auto <- nodes_table_auto |> filter(!lemma %in% c("voici",
+                                         "voilà",
+                                         "ser",
+                                         "riir",
+                                         "ir",
+                                         "ter",
+                                         "sere",
+                                         "-A",
+                                         "il",
+                                         "ire",
+                                         "lure",
+                                         "donn",
+                                         "son",
+                                         "adieu"))
+
+library(data.table)
+setDT(nodes_table_auto)
+
+nodes_table_auto[lemma == "cavalier", POS_Category:="NOUN"]
+
+
+nodes_table <- nodes_table_auto |>
+  # La suite du processus est identique
+  filter(Total_Frequency > 15) |>
+  rename(Id = lemma) |>
+  mutate(Label = Id) |>
+  select(Id, Label, POS_Category, Total_Frequency) |>
+  arrange(desc(Total_Frequency)) |> 
+  # 6. Supprimer les mots trop communs (ex: "avoir", "dire")
+  filter(!Label %in% lsa::stopwords_fr)
+
+# Affichage des premières lignes de notre table de nœuds
+cat("Aperçu de la table des nœuds (sommets) :\n")
+head(nodes_table) |> print()
+
+cat(paste("\nNombre total de nœuds après filtrage :", nrow(nodes_table), "\n"))
+```
+
+Nous sommes passés de 12 343 lemmes distincts à 1 134, tout en conservant le cœur sémantique du texte. Chaque lemme est maintenant un nœud potentiel de notre réseau.
+
+### **2. Définition des liens : la cooccurrence par phrase**
+
+Un lien (ou une arête) existera entre deux lemmes s'ils apparaissent ensemble (**cooccurre**) dans la même phrase.
+
+> 🔎 La **cooccurrence** désigne le fait que deux ou plusieurs mots apparaissent ensemble à proximité dans un texte. Pour que ce concept soit opérationnel, nous devons définir cette «proximité» en choisissant une «fenêtre de contexte».
+
+Pour suivre l'évolution thématique du roman, nous ne voulons pas seulement savoir *si* deux mots apparaissent ensemble, mais également *dans quelle partie du roman* cette cooccurrence a lieu.
+
+Comme discuté précédemment, nous allons construire une table de liens qui spécifie non seulement les deux nœuds connectés (`Source`, `Target`) et le poids de leur lien, mais aussi la `Partie` où ce lien a été observé.
+
+Le processus est le suivant :
+
+1.  On ne garde que les lemmes qui ont passé notre filtre précédent (présents dans `nodes_table`).
+
+2.  Pour chaque phrase de chaque partie, on crée toutes les paires de lemmes possibles.
+
+3.  On compte combien de fois chaque paire apparaît dans chaque partie du roman. Ce nombre sera le poids (`Weight`) du lien.
+
+```{r}
+# On ne garde que les annotations correspondant à nos nœuds sélectionnés
+annotations_filtered <- lemmes_interessants |>
+  filter(lemma %in% nodes_table$Id)
+
+# Pour créer les paires, on joint la table à elle-même
+# On prend tous les mots d'une même phrase et on les associe
+# La condition `lemma.x < lemma.y` évite les doublons (a,b)/(b,a) et les boucles (a,a)
+paired_lemmes <- annotations_filtered |>
+  select(doc_id, sentence_id, lemma, partie) |>
+  inner_join(
+    annotations_filtered |>
+      select(doc_id, sentence_id, lemma),
+    by = c("doc_id", "sentence_id"),
+    relationship = "many-to-many"
+  ) |>
+  filter(lemma.x < lemma.y)
+
+# Création de la table des liens (arêtes)
+edges_table <- paired_lemmes |>
+  # 1. On groupe par paire de lemmes et par partie du roman
+  group_by(Source = lemma.x, Target = lemma.y, Partie = partie) |>
+  # 2. On compte le nombre de cooccurrences pour obtenir le poids
+  summarise(Weight = n(), .groups = "drop") |>
+  # 3. On s'assure d'avoir des colonnes bien nommées et dans le bon ordre
+  select(Source, Target, Weight, Partie) |>
+  arrange(desc(Weight)) # On ordonne par poids décroissant
+
+# Affichage des premières lignes de notre table de liens
+cat("Aperçu de la table des liens (arêtes) :\n")
+head(edges_table) |> print()
+
+cat(paste("\nNombre total de liens uniques (cooccurrence-partie) :", nrow(edges_table), "\n"))
+```
+
+Nous avons maintenant une table de liens parfaitement structurée. Par exemple, la première ligne nous indique combien de fois les lemmes «madame» et «Bargeton» apparaissent dans la même phrase au sein de la «Partie_1». Cette structure nous donnera la possibilité d'explorer le réseau global ou les sous-réseaux de chaque partie.
+
+### **3. Sauvegarde les données pour Gephi**
+
+La dernière étape dans R est de sauvegarder nos deux tables (`nodes_table` et `edges_table`) dans des fichiers au format `CSV`. Ces fichiers pourront être directement importés dans Gephi.
+
+```{r}
+library(readr)
+# Création d'un dossier pour stocker les résultats s'il n'existe pas
+if (!dir.exists("Gephi")) {
+  dir.create("Gephi")
+}
+
+# Sauvegarde des fichiers CSV
+write_csv(nodes_table, "gephi/illusions_perdues_lexique_nodes.csv")
+write_csv(edges_table, "gephi/illusions_perdues_lexique_edges.csv")
+
+cat("Les fichiers 'illusions-perdues-nodes.csv' et 'illusions-perdues-edges.csv' ont été créés dans le dossier 'gephi_data/'.\n")
+```
+
+Notre travail de préparation des données est maintenant terminé. Nous sommes prêts à passer à la phase d'exploration et de visualisation.
+
+Nous pouvons, comme nous l'avons fait précédemment, importer les fichiers dans Gephi et explorer à loisir le réseau avec les puissants outils disponibles.
+
+Pour simplifier cette exploration, une application maison est mise à votre disposition. En exécutant le bloc de code ci-dessous, vous allez lancer l'application et pourrez interagir avec vos données sans sortir de Posit.
+
+```{r}
+shiny::runApp("Reseau_lexical/app.R")
+```
