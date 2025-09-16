@@ -406,8 +406,8 @@ if (!dir.exists("Gephi")) {
 }
 
 # Sauvegarde des fichiers CSV
-write_csv(nodes_table, "gephi/illusions_perdues_lexique_nodes.csv")
-write_csv(edges_table, "gephi/illusions_perdues_lexique_edges.csv")
+write_csv(nodes_table, "Gephi/illusions_perdues_lexique_nodes.csv")
+write_csv(edges_table, "Gephi/illusions_perdues_lexique_edges.csv")
 
 cat("Les fichiers 'illusions-perdues-nodes.csv' et 'illusions-perdues-edges.csv' ont été créés dans le dossier 'gephi_data/'.\n")
 ```
