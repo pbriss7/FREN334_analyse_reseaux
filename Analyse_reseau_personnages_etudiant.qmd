@@ -187,7 +187,7 @@ setnames(ch, old=c("V1"), new = "Id")
 ch[, `# of Re-Occurring Characters`:=NULL]
 
 # Pour visualiser la table dans le module de visualisation, enlevez le croisillon de la ligne qui suit et exécutez la commande.
-View(ch)
+# View(ch)
 ```
 
 Partant de cette table, il va falloir extraire les noms de chaque liste et compter les paires de cooccurrences pour chaque ligne du tableau.
