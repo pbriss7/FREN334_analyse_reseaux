@@ -6,7 +6,7 @@ Pascal Brissette. (2025). *Introduction à l'analyse de réseau en littérature*
 
 **Format BibTeX :**
 ```bibtex
-@misc{[Brissette]2025intro,
+@misc{Brissette2025intro,
   author = {Pascal Brissette},
   title = {Introduction à l'analyse de réseau en littérature},
   year = {2025},
