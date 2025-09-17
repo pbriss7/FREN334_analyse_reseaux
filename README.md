@@ -11,5 +11,5 @@ Pascal Brissette. (2025). *Introduction à l'analyse de réseau en littérature*
   title = {Introduction à l'analyse de réseau en littérature},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/[votre-username]/[nom-du-repo]}
+  url = {https://github.com/pbriss7/FREN334_analyse_reseaux}
 }
