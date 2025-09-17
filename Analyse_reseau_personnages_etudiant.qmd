@@ -44,7 +44,9 @@ pkgs <- c(
   "gutenbergr",
   "dplyr",
   "readr",
-  "igraph"
+  "igraph",
+  "tokenizers",
+  "ggplot2"
 )
 
 install_and_load(pkgs)
