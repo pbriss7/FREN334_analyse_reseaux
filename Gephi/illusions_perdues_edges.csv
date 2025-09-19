@@ -12,9 +12,9 @@ Finot,Lousteau,50
 Florine,Lucien,50
 Cointet,Petit-Claud,48
 Coralie,Florine,46
+Châtelet,Louise,44
 Camusot,Coralie,42
 Camusot,Lucien,42
-Châtelet,Louise,42
 Florine,Lousteau,42
 Lucien,Mme d'Espard,42
 David,Petit-Claud,41
@@ -188,6 +188,7 @@ Mlle des Touches,Mme d'Espard,5
 d'Arthez,Florine,5
 d'Arthez,Nathan,5
 Abbé Marron,Lucien,4
+Albertine,Louise,4
 Bianchon,Bridau,4
 Bianchon,Coralie,4
 Bixiou,Nathan,4
@@ -220,7 +221,6 @@ Matifat,Nathan,4
 Mmme de Chandour,Mmme de Sénonches,4
 d'Arthez,Ève,4
 Albertine,Gentil,3
-Albertine,Louise,3
 Albertine,Lucien,3
 Baronne de Rastignac,Lucien,3
 Bianchon,Mlle des Touches,3
@@ -261,6 +261,7 @@ Lolotte,M de Bartas,3
 Lolotte,Mmme de Chandour,3
 Louise,Lousteau,3
 Louise,Mme de Rubempré,3
+Louise,Montriveau,3
 Lousteau,Théodore Gaillard,3
 Lucien,Rastignac,3
 M de Chandour,Mmme de Sénonches,3
@@ -330,7 +331,6 @@ Henri de Marsay,Mlle des Touches,2
 Henri de Marsay,Rastignac,2
 Kolb,Mme de Rubempré,2
 Louise,Mme de Montcornet,2
-Louise,Montriveau,2
 Lousteau,Mlle des Touches,2
 Lousteau,Mme du Val-Noble,2
 Lousteau,Père Chaboisseau,2

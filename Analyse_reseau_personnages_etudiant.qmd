@@ -461,7 +461,7 @@ La fonction que nous allons construire dans le bloc suivant permet de segmenter 
 
 ## Fonction de segmentation
 
-```{r}
+```{r tokenize-text}
 # Chargement du package nécessaire pour la segmentation avancée
 library(tokenizers)
 
@@ -534,7 +534,7 @@ Deux modes de détection sont possibles :
 
 ## Fonction de détection
 
-```{r}
+```{r extract-cooccurrences}
 
 # --- Détection des personnages et création des arêtes ---
 
@@ -635,7 +635,7 @@ Notre objectif est de transformer cette liste en deux fichiers propres pour Geph
 
 Nous allons compter le nombre d’occurrences de chaque paire `(Source, Target)` pour calculer le poids de leur lien.
 
-```{r}
+```{r adding-weight}
 # Chargement des packages nécessaires pour la suite
 library(igraph)
 
@@ -656,7 +656,7 @@ head(aretes_ponderees, 10) %>%
 
 Maintenant que nous avons nos liens, nous pouvons en extraire la liste exacte des personnages qui font partie du réseau. Nous allons ensuite y joindre les métadonnées de notre dictionnaire.
 
-```{r}
+```{r adding-other-variables}
 # Création du graphe avec le package 'igraph' pour calculer les métriques
 # C’est la méthode la plus simple et robuste pour calculer le degré.
 g <- graph_from_data_frame(d = aretes_ponderees, directed = FALSE)
@@ -691,7 +691,7 @@ head(table_sommets, 10)
 
 Tout est prêt ! Il ne nous reste plus qu’à écrire nos deux tables dans des fichiers CSV que Gephi pourra importer directement.
 
-```{r}
+```{r exporting-tables}
 # Création d’un répertoire pour les résultats
 output_dir <- "Gephi"
 if (!dir.exists(output_dir)) {
